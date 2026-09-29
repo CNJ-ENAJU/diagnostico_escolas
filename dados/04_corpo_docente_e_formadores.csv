@@ -1,0 +1,141 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+cadastro_formadores,Sim,Nacional,97,110,88.18181818181819,unica
+cadastro_formadores,Sim,Eleitoral,30,39,76.92307692307692,unica
+cadastro_formadores,Sim,Estadual,29,29,100.0,unica
+cadastro_formadores,Sim,Trabalho,24,26,92.3076923076923,unica
+cadastro_formadores,Sim,Federal,6,8,75.0,unica
+cadastro_formadores,Sim,Militar,5,5,100.0,unica
+cadastro_formadores,Sim,Superior/Conselho,3,3,100.0,unica
+cadastro_formadores,Não,Nacional,13,110,11.818181818181818,unica
+cadastro_formadores,Não,Eleitoral,9,39,23.07692307692308,unica
+cadastro_formadores,Não,Estadual,0,29,0.0,unica
+cadastro_formadores,Não,Trabalho,2,26,7.6923076923076925,unica
+cadastro_formadores,Não,Federal,2,8,25.0,unica
+cadastro_formadores,Não,Militar,0,5,0.0,unica
+cadastro_formadores,Não,Superior/Conselho,0,3,0.0,unica
+formacao_formadores,Programa permanente com certificação,Nacional,18,110,16.363636363636363,unica
+formacao_formadores,Programa permanente com certificação,Eleitoral,0,39,0.0,unica
+formacao_formadores,Programa permanente com certificação,Estadual,15,29,51.72413793103448,unica
+formacao_formadores,Programa permanente com certificação,Trabalho,2,26,7.6923076923076925,unica
+formacao_formadores,Programa permanente com certificação,Federal,0,8,0.0,unica
+formacao_formadores,Programa permanente com certificação,Militar,1,5,20.0,unica
+formacao_formadores,Programa permanente com certificação,Superior/Conselho,0,3,0.0,unica
+formacao_formadores,Ações pontuais,Nacional,35,110,31.818181818181817,unica
+formacao_formadores,Ações pontuais,Eleitoral,9,39,23.07692307692308,unica
+formacao_formadores,Ações pontuais,Estadual,8,29,27.58620689655172,unica
+formacao_formadores,Ações pontuais,Trabalho,13,26,50.0,unica
+formacao_formadores,Ações pontuais,Federal,3,8,37.5,unica
+formacao_formadores,Ações pontuais,Militar,1,5,20.0,unica
+formacao_formadores,Ações pontuais,Superior/Conselho,1,3,33.333333333333336,unica
+formacao_formadores,Não desenvolve,Nacional,51,110,46.36363636363637,unica
+formacao_formadores,Não desenvolve,Eleitoral,27,39,69.23076923076923,unica
+formacao_formadores,Não desenvolve,Estadual,5,29,17.24137931034483,unica
+formacao_formadores,Não desenvolve,Trabalho,11,26,42.30769230769231,unica
+formacao_formadores,Não desenvolve,Federal,4,8,50.0,unica
+formacao_formadores,Não desenvolve,Militar,2,5,40.0,unica
+formacao_formadores,Não desenvolve,Superior/Conselho,2,3,66.66666666666667,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Nacional,4,110,3.636363636363636,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Eleitoral,1,39,2.5641025641025643,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Estadual,1,29,3.4482758620689653,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Trabalho,0,26,0.0,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Federal,1,8,12.5,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Militar,1,5,20.0,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Superior/Conselho,0,3,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Nacional,1,110,0.9090909090909092,unica
+formacao_formadores,"Outro texto livre, não classificável",Eleitoral,1,39,2.5641025641025643,unica
+formacao_formadores,"Outro texto livre, não classificável",Estadual,0,29,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Trabalho,0,26,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Federal,0,8,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Militar,0,5,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Superior/Conselho,0,3,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Nacional,1,110,0.9090909090909092,unica
+formacao_formadores,Não se aplica (texto livre),Eleitoral,1,39,2.5641025641025643,unica
+formacao_formadores,Não se aplica (texto livre),Estadual,0,29,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Trabalho,0,26,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Federal,0,8,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Militar,0,5,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Superior/Conselho,0,3,0.0,unica
+composicao_docente_2025,Servidores(as) da própria instituição,Nacional,102,110,92.72727272727272,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Eleitoral,32,39,82.05128205128206,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Estadual,29,29,100.0,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Trabalho,25,26,96.15384615384616,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Federal,8,8,100.0,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Militar,5,5,100.0,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Superior/Conselho,3,3,100.0,multipla
+composicao_docente_2025,Docentes externos / convidados,Nacional,101,110,91.8181818181818,multipla
+composicao_docente_2025,Docentes externos / convidados,Eleitoral,32,39,82.05128205128206,multipla
+composicao_docente_2025,Docentes externos / convidados,Estadual,29,29,100.0,multipla
+composicao_docente_2025,Docentes externos / convidados,Trabalho,25,26,96.15384615384616,multipla
+composicao_docente_2025,Docentes externos / convidados,Federal,7,8,87.5,multipla
+composicao_docente_2025,Docentes externos / convidados,Militar,5,5,100.0,multipla
+composicao_docente_2025,Docentes externos / convidados,Superior/Conselho,3,3,100.0,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Nacional,97,110,88.18181818181819,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Eleitoral,32,39,82.05128205128206,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Estadual,28,29,96.55172413793105,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Trabalho,23,26,88.46153846153847,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Federal,7,8,87.5,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Militar,4,5,80.0,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Superior/Conselho,3,3,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Nacional,86,110,78.18181818181819,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Eleitoral,17,39,43.58974358974359,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Estadual,29,29,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Trabalho,25,26,96.15384615384616,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Federal,8,8,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Militar,5,5,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Superior/Conselho,2,3,66.66666666666667,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Nacional,72,110,65.45454545454545,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Eleitoral,20,39,51.282051282051285,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Estadual,23,29,79.3103448275862,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Trabalho,22,26,84.61538461538461,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Federal,5,8,62.5,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Militar,2,5,40.0,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Superior/Conselho,0,3,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Nacional,0,110,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Estadual,0,29,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Trabalho,0,26,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Federal,0,8,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Militar,0,5,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Nacional,82,110,74.54545454545455,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Eleitoral,23,39,58.97435897435897,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Estadual,26,29,89.65517241379311,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Trabalho,20,26,76.92307692307692,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Federal,7,8,87.5,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Militar,3,5,60.0,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Superior/Conselho,3,3,100.0,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Nacional,76,110,69.0909090909091,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Eleitoral,21,39,53.84615384615385,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Estadual,26,29,89.65517241379311,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Trabalho,17,26,65.38461538461539,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Federal,6,8,75.0,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Militar,4,5,80.0,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Superior/Conselho,2,3,66.66666666666667,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Nacional,63,110,57.27272727272727,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Eleitoral,17,39,43.58974358974359,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Estadual,22,29,75.86206896551724,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Trabalho,15,26,57.69230769230769,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Federal,7,8,87.5,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Militar,1,5,20.0,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Superior/Conselho,1,3,33.333333333333336,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Nacional,44,110,40.0,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Eleitoral,16,39,41.02564102564103,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Estadual,14,29,48.27586206896552,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Trabalho,8,26,30.76923076923077,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Federal,4,8,50.0,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Militar,1,5,20.0,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Superior/Conselho,1,3,33.333333333333336,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Nacional,7,110,6.363636363636363,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Eleitoral,5,39,12.82051282051282,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Estadual,0,29,0.0,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Trabalho,1,26,3.8461538461538463,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Federal,1,8,12.5,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Militar,0,5,0.0,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Superior/Conselho,0,3,0.0,multipla
+instrumentos_gestao_docente,Outro (texto livre),Nacional,9,110,8.181818181818182,multipla
+instrumentos_gestao_docente,Outro (texto livre),Eleitoral,5,39,12.82051282051282,multipla
+instrumentos_gestao_docente,Outro (texto livre),Estadual,2,29,6.896551724137931,multipla
+instrumentos_gestao_docente,Outro (texto livre),Trabalho,2,26,7.6923076923076925,multipla
+instrumentos_gestao_docente,Outro (texto livre),Federal,0,8,0.0,multipla
+instrumentos_gestao_docente,Outro (texto livre),Militar,0,5,0.0,multipla
+instrumentos_gestao_docente,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla

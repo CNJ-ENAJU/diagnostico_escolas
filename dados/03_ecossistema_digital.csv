@@ -1,0 +1,232 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+ava,AVA próprio,Nacional,74,110,67.27272727272727,unica
+ava,AVA próprio,Eleitoral,14,39,35.8974358974359,unica
+ava,AVA próprio,Estadual,25,29,86.20689655172414,unica
+ava,AVA próprio,Trabalho,23,26,88.46153846153847,unica
+ava,AVA próprio,Federal,5,8,62.5,unica
+ava,AVA próprio,Militar,4,5,80.0,unica
+ava,AVA próprio,Superior/Conselho,3,3,100.0,unica
+ava,AVA compartilhado com o tribunal,Nacional,26,110,23.63636363636364,unica
+ava,AVA compartilhado com o tribunal,Eleitoral,17,39,43.58974358974359,unica
+ava,AVA compartilhado com o tribunal,Estadual,4,29,13.79310344827586,unica
+ava,AVA compartilhado com o tribunal,Trabalho,3,26,11.538461538461538,unica
+ava,AVA compartilhado com o tribunal,Federal,2,8,25.0,unica
+ava,AVA compartilhado com o tribunal,Militar,0,5,0.0,unica
+ava,AVA compartilhado com o tribunal,Superior/Conselho,0,3,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Nacional,1,110,0.9090909090909092,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Eleitoral,1,39,2.5641025641025643,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Estadual,0,29,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Trabalho,0,26,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Federal,0,8,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Militar,0,5,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Superior/Conselho,0,3,0.0,unica
+ava,Sem AVA,Nacional,9,110,8.181818181818182,unica
+ava,Sem AVA,Eleitoral,7,39,17.94871794871795,unica
+ava,Sem AVA,Estadual,0,29,0.0,unica
+ava,Sem AVA,Trabalho,0,26,0.0,unica
+ava,Sem AVA,Federal,1,8,12.5,unica
+ava,Sem AVA,Militar,1,5,20.0,unica
+ava,Sem AVA,Superior/Conselho,0,3,0.0,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Nacional,27,110,24.545454545454547,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Eleitoral,5,39,12.82051282051282,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Estadual,14,29,48.27586206896552,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Trabalho,4,26,15.384615384615383,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Federal,2,8,25.0,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Militar,1,5,20.0,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Superior/Conselho,1,3,33.333333333333336,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Nacional,49,110,44.54545454545455,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Eleitoral,17,39,43.58974358974359,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Estadual,11,29,37.93103448275862,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Trabalho,12,26,46.15384615384615,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Federal,5,8,62.5,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Militar,2,5,40.0,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Superior/Conselho,2,3,66.66666666666667,unica
+capacidade_ead,Não há capacidade própria de produção,Nacional,34,110,30.90909090909091,unica
+capacidade_ead,Não há capacidade própria de produção,Eleitoral,17,39,43.58974358974359,unica
+capacidade_ead,Não há capacidade própria de produção,Estadual,4,29,13.79310344827586,unica
+capacidade_ead,Não há capacidade própria de produção,Trabalho,10,26,38.46153846153846,unica
+capacidade_ead,Não há capacidade própria de produção,Federal,1,8,12.5,unica
+capacidade_ead,Não há capacidade própria de produção,Militar,2,5,40.0,unica
+capacidade_ead,Não há capacidade própria de produção,Superior/Conselho,0,3,0.0,unica
+mod_presencial,0%,Nacional,3,110,2.727272727272727,unica
+mod_presencial,0%,Eleitoral,3,39,7.6923076923076925,unica
+mod_presencial,0%,Estadual,0,29,0.0,unica
+mod_presencial,0%,Trabalho,0,26,0.0,unica
+mod_presencial,0%,Federal,0,8,0.0,unica
+mod_presencial,0%,Militar,0,5,0.0,unica
+mod_presencial,0%,Superior/Conselho,0,3,0.0,unica
+mod_presencial,Até 25%,Nacional,30,110,27.27272727272728,unica
+mod_presencial,Até 25%,Eleitoral,15,39,38.46153846153846,unica
+mod_presencial,Até 25%,Estadual,7,29,24.13793103448276,unica
+mod_presencial,Até 25%,Trabalho,5,26,19.23076923076923,unica
+mod_presencial,Até 25%,Federal,1,8,12.5,unica
+mod_presencial,Até 25%,Militar,2,5,40.0,unica
+mod_presencial,Até 25%,Superior/Conselho,0,3,0.0,unica
+mod_presencial,26% a 50%,Nacional,40,110,36.36363636363637,unica
+mod_presencial,26% a 50%,Eleitoral,14,39,35.8974358974359,unica
+mod_presencial,26% a 50%,Estadual,12,29,41.37931034482759,unica
+mod_presencial,26% a 50%,Trabalho,8,26,30.76923076923077,unica
+mod_presencial,26% a 50%,Federal,2,8,25.0,unica
+mod_presencial,26% a 50%,Militar,2,5,40.0,unica
+mod_presencial,26% a 50%,Superior/Conselho,2,3,66.66666666666667,unica
+mod_presencial,Acima de 50%,Nacional,37,110,33.63636363636363,unica
+mod_presencial,Acima de 50%,Eleitoral,7,39,17.94871794871795,unica
+mod_presencial,Acima de 50%,Estadual,10,29,34.48275862068966,unica
+mod_presencial,Acima de 50%,Trabalho,13,26,50.0,unica
+mod_presencial,Acima de 50%,Federal,5,8,62.5,unica
+mod_presencial,Acima de 50%,Militar,1,5,20.0,unica
+mod_presencial,Acima de 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_autoinstrucional,0%,Nacional,18,110,16.363636363636363,unica
+mod_ead_autoinstrucional,0%,Eleitoral,14,39,35.8974358974359,unica
+mod_ead_autoinstrucional,0%,Estadual,1,29,3.4482758620689653,unica
+mod_ead_autoinstrucional,0%,Trabalho,1,26,3.8461538461538463,unica
+mod_ead_autoinstrucional,0%,Federal,2,8,25.0,unica
+mod_ead_autoinstrucional,0%,Militar,0,5,0.0,unica
+mod_ead_autoinstrucional,0%,Superior/Conselho,0,3,0.0,unica
+mod_ead_autoinstrucional,Até 25%,Nacional,47,110,42.72727272727273,unica
+mod_ead_autoinstrucional,Até 25%,Eleitoral,12,39,30.76923076923077,unica
+mod_ead_autoinstrucional,Até 25%,Estadual,10,29,34.48275862068966,unica
+mod_ead_autoinstrucional,Até 25%,Trabalho,17,26,65.38461538461539,unica
+mod_ead_autoinstrucional,Até 25%,Federal,4,8,50.0,unica
+mod_ead_autoinstrucional,Até 25%,Militar,2,5,40.0,unica
+mod_ead_autoinstrucional,Até 25%,Superior/Conselho,2,3,66.66666666666667,unica
+mod_ead_autoinstrucional,26% a 50%,Nacional,24,110,21.818181818181817,unica
+mod_ead_autoinstrucional,26% a 50%,Eleitoral,7,39,17.94871794871795,unica
+mod_ead_autoinstrucional,26% a 50%,Estadual,10,29,34.48275862068966,unica
+mod_ead_autoinstrucional,26% a 50%,Trabalho,3,26,11.538461538461538,unica
+mod_ead_autoinstrucional,26% a 50%,Federal,2,8,25.0,unica
+mod_ead_autoinstrucional,26% a 50%,Militar,2,5,40.0,unica
+mod_ead_autoinstrucional,26% a 50%,Superior/Conselho,0,3,0.0,unica
+mod_ead_autoinstrucional,Acima de 50%,Nacional,21,110,19.09090909090909,unica
+mod_ead_autoinstrucional,Acima de 50%,Eleitoral,6,39,15.384615384615383,unica
+mod_ead_autoinstrucional,Acima de 50%,Estadual,8,29,27.58620689655172,unica
+mod_ead_autoinstrucional,Acima de 50%,Trabalho,5,26,19.23076923076923,unica
+mod_ead_autoinstrucional,Acima de 50%,Federal,0,8,0.0,unica
+mod_ead_autoinstrucional,Acima de 50%,Militar,1,5,20.0,unica
+mod_ead_autoinstrucional,Acima de 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_tutoria,0%,Nacional,13,110,11.818181818181818,unica
+mod_ead_tutoria,0%,Eleitoral,5,39,12.82051282051282,unica
+mod_ead_tutoria,0%,Estadual,2,29,6.896551724137931,unica
+mod_ead_tutoria,0%,Trabalho,4,26,15.384615384615383,unica
+mod_ead_tutoria,0%,Federal,1,8,12.5,unica
+mod_ead_tutoria,0%,Militar,1,5,20.0,unica
+mod_ead_tutoria,0%,Superior/Conselho,0,3,0.0,unica
+mod_ead_tutoria,Até 25%,Nacional,56,110,50.90909090909091,unica
+mod_ead_tutoria,Até 25%,Eleitoral,14,39,35.8974358974359,unica
+mod_ead_tutoria,Até 25%,Estadual,16,29,55.172413793103445,unica
+mod_ead_tutoria,Até 25%,Trabalho,19,26,73.07692307692308,unica
+mod_ead_tutoria,Até 25%,Federal,3,8,37.5,unica
+mod_ead_tutoria,Até 25%,Militar,3,5,60.0,unica
+mod_ead_tutoria,Até 25%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_tutoria,26% a 50%,Nacional,25,110,22.727272727272727,unica
+mod_ead_tutoria,26% a 50%,Eleitoral,11,39,28.205128205128204,unica
+mod_ead_tutoria,26% a 50%,Estadual,6,29,20.6896551724138,unica
+mod_ead_tutoria,26% a 50%,Trabalho,2,26,7.6923076923076925,unica
+mod_ead_tutoria,26% a 50%,Federal,4,8,50.0,unica
+mod_ead_tutoria,26% a 50%,Militar,1,5,20.0,unica
+mod_ead_tutoria,26% a 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_tutoria,Acima de 50%,Nacional,16,110,14.545454545454543,unica
+mod_ead_tutoria,Acima de 50%,Eleitoral,9,39,23.07692307692308,unica
+mod_ead_tutoria,Acima de 50%,Estadual,5,29,17.24137931034483,unica
+mod_ead_tutoria,Acima de 50%,Trabalho,1,26,3.8461538461538463,unica
+mod_ead_tutoria,Acima de 50%,Federal,0,8,0.0,unica
+mod_ead_tutoria,Acima de 50%,Militar,0,5,0.0,unica
+mod_ead_tutoria,Acima de 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_hibrida,0%,Nacional,10,110,9.090909090909092,unica
+mod_hibrida,0%,Eleitoral,9,39,23.07692307692308,unica
+mod_hibrida,0%,Estadual,0,29,0.0,unica
+mod_hibrida,0%,Trabalho,0,26,0.0,unica
+mod_hibrida,0%,Federal,1,8,12.5,unica
+mod_hibrida,0%,Militar,0,5,0.0,unica
+mod_hibrida,0%,Superior/Conselho,0,3,0.0,unica
+mod_hibrida,Até 25%,Nacional,69,110,62.72727272727273,unica
+mod_hibrida,Até 25%,Eleitoral,19,39,48.71794871794872,unica
+mod_hibrida,Até 25%,Estadual,22,29,75.86206896551724,unica
+mod_hibrida,Até 25%,Trabalho,17,26,65.38461538461539,unica
+mod_hibrida,Até 25%,Federal,5,8,62.5,unica
+mod_hibrida,Até 25%,Militar,4,5,80.0,unica
+mod_hibrida,Até 25%,Superior/Conselho,2,3,66.66666666666667,unica
+mod_hibrida,26% a 50%,Nacional,18,110,16.363636363636363,unica
+mod_hibrida,26% a 50%,Eleitoral,8,39,20.512820512820515,unica
+mod_hibrida,26% a 50%,Estadual,5,29,17.24137931034483,unica
+mod_hibrida,26% a 50%,Trabalho,2,26,7.6923076923076925,unica
+mod_hibrida,26% a 50%,Federal,1,8,12.5,unica
+mod_hibrida,26% a 50%,Militar,1,5,20.0,unica
+mod_hibrida,26% a 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_hibrida,Acima de 50%,Nacional,13,110,11.818181818181818,unica
+mod_hibrida,Acima de 50%,Eleitoral,3,39,7.6923076923076925,unica
+mod_hibrida,Acima de 50%,Estadual,2,29,6.896551724137931,unica
+mod_hibrida,Acima de 50%,Trabalho,7,26,26.923076923076923,unica
+mod_hibrida,Acima de 50%,Federal,1,8,12.5,unica
+mod_hibrida,Acima de 50%,Militar,0,5,0.0,unica
+mod_hibrida,Acima de 50%,Superior/Conselho,0,3,0.0,unica
+ava_algum,Dispõe de algum AVA,Nacional,101,110,91.8181818181818,binaria
+ava_algum,Dispõe de algum AVA,Eleitoral,32,39,82.05128205128206,binaria
+ava_algum,Dispõe de algum AVA,Estadual,29,29,100.0,binaria
+ava_algum,Dispõe de algum AVA,Trabalho,26,26,100.0,binaria
+ava_algum,Dispõe de algum AVA,Federal,7,8,87.5,binaria
+ava_algum,Dispõe de algum AVA,Militar,4,5,80.0,binaria
+ava_algum,Dispõe de algum AVA,Superior/Conselho,3,3,100.0,binaria
+moodle,Cita o Moodle como plataforma de AVA,Nacional,97,110,88.18181818181819,binaria
+moodle,Cita o Moodle como plataforma de AVA,Eleitoral,31,39,79.48717948717949,binaria
+moodle,Cita o Moodle como plataforma de AVA,Estadual,26,29,89.65517241379311,binaria
+moodle,Cita o Moodle como plataforma de AVA,Trabalho,26,26,100.0,binaria
+moodle,Cita o Moodle como plataforma de AVA,Federal,7,8,87.5,binaria
+moodle,Cita o Moodle como plataforma de AVA,Militar,4,5,80.0,binaria
+moodle,Cita o Moodle como plataforma de AVA,Superior/Conselho,3,3,100.0,binaria
+recursos_tecnologias,Webinários / transmissões ao vivo,Nacional,91,110,82.72727272727273,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Eleitoral,26,39,66.66666666666667,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Estadual,27,29,93.10344827586206,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Trabalho,23,26,88.46153846153847,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Federal,7,8,87.5,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Militar,5,5,100.0,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Superior/Conselho,3,3,100.0,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Nacional,91,110,82.72727272727273,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Eleitoral,26,39,66.66666666666667,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Estadual,27,29,93.10344827586206,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Trabalho,24,26,92.3076923076923,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Federal,7,8,87.5,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Militar,4,5,80.0,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Superior/Conselho,3,3,100.0,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Nacional,79,110,71.81818181818181,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Eleitoral,22,39,56.41025641025641,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Estadual,25,29,86.20689655172414,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Trabalho,18,26,69.23076923076923,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Federal,7,8,87.5,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Militar,4,5,80.0,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Superior/Conselho,3,3,100.0,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Nacional,65,110,59.09090909090909,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Eleitoral,19,39,48.71794871794872,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Estadual,23,29,79.3103448275862,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Trabalho,12,26,46.15384615384615,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Federal,6,8,75.0,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Militar,3,5,60.0,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Superior/Conselho,2,3,66.66666666666667,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Nacional,29,110,26.363636363636363,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Eleitoral,5,39,12.82051282051282,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Estadual,13,29,44.82758620689656,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Trabalho,6,26,23.07692307692308,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Federal,3,8,37.5,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Militar,1,5,20.0,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Superior/Conselho,1,3,33.333333333333336,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Nacional,28,110,25.454545454545453,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Eleitoral,6,39,15.384615384615383,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Estadual,13,29,44.82758620689656,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Trabalho,4,26,15.384615384615383,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Federal,1,8,12.5,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Militar,3,5,60.0,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Superior/Conselho,1,3,33.333333333333336,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Nacional,7,110,6.363636363636363,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Eleitoral,4,39,10.256410256410255,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Estadual,2,29,6.896551724137931,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Trabalho,1,26,3.8461538461538463,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Federal,0,8,0.0,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Militar,0,5,0.0,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Superior/Conselho,0,3,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Nacional,0,110,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Estadual,0,29,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Trabalho,0,26,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Federal,0,8,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Militar,0,5,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla

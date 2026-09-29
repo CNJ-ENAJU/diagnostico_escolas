@@ -1,0 +1,197 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+orcamento,Até R$ 250 mil,Nacional,17,110,15.454545454545457,unica
+orcamento,Até R$ 250 mil,Eleitoral,13,39,33.333333333333336,unica
+orcamento,Até R$ 250 mil,Estadual,2,29,6.896551724137931,unica
+orcamento,Até R$ 250 mil,Trabalho,0,26,0.0,unica
+orcamento,Até R$ 250 mil,Federal,1,8,12.5,unica
+orcamento,Até R$ 250 mil,Militar,1,5,20.0,unica
+orcamento,Até R$ 250 mil,Superior/Conselho,0,3,0.0,unica
+orcamento,R$ 250 mil a R$ 1 mi,Nacional,41,110,37.27272727272727,unica
+orcamento,R$ 250 mil a R$ 1 mi,Eleitoral,24,39,61.53846153846154,unica
+orcamento,R$ 250 mil a R$ 1 mi,Estadual,2,29,6.896551724137931,unica
+orcamento,R$ 250 mil a R$ 1 mi,Trabalho,9,26,34.61538461538461,unica
+orcamento,R$ 250 mil a R$ 1 mi,Federal,3,8,37.5,unica
+orcamento,R$ 250 mil a R$ 1 mi,Militar,2,5,40.0,unica
+orcamento,R$ 250 mil a R$ 1 mi,Superior/Conselho,1,3,33.333333333333336,unica
+orcamento,R$ 1 mi a R$ 5 mi,Nacional,39,110,35.45454545454545,unica
+orcamento,R$ 1 mi a R$ 5 mi,Eleitoral,1,39,2.5641025641025643,unica
+orcamento,R$ 1 mi a R$ 5 mi,Estadual,14,29,48.27586206896552,unica
+orcamento,R$ 1 mi a R$ 5 mi,Trabalho,17,26,65.38461538461539,unica
+orcamento,R$ 1 mi a R$ 5 mi,Federal,4,8,50.0,unica
+orcamento,R$ 1 mi a R$ 5 mi,Militar,1,5,20.0,unica
+orcamento,R$ 1 mi a R$ 5 mi,Superior/Conselho,2,3,66.66666666666667,unica
+orcamento,Acima de R$ 5 mi,Nacional,11,110,10.0,unica
+orcamento,Acima de R$ 5 mi,Eleitoral,0,39,0.0,unica
+orcamento,Acima de R$ 5 mi,Estadual,11,29,37.93103448275862,unica
+orcamento,Acima de R$ 5 mi,Trabalho,0,26,0.0,unica
+orcamento,Acima de R$ 5 mi,Federal,0,8,0.0,unica
+orcamento,Acima de R$ 5 mi,Militar,0,5,0.0,unica
+orcamento,Acima de R$ 5 mi,Superior/Conselho,0,3,0.0,unica
+orcamento,Sem informação consolidada,Nacional,2,110,1.818181818181818,unica
+orcamento,Sem informação consolidada,Eleitoral,1,39,2.5641025641025643,unica
+orcamento,Sem informação consolidada,Estadual,0,29,0.0,unica
+orcamento,Sem informação consolidada,Trabalho,0,26,0.0,unica
+orcamento,Sem informação consolidada,Federal,0,8,0.0,unica
+orcamento,Sem informação consolidada,Militar,1,5,20.0,unica
+orcamento,Sem informação consolidada,Superior/Conselho,0,3,0.0,unica
+efetivos,Nenhum,Nacional,1,110,0.9090909090909092,unica
+efetivos,Nenhum,Eleitoral,0,39,0.0,unica
+efetivos,Nenhum,Estadual,0,29,0.0,unica
+efetivos,Nenhum,Trabalho,0,26,0.0,unica
+efetivos,Nenhum,Federal,0,8,0.0,unica
+efetivos,Nenhum,Militar,1,5,20.0,unica
+efetivos,Nenhum,Superior/Conselho,0,3,0.0,unica
+efetivos,1 a 3,Nacional,23,110,20.90909090909091,unica
+efetivos,1 a 3,Eleitoral,14,39,35.8974358974359,unica
+efetivos,1 a 3,Estadual,5,29,17.24137931034483,unica
+efetivos,1 a 3,Trabalho,1,26,3.8461538461538463,unica
+efetivos,1 a 3,Federal,1,8,12.5,unica
+efetivos,1 a 3,Militar,2,5,40.0,unica
+efetivos,1 a 3,Superior/Conselho,0,3,0.0,unica
+efetivos,4 a 10,Nacional,45,110,40.90909090909091,unica
+efetivos,4 a 10,Eleitoral,19,39,48.71794871794872,unica
+efetivos,4 a 10,Estadual,6,29,20.6896551724138,unica
+efetivos,4 a 10,Trabalho,13,26,50.0,unica
+efetivos,4 a 10,Federal,6,8,75.0,unica
+efetivos,4 a 10,Militar,0,5,0.0,unica
+efetivos,4 a 10,Superior/Conselho,1,3,33.333333333333336,unica
+efetivos,Mais de 10,Nacional,41,110,37.27272727272727,unica
+efetivos,Mais de 10,Eleitoral,6,39,15.384615384615383,unica
+efetivos,Mais de 10,Estadual,18,29,62.06896551724138,unica
+efetivos,Mais de 10,Trabalho,12,26,46.15384615384615,unica
+efetivos,Mais de 10,Federal,1,8,12.5,unica
+efetivos,Mais de 10,Militar,2,5,40.0,unica
+efetivos,Mais de 10,Superior/Conselho,2,3,66.66666666666667,unica
+comissionados,Nenhum,Nacional,1,110,0.9090909090909092,unica
+comissionados,Nenhum,Eleitoral,0,39,0.0,unica
+comissionados,Nenhum,Estadual,0,29,0.0,unica
+comissionados,Nenhum,Trabalho,1,26,3.8461538461538463,unica
+comissionados,Nenhum,Federal,0,8,0.0,unica
+comissionados,Nenhum,Militar,0,5,0.0,unica
+comissionados,Nenhum,Superior/Conselho,0,3,0.0,unica
+comissionados,1 a 3,Nacional,37,110,33.63636363636363,unica
+comissionados,1 a 3,Eleitoral,22,39,56.41025641025641,unica
+comissionados,1 a 3,Estadual,3,29,10.344827586206897,unica
+comissionados,1 a 3,Trabalho,7,26,26.923076923076923,unica
+comissionados,1 a 3,Federal,2,8,25.0,unica
+comissionados,1 a 3,Militar,3,5,60.0,unica
+comissionados,1 a 3,Superior/Conselho,0,3,0.0,unica
+comissionados,4 a 10,Nacional,47,110,42.72727272727273,unica
+comissionados,4 a 10,Eleitoral,13,39,33.333333333333336,unica
+comissionados,4 a 10,Estadual,12,29,41.37931034482759,unica
+comissionados,4 a 10,Trabalho,14,26,53.84615384615385,unica
+comissionados,4 a 10,Federal,6,8,75.0,unica
+comissionados,4 a 10,Militar,0,5,0.0,unica
+comissionados,4 a 10,Superior/Conselho,2,3,66.66666666666667,unica
+comissionados,Mais de 10,Nacional,22,110,20.0,unica
+comissionados,Mais de 10,Eleitoral,1,39,2.5641025641025643,unica
+comissionados,Mais de 10,Estadual,14,29,48.27586206896552,unica
+comissionados,Mais de 10,Trabalho,4,26,15.384615384615383,unica
+comissionados,Mais de 10,Federal,0,8,0.0,unica
+comissionados,Mais de 10,Militar,2,5,40.0,unica
+comissionados,Mais de 10,Superior/Conselho,1,3,33.333333333333336,unica
+comissionados,(sem resposta),Nacional,3,110,2.727272727272727,unica
+comissionados,(sem resposta),Eleitoral,3,39,7.6923076923076925,unica
+comissionados,(sem resposta),Estadual,0,29,0.0,unica
+comissionados,(sem resposta),Trabalho,0,26,0.0,unica
+comissionados,(sem resposta),Federal,0,8,0.0,unica
+comissionados,(sem resposta),Militar,0,5,0.0,unica
+comissionados,(sem resposta),Superior/Conselho,0,3,0.0,unica
+magistrados_gestao,Nenhum,Nacional,24,110,21.818181818181817,unica
+magistrados_gestao,Nenhum,Eleitoral,11,39,28.205128205128204,unica
+magistrados_gestao,Nenhum,Estadual,5,29,17.24137931034483,unica
+magistrados_gestao,Nenhum,Trabalho,2,26,7.6923076923076925,unica
+magistrados_gestao,Nenhum,Federal,3,8,37.5,unica
+magistrados_gestao,Nenhum,Militar,1,5,20.0,unica
+magistrados_gestao,Nenhum,Superior/Conselho,2,3,66.66666666666667,unica
+magistrados_gestao,1 a 3,Nacional,70,110,63.63636363636363,unica
+magistrados_gestao,1 a 3,Eleitoral,24,39,61.53846153846154,unica
+magistrados_gestao,1 a 3,Estadual,17,29,58.62068965517241,unica
+magistrados_gestao,1 a 3,Trabalho,20,26,76.92307692307692,unica
+magistrados_gestao,1 a 3,Federal,4,8,50.0,unica
+magistrados_gestao,1 a 3,Militar,4,5,80.0,unica
+magistrados_gestao,1 a 3,Superior/Conselho,1,3,33.333333333333336,unica
+magistrados_gestao,4 a 10,Nacional,9,110,8.181818181818182,unica
+magistrados_gestao,4 a 10,Eleitoral,1,39,2.5641025641025643,unica
+magistrados_gestao,4 a 10,Estadual,4,29,13.79310344827586,unica
+magistrados_gestao,4 a 10,Trabalho,4,26,15.384615384615383,unica
+magistrados_gestao,4 a 10,Federal,0,8,0.0,unica
+magistrados_gestao,4 a 10,Militar,0,5,0.0,unica
+magistrados_gestao,4 a 10,Superior/Conselho,0,3,0.0,unica
+magistrados_gestao,Mais de 10,Nacional,2,110,1.818181818181818,unica
+magistrados_gestao,Mais de 10,Eleitoral,0,39,0.0,unica
+magistrados_gestao,Mais de 10,Estadual,2,29,6.896551724137931,unica
+magistrados_gestao,Mais de 10,Trabalho,0,26,0.0,unica
+magistrados_gestao,Mais de 10,Federal,0,8,0.0,unica
+magistrados_gestao,Mais de 10,Militar,0,5,0.0,unica
+magistrados_gestao,Mais de 10,Superior/Conselho,0,3,0.0,unica
+magistrados_gestao,(sem resposta),Nacional,5,110,4.545454545454546,unica
+magistrados_gestao,(sem resposta),Eleitoral,3,39,7.6923076923076925,unica
+magistrados_gestao,(sem resposta),Estadual,1,29,3.4482758620689653,unica
+magistrados_gestao,(sem resposta),Trabalho,0,26,0.0,unica
+magistrados_gestao,(sem resposta),Federal,1,8,12.5,unica
+magistrados_gestao,(sem resposta),Militar,0,5,0.0,unica
+magistrados_gestao,(sem resposta),Superior/Conselho,0,3,0.0,unica
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Nacional,12,110,10.909090909090908,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Eleitoral,7,39,17.94871794871795,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Estadual,2,29,6.896551724137931,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Trabalho,0,26,0.0,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Federal,3,8,37.5,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Militar,0,5,0.0,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Superior/Conselho,0,3,0.0,binaria
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Nacional,70,110,63.63636363636363,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Eleitoral,17,39,43.58974358974359,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Estadual,23,29,79.3103448275862,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Trabalho,23,26,88.46153846153847,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Federal,2,8,25.0,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Militar,3,5,60.0,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Salas de aula / treinamento,Nacional,85,110,77.27272727272727,multipla
+estrutura_fisica,Salas de aula / treinamento,Eleitoral,22,39,56.41025641025641,multipla
+estrutura_fisica,Salas de aula / treinamento,Estadual,28,29,96.55172413793105,multipla
+estrutura_fisica,Salas de aula / treinamento,Trabalho,24,26,92.3076923076923,multipla
+estrutura_fisica,Salas de aula / treinamento,Federal,6,8,75.0,multipla
+estrutura_fisica,Salas de aula / treinamento,Militar,3,5,60.0,multipla
+estrutura_fisica,Salas de aula / treinamento,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Auditório,Nacional,66,110,60.0,multipla
+estrutura_fisica,Auditório,Eleitoral,16,39,41.02564102564103,multipla
+estrutura_fisica,Auditório,Estadual,21,29,72.41379310344827,multipla
+estrutura_fisica,Auditório,Trabalho,21,26,80.76923076923077,multipla
+estrutura_fisica,Auditório,Federal,3,8,37.5,multipla
+estrutura_fisica,Auditório,Militar,3,5,60.0,multipla
+estrutura_fisica,Auditório,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Laboratório de informática,Nacional,60,110,54.54545454545455,multipla
+estrutura_fisica,Laboratório de informática,Eleitoral,6,39,15.384615384615383,multipla
+estrutura_fisica,Laboratório de informática,Estadual,21,29,72.41379310344827,multipla
+estrutura_fisica,Laboratório de informática,Trabalho,25,26,96.15384615384616,multipla
+estrutura_fisica,Laboratório de informática,Federal,5,8,62.5,multipla
+estrutura_fisica,Laboratório de informática,Militar,1,5,20.0,multipla
+estrutura_fisica,Laboratório de informática,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Biblioteca / centro de memória,Nacional,43,110,39.09090909090909,multipla
+estrutura_fisica,Biblioteca / centro de memória,Eleitoral,8,39,20.512820512820515,multipla
+estrutura_fisica,Biblioteca / centro de memória,Estadual,17,29,58.62068965517241,multipla
+estrutura_fisica,Biblioteca / centro de memória,Trabalho,12,26,46.15384615384615,multipla
+estrutura_fisica,Biblioteca / centro de memória,Federal,1,8,12.5,multipla
+estrutura_fisica,Biblioteca / centro de memória,Militar,4,5,80.0,multipla
+estrutura_fisica,Biblioteca / centro de memória,Superior/Conselho,1,3,33.333333333333336,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Nacional,26,110,23.63636363636364,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Eleitoral,3,39,7.6923076923076925,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Estadual,17,29,58.62068965517241,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Trabalho,3,26,11.538461538461538,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Federal,1,8,12.5,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Militar,1,5,20.0,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Superior/Conselho,1,3,33.333333333333336,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Nacional,28,110,25.454545454545453,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Eleitoral,15,39,38.46153846153846,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Estadual,4,29,13.79310344827586,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Trabalho,3,26,11.538461538461538,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Federal,3,8,37.5,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Militar,2,5,40.0,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Superior/Conselho,1,3,33.333333333333336,multipla
+estrutura_fisica,Outro (texto livre),Nacional,0,110,0.0,multipla
+estrutura_fisica,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+estrutura_fisica,Outro (texto livre),Estadual,0,29,0.0,multipla
+estrutura_fisica,Outro (texto livre),Trabalho,0,26,0.0,multipla
+estrutura_fisica,Outro (texto livre),Federal,0,8,0.0,multipla
+estrutura_fisica,Outro (texto livre),Militar,0,5,0.0,multipla
+estrutura_fisica,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla

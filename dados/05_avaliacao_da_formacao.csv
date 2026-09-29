@@ -1,0 +1,155 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+relacao_cursos,Sim,Nacional,96,110,87.27272727272727,unica
+relacao_cursos,Sim,Eleitoral,31,39,79.48717948717949,unica
+relacao_cursos,Sim,Estadual,28,29,96.55172413793105,unica
+relacao_cursos,Sim,Trabalho,24,26,92.3076923076923,unica
+relacao_cursos,Sim,Federal,7,8,87.5,unica
+relacao_cursos,Sim,Militar,4,5,80.0,unica
+relacao_cursos,Sim,Superior/Conselho,2,3,66.66666666666667,unica
+relacao_cursos,Não,Nacional,14,110,12.727272727272728,unica
+relacao_cursos,Não,Eleitoral,8,39,20.512820512820515,unica
+relacao_cursos,Não,Estadual,1,29,3.4482758620689653,unica
+relacao_cursos,Não,Trabalho,2,26,7.6923076923076925,unica
+relacao_cursos,Não,Federal,1,8,12.5,unica
+relacao_cursos,Não,Militar,1,5,20.0,unica
+relacao_cursos,Não,Superior/Conselho,1,3,33.333333333333336,unica
+egressos,"Sim, de forma sistemática",Nacional,10,110,9.090909090909092,unica
+egressos,"Sim, de forma sistemática",Eleitoral,2,39,5.128205128205129,unica
+egressos,"Sim, de forma sistemática",Estadual,4,29,13.79310344827586,unica
+egressos,"Sim, de forma sistemática",Trabalho,2,26,7.6923076923076925,unica
+egressos,"Sim, de forma sistemática",Federal,1,8,12.5,unica
+egressos,"Sim, de forma sistemática",Militar,0,5,0.0,unica
+egressos,"Sim, de forma sistemática",Superior/Conselho,1,3,33.333333333333336,unica
+egressos,"Sim, de forma pontual",Nacional,19,110,17.272727272727273,unica
+egressos,"Sim, de forma pontual",Eleitoral,4,39,10.256410256410255,unica
+egressos,"Sim, de forma pontual",Estadual,7,29,24.13793103448276,unica
+egressos,"Sim, de forma pontual",Trabalho,5,26,19.23076923076923,unica
+egressos,"Sim, de forma pontual",Federal,1,8,12.5,unica
+egressos,"Sim, de forma pontual",Militar,2,5,40.0,unica
+egressos,"Sim, de forma pontual",Superior/Conselho,0,3,0.0,unica
+egressos,Não realiza,Nacional,81,110,73.63636363636364,unica
+egressos,Não realiza,Eleitoral,33,39,84.61538461538461,unica
+egressos,Não realiza,Estadual,18,29,62.06896551724138,unica
+egressos,Não realiza,Trabalho,19,26,73.07692307692308,unica
+egressos,Não realiza,Federal,6,8,75.0,unica
+egressos,Não realiza,Militar,3,5,60.0,unica
+egressos,Não realiza,Superior/Conselho,2,3,66.66666666666667,unica
+n1,Na maioria das ações,Nacional,88,110,80.0,unica
+n1,Na maioria das ações,Eleitoral,26,39,66.66666666666667,unica
+n1,Na maioria das ações,Estadual,29,29,100.0,unica
+n1,Na maioria das ações,Trabalho,22,26,84.61538461538461,unica
+n1,Na maioria das ações,Federal,6,8,75.0,unica
+n1,Na maioria das ações,Militar,3,5,60.0,unica
+n1,Na maioria das ações,Superior/Conselho,2,3,66.66666666666667,unica
+n1,Em parte das ações,Nacional,15,110,13.636363636363637,unica
+n1,Em parte das ações,Eleitoral,8,39,20.512820512820515,unica
+n1,Em parte das ações,Estadual,0,29,0.0,unica
+n1,Em parte das ações,Trabalho,3,26,11.538461538461538,unica
+n1,Em parte das ações,Federal,2,8,25.0,unica
+n1,Em parte das ações,Militar,1,5,20.0,unica
+n1,Em parte das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n1,Não aplica,Nacional,7,110,6.363636363636363,unica
+n1,Não aplica,Eleitoral,5,39,12.82051282051282,unica
+n1,Não aplica,Estadual,0,29,0.0,unica
+n1,Não aplica,Trabalho,1,26,3.8461538461538463,unica
+n1,Não aplica,Federal,0,8,0.0,unica
+n1,Não aplica,Militar,1,5,20.0,unica
+n1,Não aplica,Superior/Conselho,0,3,0.0,unica
+n2,Na maioria das ações,Nacional,32,110,29.09090909090909,unica
+n2,Na maioria das ações,Eleitoral,8,39,20.512820512820515,unica
+n2,Na maioria das ações,Estadual,13,29,44.82758620689656,unica
+n2,Na maioria das ações,Trabalho,10,26,38.46153846153846,unica
+n2,Na maioria das ações,Federal,1,8,12.5,unica
+n2,Na maioria das ações,Militar,0,5,0.0,unica
+n2,Na maioria das ações,Superior/Conselho,0,3,0.0,unica
+n2,Em parte das ações,Nacional,42,110,38.18181818181818,unica
+n2,Em parte das ações,Eleitoral,10,39,25.64102564102564,unica
+n2,Em parte das ações,Estadual,12,29,41.37931034482759,unica
+n2,Em parte das ações,Trabalho,12,26,46.15384615384615,unica
+n2,Em parte das ações,Federal,2,8,25.0,unica
+n2,Em parte das ações,Militar,3,5,60.0,unica
+n2,Em parte das ações,Superior/Conselho,3,3,100.0,unica
+n2,Não aplica,Nacional,36,110,32.72727272727273,unica
+n2,Não aplica,Eleitoral,21,39,53.84615384615385,unica
+n2,Não aplica,Estadual,4,29,13.79310344827586,unica
+n2,Não aplica,Trabalho,4,26,15.384615384615383,unica
+n2,Não aplica,Federal,5,8,62.5,unica
+n2,Não aplica,Militar,2,5,40.0,unica
+n2,Não aplica,Superior/Conselho,0,3,0.0,unica
+n3,Na maioria das ações,Nacional,19,110,17.272727272727273,unica
+n3,Na maioria das ações,Eleitoral,7,39,17.94871794871795,unica
+n3,Na maioria das ações,Estadual,7,29,24.13793103448276,unica
+n3,Na maioria das ações,Trabalho,4,26,15.384615384615383,unica
+n3,Na maioria das ações,Federal,0,8,0.0,unica
+n3,Na maioria das ações,Militar,1,5,20.0,unica
+n3,Na maioria das ações,Superior/Conselho,0,3,0.0,unica
+n3,Em parte das ações,Nacional,17,110,15.454545454545457,unica
+n3,Em parte das ações,Eleitoral,3,39,7.6923076923076925,unica
+n3,Em parte das ações,Estadual,7,29,24.13793103448276,unica
+n3,Em parte das ações,Trabalho,3,26,11.538461538461538,unica
+n3,Em parte das ações,Federal,1,8,12.5,unica
+n3,Em parte das ações,Militar,2,5,40.0,unica
+n3,Em parte das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n3,Não aplica,Nacional,74,110,67.27272727272727,unica
+n3,Não aplica,Eleitoral,29,39,74.35897435897436,unica
+n3,Não aplica,Estadual,15,29,51.72413793103448,unica
+n3,Não aplica,Trabalho,19,26,73.07692307692308,unica
+n3,Não aplica,Federal,7,8,87.5,unica
+n3,Não aplica,Militar,2,5,40.0,unica
+n3,Não aplica,Superior/Conselho,2,3,66.66666666666667,unica
+n4,Na maioria das ações,Nacional,12,110,10.909090909090908,unica
+n4,Na maioria das ações,Eleitoral,4,39,10.256410256410255,unica
+n4,Na maioria das ações,Estadual,3,29,10.344827586206897,unica
+n4,Na maioria das ações,Trabalho,3,26,11.538461538461538,unica
+n4,Na maioria das ações,Federal,1,8,12.5,unica
+n4,Na maioria das ações,Militar,0,5,0.0,unica
+n4,Na maioria das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n4,Em parte das ações,Nacional,20,110,18.181818181818183,unica
+n4,Em parte das ações,Eleitoral,7,39,17.94871794871795,unica
+n4,Em parte das ações,Estadual,7,29,24.13793103448276,unica
+n4,Em parte das ações,Trabalho,2,26,7.6923076923076925,unica
+n4,Em parte das ações,Federal,1,8,12.5,unica
+n4,Em parte das ações,Militar,2,5,40.0,unica
+n4,Em parte das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n4,Não aplica,Nacional,78,110,70.9090909090909,unica
+n4,Não aplica,Eleitoral,28,39,71.7948717948718,unica
+n4,Não aplica,Estadual,19,29,65.51724137931035,unica
+n4,Não aplica,Trabalho,21,26,80.76923076923077,unica
+n4,Não aplica,Federal,6,8,75.0,unica
+n4,Não aplica,Militar,3,5,60.0,unica
+n4,Não aplica,Superior/Conselho,1,3,33.333333333333336,unica
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Nacional,103,110,93.63636363636364,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Eleitoral,34,39,87.17948717948718,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Estadual,29,29,100.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Trabalho,25,26,96.15384615384616,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Federal,8,8,100.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Militar,4,5,80.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Superior/Conselho,3,3,100.0,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Nacional,74,110,67.27272727272727,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Eleitoral,18,39,46.15384615384615,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Estadual,25,29,86.20689655172414,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Trabalho,22,26,84.61538461538461,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Federal,3,8,37.5,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Militar,3,5,60.0,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Superior/Conselho,3,3,100.0,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Nacional,36,110,32.72727272727273,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Eleitoral,10,39,25.64102564102564,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Estadual,14,29,48.27586206896552,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Trabalho,7,26,26.923076923076923,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Federal,1,8,12.5,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Militar,3,5,60.0,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Superior/Conselho,1,3,33.333333333333336,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Nacional,32,110,29.09090909090909,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Eleitoral,11,39,28.205128205128204,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Estadual,10,29,34.48275862068966,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Trabalho,5,26,19.23076923076923,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Federal,2,8,25.0,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Militar,2,5,40.0,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Superior/Conselho,2,3,66.66666666666667,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Nacional,10,110,9.090909090909092,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Eleitoral,4,39,10.256410256410255,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Estadual,1,29,3.4482758620689653,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Trabalho,2,26,7.6923076923076925,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Federal,2,8,25.0,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Militar,0,5,0.0,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Superior/Conselho,1,3,33.333333333333336,binaria

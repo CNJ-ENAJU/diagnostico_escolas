@@ -1,0 +1,239 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+publicos_2025,Servidores(as),Nacional,110,110,100.0,multipla
+publicos_2025,Servidores(as),Eleitoral,39,39,100.0,multipla
+publicos_2025,Servidores(as),Estadual,29,29,100.0,multipla
+publicos_2025,Servidores(as),Trabalho,26,26,100.0,multipla
+publicos_2025,Servidores(as),Federal,8,8,100.0,multipla
+publicos_2025,Servidores(as),Militar,5,5,100.0,multipla
+publicos_2025,Servidores(as),Superior/Conselho,3,3,100.0,multipla
+publicos_2025,Magistrados(as),Nacional,94,110,85.45454545454545,multipla
+publicos_2025,Magistrados(as),Eleitoral,30,39,76.92307692307692,multipla
+publicos_2025,Magistrados(as),Estadual,28,29,96.55172413793105,multipla
+publicos_2025,Magistrados(as),Trabalho,25,26,96.15384615384616,multipla
+publicos_2025,Magistrados(as),Federal,5,8,62.5,multipla
+publicos_2025,Magistrados(as),Militar,4,5,80.0,multipla
+publicos_2025,Magistrados(as),Superior/Conselho,2,3,66.66666666666667,multipla
+publicos_2025,Estagiários(as),Nacional,69,110,62.72727272727273,multipla
+publicos_2025,Estagiários(as),Eleitoral,20,39,51.282051282051285,multipla
+publicos_2025,Estagiários(as),Estadual,24,29,82.75862068965517,multipla
+publicos_2025,Estagiários(as),Trabalho,20,26,76.92307692307692,multipla
+publicos_2025,Estagiários(as),Federal,2,8,25.0,multipla
+publicos_2025,Estagiários(as),Militar,2,5,40.0,multipla
+publicos_2025,Estagiários(as),Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Público externo / sociedade,Nacional,64,110,58.18181818181818,multipla
+publicos_2025,Público externo / sociedade,Eleitoral,15,39,38.46153846153846,multipla
+publicos_2025,Público externo / sociedade,Estadual,23,29,79.3103448275862,multipla
+publicos_2025,Público externo / sociedade,Trabalho,16,26,61.53846153846154,multipla
+publicos_2025,Público externo / sociedade,Federal,4,8,50.0,multipla
+publicos_2025,Público externo / sociedade,Militar,5,5,100.0,multipla
+publicos_2025,Público externo / sociedade,Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Colaboradores terceirizados,Nacional,55,110,50.0,multipla
+publicos_2025,Colaboradores terceirizados,Eleitoral,16,39,41.02564102564103,multipla
+publicos_2025,Colaboradores terceirizados,Estadual,18,29,62.06896551724138,multipla
+publicos_2025,Colaboradores terceirizados,Trabalho,14,26,53.84615384615385,multipla
+publicos_2025,Colaboradores terceirizados,Federal,3,8,37.5,multipla
+publicos_2025,Colaboradores terceirizados,Militar,3,5,60.0,multipla
+publicos_2025,Colaboradores terceirizados,Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Nacional,36,110,32.72727272727273,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Eleitoral,0,39,0.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Estadual,20,29,68.96551724137932,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Trabalho,12,26,46.15384615384615,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Federal,2,8,25.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Militar,1,5,20.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Outro (texto livre),Nacional,6,110,5.454545454545454,multipla
+publicos_2025,Outro (texto livre),Eleitoral,1,39,2.5641025641025643,multipla
+publicos_2025,Outro (texto livre),Estadual,4,29,13.79310344827586,multipla
+publicos_2025,Outro (texto livre),Trabalho,0,26,0.0,multipla
+publicos_2025,Outro (texto livre),Federal,0,8,0.0,multipla
+publicos_2025,Outro (texto livre),Militar,1,5,20.0,multipla
+publicos_2025,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Nacional,98,110,89.0909090909091,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Eleitoral,34,39,87.17948717948718,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Estadual,27,29,93.10344827586206,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Trabalho,25,26,96.15384615384616,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Federal,6,8,75.0,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Militar,5,5,100.0,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Nacional,96,110,87.27272727272727,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Eleitoral,30,39,76.92307692307692,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Estadual,27,29,93.10344827586206,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Trabalho,26,26,100.0,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Federal,7,8,87.5,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Militar,4,5,80.0,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Nacional,93,110,84.54545454545455,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Eleitoral,30,39,76.92307692307692,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Estadual,24,29,82.75862068965517,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Trabalho,25,26,96.15384615384616,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Federal,7,8,87.5,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Militar,5,5,100.0,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Nacional,91,110,82.72727272727273,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Eleitoral,25,39,64.1025641025641,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Estadual,26,29,89.65517241379311,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Trabalho,25,26,96.15384615384616,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Federal,8,8,100.0,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Militar,4,5,80.0,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Superior/Conselho,3,3,100.0,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Nacional,72,110,65.45454545454545,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Eleitoral,15,39,38.46153846153846,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Estadual,23,29,79.3103448275862,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Trabalho,21,26,80.76923076923077,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Federal,7,8,87.5,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Militar,3,5,60.0,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Superior/Conselho,3,3,100.0,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Nacional,66,110,60.0,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Estadual,20,29,68.96551724137932,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Trabalho,23,26,88.46153846153847,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Federal,5,8,62.5,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Militar,4,5,80.0,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Nacional,65,110,59.09090909090909,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Eleitoral,11,39,28.205128205128204,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Estadual,22,29,75.86206896551724,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Trabalho,20,26,76.92307692307692,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Federal,6,8,75.0,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Militar,4,5,80.0,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Nacional,58,110,52.72727272727273,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Eleitoral,18,39,46.15384615384615,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Estadual,13,29,44.82758620689656,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Trabalho,17,26,65.38461538461539,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Federal,4,8,50.0,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Militar,3,5,60.0,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Superior/Conselho,3,3,100.0,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Nacional,53,110,48.18181818181818,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Eleitoral,14,39,35.8974358974359,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Estadual,13,29,44.82758620689656,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Trabalho,16,26,61.53846153846154,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Federal,5,8,62.5,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Militar,3,5,60.0,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Nacional,52,110,47.27272727272727,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Estadual,17,29,58.62068965517241,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Trabalho,15,26,57.69230769230769,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Federal,4,8,50.0,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Militar,3,5,60.0,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Nacional,51,110,46.36363636363637,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Estadual,17,29,58.62068965517241,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Trabalho,17,26,65.38461538461539,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Federal,3,8,37.5,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Militar,1,5,20.0,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Nacional,51,110,46.36363636363637,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Eleitoral,4,39,10.256410256410255,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Estadual,21,29,72.41379310344827,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Trabalho,19,26,73.07692307692308,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Federal,5,8,62.5,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Militar,1,5,20.0,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Nacional,47,110,42.72727272727273,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Estadual,11,29,37.93103448275862,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Trabalho,16,26,61.53846153846154,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Federal,4,8,50.0,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Militar,2,5,40.0,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Nacional,46,110,41.81818181818182,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Eleitoral,7,39,17.94871794871795,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Estadual,16,29,55.172413793103445,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Trabalho,14,26,53.84615384615385,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Federal,5,8,62.5,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Militar,3,5,60.0,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Nacional,44,110,40.0,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Eleitoral,7,39,17.94871794871795,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Estadual,21,29,72.41379310344827,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Trabalho,10,26,38.46153846153846,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Federal,3,8,37.5,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Militar,2,5,40.0,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Nacional,40,110,36.36363636363637,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Eleitoral,11,39,28.205128205128204,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Estadual,16,29,55.172413793103445,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Trabalho,9,26,34.61538461538461,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Federal,3,8,37.5,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Militar,0,5,0.0,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Nacional,23,110,20.90909090909091,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Eleitoral,6,39,15.384615384615383,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Estadual,8,29,27.58620689655172,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Trabalho,4,26,15.384615384615383,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Federal,2,8,25.0,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Militar,2,5,40.0,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,Outro (texto livre),Nacional,13,110,11.818181818181818,multipla
+tematicas_2025,Outro (texto livre),Eleitoral,4,39,10.256410256410255,multipla
+tematicas_2025,Outro (texto livre),Estadual,5,29,17.24137931034483,multipla
+tematicas_2025,Outro (texto livre),Trabalho,1,26,3.8461538461538463,multipla
+tematicas_2025,Outro (texto livre),Federal,1,8,12.5,multipla
+tematicas_2025,Outro (texto livre),Militar,1,5,20.0,multipla
+tematicas_2025,Outro (texto livre),Superior/Conselho,1,3,33.333333333333336,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Nacional,98,110,89.0909090909091,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Eleitoral,32,39,82.05128205128206,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Estadual,28,29,96.55172413793105,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Trabalho,24,26,92.3076923076923,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Federal,7,8,87.5,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Militar,5,5,100.0,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Superior/Conselho,2,3,66.66666666666667,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Nacional,94,110,85.45454545454545,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Eleitoral,29,39,74.35897435897436,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Estadual,29,29,100.0,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Trabalho,22,26,84.61538461538461,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Federal,8,8,100.0,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Militar,3,5,60.0,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Superior/Conselho,3,3,100.0,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Nacional,62,110,56.36363636363637,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Eleitoral,12,39,30.76923076923077,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Estadual,22,29,75.86206896551724,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Trabalho,17,26,65.38461538461539,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Federal,6,8,75.0,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Militar,2,5,40.0,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Superior/Conselho,3,3,100.0,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Nacional,50,110,45.45454545454545,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Eleitoral,20,39,51.282051282051285,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Estadual,11,29,37.93103448275862,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Trabalho,12,26,46.15384615384615,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Federal,2,8,25.0,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Militar,3,5,60.0,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Superior/Conselho,2,3,66.66666666666667,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Nacional,46,110,41.81818181818182,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Eleitoral,10,39,25.64102564102564,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Estadual,13,29,44.82758620689656,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Trabalho,15,26,57.69230769230769,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Federal,4,8,50.0,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Militar,4,5,80.0,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Superior/Conselho,0,3,0.0,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Nacional,46,110,41.81818181818182,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Eleitoral,2,39,5.128205128205129,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Estadual,15,29,51.72413793103448,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Trabalho,21,26,80.76923076923077,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Federal,6,8,75.0,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Militar,1,5,20.0,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Superior/Conselho,1,3,33.333333333333336,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Nacional,18,110,16.363636363636363,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Eleitoral,6,39,15.384615384615383,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Estadual,8,29,27.58620689655172,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Trabalho,1,26,3.8461538461538463,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Federal,1,8,12.5,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Militar,2,5,40.0,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Superior/Conselho,0,3,0.0,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Nacional,15,110,13.636363636363637,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Eleitoral,3,39,7.6923076923076925,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Estadual,8,29,27.58620689655172,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Trabalho,0,26,0.0,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Federal,3,8,37.5,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Militar,0,5,0.0,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Superior/Conselho,1,3,33.333333333333336,multipla
+eixos_prioritarios_2026,Outro (texto livre),Nacional,27,110,24.545454545454547,multipla
+eixos_prioritarios_2026,Outro (texto livre),Eleitoral,18,39,46.15384615384615,multipla
+eixos_prioritarios_2026,Outro (texto livre),Estadual,2,29,6.896551724137931,multipla
+eixos_prioritarios_2026,Outro (texto livre),Trabalho,3,26,11.538461538461538,multipla
+eixos_prioritarios_2026,Outro (texto livre),Federal,1,8,12.5,multipla
+eixos_prioritarios_2026,Outro (texto livre),Militar,1,5,20.0,multipla
+eixos_prioritarios_2026,Outro (texto livre),Superior/Conselho,2,3,66.66666666666667,multipla

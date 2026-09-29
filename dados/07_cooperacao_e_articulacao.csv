@@ -1,0 +1,162 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+parcerias,"Sim, com convênios/acordos vigentes",Nacional,94,110,85.45454545454545,unica
+parcerias,"Sim, com convênios/acordos vigentes",Eleitoral,32,39,82.05128205128206,unica
+parcerias,"Sim, com convênios/acordos vigentes",Estadual,27,29,93.10344827586206,unica
+parcerias,"Sim, com convênios/acordos vigentes",Trabalho,22,26,84.61538461538461,unica
+parcerias,"Sim, com convênios/acordos vigentes",Federal,5,8,62.5,unica
+parcerias,"Sim, com convênios/acordos vigentes",Militar,5,5,100.0,unica
+parcerias,"Sim, com convênios/acordos vigentes",Superior/Conselho,3,3,100.0,unica
+parcerias,"Sim, com parcerias informais",Nacional,9,110,8.181818181818182,unica
+parcerias,"Sim, com parcerias informais",Eleitoral,2,39,5.128205128205129,unica
+parcerias,"Sim, com parcerias informais",Estadual,2,29,6.896551724137931,unica
+parcerias,"Sim, com parcerias informais",Trabalho,2,26,7.6923076923076925,unica
+parcerias,"Sim, com parcerias informais",Federal,3,8,37.5,unica
+parcerias,"Sim, com parcerias informais",Militar,0,5,0.0,unica
+parcerias,"Sim, com parcerias informais",Superior/Conselho,0,3,0.0,unica
+parcerias,Não mantém parcerias,Nacional,7,110,6.363636363636363,unica
+parcerias,Não mantém parcerias,Eleitoral,5,39,12.82051282051282,unica
+parcerias,Não mantém parcerias,Estadual,0,29,0.0,unica
+parcerias,Não mantém parcerias,Trabalho,2,26,7.6923076923076925,unica
+parcerias,Não mantém parcerias,Federal,0,8,0.0,unica
+parcerias,Não mantém parcerias,Militar,0,5,0.0,unica
+parcerias,Não mantém parcerias,Superior/Conselho,0,3,0.0,unica
+interesse,Alto,Nacional,58,110,52.72727272727273,unica
+interesse,Alto,Eleitoral,19,39,48.71794871794872,unica
+interesse,Alto,Estadual,22,29,75.86206896551724,unica
+interesse,Alto,Trabalho,10,26,38.46153846153846,unica
+interesse,Alto,Federal,3,8,37.5,unica
+interesse,Alto,Militar,2,5,40.0,unica
+interesse,Alto,Superior/Conselho,2,3,66.66666666666667,unica
+interesse,Moderado,Nacional,47,110,42.72727272727273,unica
+interesse,Moderado,Eleitoral,15,39,38.46153846153846,unica
+interesse,Moderado,Estadual,7,29,24.13793103448276,unica
+interesse,Moderado,Trabalho,16,26,61.53846153846154,unica
+interesse,Moderado,Federal,5,8,62.5,unica
+interesse,Moderado,Militar,3,5,60.0,unica
+interesse,Moderado,Superior/Conselho,1,3,33.333333333333336,unica
+interesse,Baixo,Nacional,5,110,4.545454545454546,unica
+interesse,Baixo,Eleitoral,5,39,12.82051282051282,unica
+interesse,Baixo,Estadual,0,29,0.0,unica
+interesse,Baixo,Trabalho,0,26,0.0,unica
+interesse,Baixo,Federal,0,8,0.0,unica
+interesse,Baixo,Militar,0,5,0.0,unica
+interesse,Baixo,Superior/Conselho,0,3,0.0,unica
+interesse_aberto,Interesse alto ou moderado,Nacional,105,110,95.45454545454544,binaria
+interesse_aberto,Interesse alto ou moderado,Eleitoral,34,39,87.17948717948718,binaria
+interesse_aberto,Interesse alto ou moderado,Estadual,29,29,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Trabalho,26,26,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Federal,8,8,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Militar,5,5,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Superior/Conselho,3,3,100.0,binaria
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Nacional,83,110,75.45454545454545,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Eleitoral,24,39,61.53846153846154,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Estadual,26,29,89.65517241379311,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Trabalho,22,26,84.61538461538461,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Federal,5,8,62.5,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Militar,3,5,60.0,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Superior/Conselho,3,3,100.0,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Nacional,62,110,56.36363636363637,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Eleitoral,19,39,48.71794871794872,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Estadual,26,29,89.65517241379311,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Trabalho,13,26,50.0,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Federal,1,8,12.5,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Militar,3,5,60.0,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Superior/Conselho,0,3,0.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Nacional,55,110,50.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Eleitoral,18,39,46.15384615384615,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Estadual,19,29,65.51724137931035,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Trabalho,12,26,46.15384615384615,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Federal,2,8,25.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Militar,2,5,40.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Superior/Conselho,2,3,66.66666666666667,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Nacional,53,110,48.18181818181818,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Eleitoral,12,39,30.76923076923077,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Estadual,17,29,58.62068965517241,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Trabalho,18,26,69.23076923076923,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Federal,1,8,12.5,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Militar,3,5,60.0,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Superior/Conselho,2,3,66.66666666666667,multipla
+instituicoes_cooperacao,ENFAM,Nacional,43,110,39.09090909090909,multipla
+instituicoes_cooperacao,ENFAM,Eleitoral,11,39,28.205128205128204,multipla
+instituicoes_cooperacao,ENFAM,Estadual,21,29,72.41379310344827,multipla
+instituicoes_cooperacao,ENFAM,Trabalho,4,26,15.384615384615383,multipla
+instituicoes_cooperacao,ENFAM,Federal,3,8,37.5,multipla
+instituicoes_cooperacao,ENFAM,Militar,1,5,20.0,multipla
+instituicoes_cooperacao,ENFAM,Superior/Conselho,3,3,100.0,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Nacional,34,110,30.90909090909091,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Eleitoral,3,39,7.6923076923076925,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Estadual,21,29,72.41379310344827,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Trabalho,5,26,19.23076923076923,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Federal,2,8,25.0,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Militar,1,5,20.0,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Superior/Conselho,2,3,66.66666666666667,multipla
+instituicoes_cooperacao,Organismos internacionais,Nacional,13,110,11.818181818181818,multipla
+instituicoes_cooperacao,Organismos internacionais,Eleitoral,0,39,0.0,multipla
+instituicoes_cooperacao,Organismos internacionais,Estadual,7,29,24.13793103448276,multipla
+instituicoes_cooperacao,Organismos internacionais,Trabalho,3,26,11.538461538461538,multipla
+instituicoes_cooperacao,Organismos internacionais,Federal,0,8,0.0,multipla
+instituicoes_cooperacao,Organismos internacionais,Militar,2,5,40.0,multipla
+instituicoes_cooperacao,Organismos internacionais,Superior/Conselho,1,3,33.333333333333336,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Nacional,8,110,7.272727272727272,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Eleitoral,6,39,15.384615384615383,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Estadual,0,29,0.0,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Trabalho,1,26,3.8461538461538463,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Federal,1,8,12.5,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Militar,0,5,0.0,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Superior/Conselho,0,3,0.0,multipla
+instituicoes_cooperacao,Outro (texto livre),Nacional,17,110,15.454545454545457,multipla
+instituicoes_cooperacao,Outro (texto livre),Eleitoral,5,39,12.82051282051282,multipla
+instituicoes_cooperacao,Outro (texto livre),Estadual,2,29,6.896551724137931,multipla
+instituicoes_cooperacao,Outro (texto livre),Trabalho,6,26,23.07692307692308,multipla
+instituicoes_cooperacao,Outro (texto livre),Federal,2,8,25.0,multipla
+instituicoes_cooperacao,Outro (texto livre),Militar,1,5,20.0,multipla
+instituicoes_cooperacao,Outro (texto livre),Superior/Conselho,1,3,33.333333333333336,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Nacional,98,110,89.0909090909091,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Eleitoral,32,39,82.05128205128206,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Estadual,27,29,93.10344827586206,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Trabalho,24,26,92.3076923076923,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Federal,7,8,87.5,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Militar,5,5,100.0,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Superior/Conselho,3,3,100.0,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Nacional,65,110,59.09090909090909,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Eleitoral,20,39,51.282051282051285,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Estadual,21,29,72.41379310344827,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Trabalho,18,26,69.23076923076923,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Federal,3,8,37.5,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Militar,1,5,20.0,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Superior/Conselho,2,3,66.66666666666667,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Nacional,58,110,52.72727272727273,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Eleitoral,16,39,41.02564102564103,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Estadual,18,29,62.06896551724138,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Trabalho,14,26,53.84615384615385,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Federal,3,8,37.5,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Militar,5,5,100.0,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Superior/Conselho,2,3,66.66666666666667,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Nacional,49,110,44.54545454545455,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Eleitoral,14,39,35.8974358974359,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Estadual,17,29,58.62068965517241,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Trabalho,9,26,34.61538461538461,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Federal,6,8,75.0,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Militar,1,5,20.0,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Superior/Conselho,2,3,66.66666666666667,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Nacional,32,110,29.09090909090909,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Eleitoral,5,39,12.82051282051282,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Estadual,13,29,44.82758620689656,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Trabalho,8,26,30.76923076923077,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Federal,2,8,25.0,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Militar,3,5,60.0,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Superior/Conselho,1,3,33.333333333333336,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Nacional,9,110,8.181818181818182,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Eleitoral,7,39,17.94871794871795,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Estadual,0,29,0.0,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Trabalho,1,26,3.8461538461538463,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Federal,1,8,12.5,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Militar,0,5,0.0,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Superior/Conselho,0,3,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Nacional,0,110,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Estadual,0,29,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Trabalho,0,26,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Federal,0,8,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Militar,0,5,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
