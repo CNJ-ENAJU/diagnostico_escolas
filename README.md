@@ -1,82 +1,67 @@
-# Painel do Diagnóstico Nacional das Unidades de Formação do Poder Judiciário
+# Painel Público do Diagnóstico Nacional das Unidades de Formação
 
 > **Conselho Nacional de Justiça (CNJ) · Escola Nacional do Judiciário (ENAJU)**  
 > Resolução CNJ nº 643/2025 · Ciclo 2025/2026
 
-Este painel interativo reflete com exatidão as análises, indicadores e dados apresentados no **Relatório Oficial** (`Diagnóstico das Escolas\04_Relatorio\_saida\relatorio.pdf`), consolidando os resultados das **110 unidades de formação** respondentes em **92 órgãos do Poder Judiciário**.
+Aplicação estática moderna, auditável e responsiva para exploração pública dos indicadores institucionais, tecnológicos e pedagógicos das **110 unidades de formação** do Poder Judiciário brasileiro em **92 órgãos**.
 
 ---
 
-## 🚀 Como Acessar o Painel
+## 🚀 Como Executar Localmente
 
-O painel foi disponibilizado em duas modalidades complementares para máxima flexibilidade:
+Qualquer desenvolvedor pode executar o projeto do zero sem necessidade de configurações complexas de servidor:
 
-### Modalidade 1: Painel Web Interativo Autocontido (`index.html`) — *Recomendado*
-* **Acesso imediato com 1 clique:** basta dar um duplo clique no arquivo [`abrir_painel.bat`](abrir_painel.bat) ou abrir diretamente o [`index.html`](index.html) em qualquer navegador web (Google Chrome, Microsoft Edge, Mozilla Firefox).
-* **100% Offline e Seguro:** Não requer instalação de Python, servidor web ou conexão com a internet. Toda a biblioteca gráfica (`Chart.js`) e a base de dados (`dados/dados_painel.js`) estão embutidas localmente.
-* **Downloads CSV Nativos:** Permite baixar qualquer visualização ou tabela exibida em tela em formato CSV (`UTF-8 com BOM`), pronto para abrir perfeitamente no Microsoft Excel sem desconfigurar acentuação.
+```bash
+# 1. Instalar as dependências do front-end
+npm install
 
-### Modalidade 2: Aplicação Python Streamlit (`app.py`)
-* Para executar via terminal ou ambiente de desenvolvimento:
-  ```powershell
-  cd "G:\Meu Drive\ENAJU\Diagnóstico das Escolas\06_Painel"
-  python -m streamlit run app.py
-  ```
-  Ou simplesmente execute o atalho [`iniciar_streamlit.bat`](iniciar_streamlit.bat).
+# 2. Gerar a camada pública sanitizada de dados (CSV e JSON)
+npm run data
 
----
+# 3. Rodar os testes de dados, privacidade e consistência com o relatório
+npm run test
 
-## 📊 Estrutura e Dimensões do Painel
+# 4. Iniciar o ambiente de desenvolvimento local
+npm run dev
 
-O painel é estruturado em **10 abas temáticas**, refletindo a organização capitular do relatório:
-
-1. **Visão Geral & Síntese:** Cartões com os principais números consolidados (N=110, 92 órgãos, 90 tribunais representados = 98,9%), os 6 Achados Centrais e o gráfico dos 12 Indicadores Estratégicos Nacionais.
-2. **Rede & Governança (Caps. 4 e 5):** Natureza institucional (escolas formadoras vs setores de RH), Planejamento Estratégico (Indicador A de 47,3% vs Indicador B de 68,2%), instrumentos normativos (PAC, Regimento, PPI, Colegiado) e arranjo orçamentário.
-3. **Capacidades Instaladas (Cap. 6):** Estrutura física disponível (salas, sede exclusiva, auditórios, estúdios EaD), quadro de pessoal por faixas (efetivos, comissionados, magistrados) e orçamento executado em 2025.
-4. **Ecossistema Digital (Cap. 7):** Plataformas AVA (95,5% de presença; 90% Moodle), capacidade de produção de EaD (equipes multidisciplinares vs produção parcial) e recursos educacionais digitais.
-5. **Corpo Docente & Formadores (Cap. 8):** Composição docente (magistrados, servidores, docentes externos), instrumentos formais de gestão docente (retribuição GECC, banco de talentos, avaliação) e programas de formação de formadores.
-6. **Avaliação da Formação (Cap. 9):** A Escada de Kirkpatrick (N1 Reação 97,3% → N2 Aprendizagem 72,7% → N3 Transferência 40,9% → N4 Impacto 34,5%), pesquisa com egressos e coerência avaliativa.
-7. **Agenda Formativa (Cap. 10):** Públicos-alvo atendidos em 2025, 17 áreas temáticas desenvolvidas e eixos prioritários para 2026 (destaque para Inteligência Artificial com 83,6%).
-8. **Cooperação & ENAJU (Cap. 11):** Parcerias formais vigentes, modalidades de cooperação e o amplo interesse das unidades na articulação em rede nacional coordenada pela ENAJU (99,1% de abertura positiva).
-9. **Comparador entre Ramos:** Seletor dinâmico para comparar lado a lado o comportamento de qualquer uma das 46 variáveis entre os 6 ramos de justiça.
-10. **Central de Downloads de Dados (CSV):** Repositório com 11 conjuntos de dados oficiais prontos para download com um clique.
-
----
-
-## 📥 Dados Abertos para Download (CSV)
-
-Todos os arquivos CSV estão salvos na pasta [`dados/`](dados/) com codificação `UTF-8 com BOM` (compatibilidade nativa com Excel):
-
-| Arquivo CSV | Registros | Descrição |
-|---|---|---|
-| [`indicadores_painel_completo.csv`](dados/indicadores_painel_completo.csv) | 1.296 linhas | Base completa com todas as variáveis, categorias, ramos (n, N e %). |
-| [`base_respostas_anonimizada.csv`](dados/base_respostas_anonimizada.csv) | 110 linhas | Microdados anonimizados por unidade respondente (códigos O01-O92). |
-| [`08_indicadores_sintese_nacionais.csv`](dados/08_indicadores_sintese_nacionais.csv) | 185 linhas | Recorte consolidado nacional de todos os indicadores (N=110). |
-| [`01_rede_e_governanca.csv`](dados/01_rede_e_governanca.csv) | 175 linhas | Dados de governança, planejamento, PAC, regimento e dotação. |
-| [`02_capacidades_instaladas.csv`](dados/02_capacidades_instaladas.csv) | 168 linhas | Estrutura física, quadro de pessoal e faixas orçamentárias. |
-| [`03_ecossistema_digital.csv`](dados/03_ecossistema_digital.csv) | 210 linhas | Plataformas AVA, tecnologias digitais e capacidade de EaD. |
-| [`04_corpo_docente_e_formadores.csv`](dados/04_corpo_docente_e_formadores.csv) | 147 linhas | Perfil dos docentes, gestão de formadores e cadastro. |
-| [`05_avaliacao_da_formacao.csv`](dados/05_avaliacao_da_formacao.csv) | 126 linhas | Níveis 1 a 4 de Kirkpatrick e pesquisa de impacto de egressos. |
-| [`06_agenda_formativa.csv`](dados/06_agenda_formativa.csv) | 280 linhas | Públicos formados, temáticas 2025 e eixos 2026. |
-| [`07_cooperacao_e_articulacao.csv`](dados/07_cooperacao_e_articulacao.csv) | 161 linhas | Acordos, modalidades de cooperação e integração com a ENAJU. |
-| [`distribuicao_territorial.csv`](dados/distribuicao_territorial.csv) | 85 linhas | Distribuição das sedes inferidas por UF proxy e ramo. |
-
----
-
-## 🛡️ Salvaguarda Metodológica de Pequenos Grupos (Regra R01.1)
-
-Conforme as diretrizes metodológicas do relatório oficial:
-* Os ramos com **N ≤ 10 unidades** (Justiça Federal com n=8, Justiça Militar com n=5 e Tribunais Superiores/Conselhos com n=3) têm seus resultados exibidos prioritariamente em **números absolutos** (`n de N`).
-* O painel exibe um aviso metodológico automático para alertar o usuário de que percentuais calculados sobre amostras pequenas podem induzir a leituras distorcidas e não devem ser interpretados como taxas populacionais generalizáveis.
-
----
-
-## 🔄 Como Atualizar os Dados do Painel
-
-Se o relatório for reprocessado via `04_Relatorio/scripts/renderizar_tudo.py` ou `preparar_dados_relatorio.py`, basta rodar o script de atualização do painel:
-
-```powershell
-cd "G:\Meu Drive\ENAJU\Diagnóstico das Escolas\06_Painel"
-python criar_painel_html.py
+# 5. Compilar para produção (gera pasta dist/)
+npm run build
 ```
-Esse comando atualizará instantaneamente todos os arquivos CSV e a base do painel web.
+
+---
+
+## 🏛️ Dimensões e Páginas do Painel
+
+1. **Início (Landing Page):** Visão institucional, métricas consolidadas e caminhos guiados de navegação.
+2. **Visão Geral:** Os 6 achados centrais e os 12 indicadores estratégicos nacionais.
+3. **Rede Nacional:** Mapa interativo das 27 UFs com bolhas temáticas e barras empilhadas UF × Ramo.
+4. **Governança:** Planejamento estratégico (Indicadores A e B), atos normativos, colegiados e arranjos orçamentários.
+5. **Capacidades Instaladas:** Estrutura física, quadro de servidores e faixas orçamentárias autodeclaradas.
+6. **Educação Digital:** Disponibilidade de AVA, liderança do Moodle (90,0%) e capacidade de produção EaD.
+7. **Formadores:** Cadastro de docentes, critérios de retribuição e formação continuada de formadores.
+8. **Avaliação da Formação:** A Escada de Kirkpatrick (N1 a N4), pesquisas com egressos e intensidade avaliativa.
+9. **Agenda Formativa:** Comparativo descritivo entre temáticas 2025 e eixos 2026 (não-comparáveis como série temporal).
+10. **Cooperação:** Convênios vigentes, modalidades de colaboração e interesse na articulação em rede pela ENAJU (99,1%).
+11. **Escolas (Diretório):** Consulta aberta com busca em tempo real e Drawer de perfil público de cada unidade.
+12. **Dados Abertos:** Download dos 6 conjuntos de dados em CSV (`UTF-8 com BOM`) e JSON, além de exportação filtrada.
+13. **Metodologia:** Decisões C02, salvaguarda de pequenos grupos (R01.1), teste de sensibilidade R110 e citação bibliográfica.
+14. **Sobre:** Fundamentos da Resolução CNJ nº 643/2025, atribuições da ENAJU e expediente institucional.
+
+---
+
+## 🛡️ Salvaguardas Metodológicas e Proteção de Dados (LGPD)
+
+* **Regra R01.1:** Ramos com $N \le 10$ unidades (Justiça Federal $n=8$, Justiça Militar $n=5$, Tribunais Superiores $n=3$) têm resultados exibidos exclusivamente em valores absolutos ($n \text{ de } N$). Filtros que resultem em $N < 10$ suprimem as visualizações desagregadas para proteger o sigilo estatístico.
+* **Privacidade Absoluta:** O front-end não tem acesso à base bruta e nenhum dado de contato pessoal (nome de respondente, email, telefone, assinatura) integra os arquivos públicos.
+* **Consistência Matemática:** 100% dos indicadores coincidem com o Relatório Oficial com diferença zero ($d = 0$).
+
+---
+
+## 📦 Documentação Técnica Detalhada
+
+* [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md): Visão de engenharia, stack e fluxo estático.
+* [`docs/DADOS.md`](docs/DADOS.md): Catálogo de arquivos e dicionário de variáveis públicas.
+* [`docs/PRIVACIDADE.md`](docs/PRIVACIDADE.md): Políticas de conformidade com a LGPD e testes de anonimização.
+* [`docs/POLITICA_GRUPOS_PEQUENOS.md`](docs/POLITICA_GRUPOS_PEQUENOS.md): Detalhamento da salvaguarda R01.1.
+* [`docs/DEPLOY.md`](docs/DEPLOY.md): CI/CD no GitHub Actions e instruções para deploy no portal da ENAJU.
+* [`docs/MANUTENCAO.md`](docs/MANUTENCAO.md): Rotinas de manutenção e atualização de dados.

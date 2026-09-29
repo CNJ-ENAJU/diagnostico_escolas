@@ -1,0 +1,32 @@
+﻿campo,tipo,descricao,valores_possiveis,origem
+id_unidade,Texto,Identificador anônimo único da unidade de formação respondente (R001 a R110).,R001–R110,Sistema
+escola_unidade,Texto,Denominação oficial da Escola Judicial ou Unidade de Formação.,Texto autodeclarado,Q1
+orgao,Texto,Nome do Tribunal ou Conselho vinculado.,Texto autodeclarado,Q2
+sigla_orgao,Texto,"Sigla oficial do órgão judicial (ex.: TRT5, TJSP, STJ).",Siglas do Poder Judiciário,C01
+uf,Texto,Unidade Federativa da sede institucional inferida da sigla (proxy cartográfico).,27 UFs brasileiras,Proxy cartográfico
+ramo,Texto,Ramo do Poder Judiciário (segmento analítico homologado). TJDFT alocado na Justiça Estadual.,"Eleitoral, Estadual, Trabalho, Federal, Militar, Superior/Conselho",Q8 / C02
+natureza,Texto,Natureza institucional da unidade de formação.,Escola formalmente instituída; Setor de capacitação (gestão de pessoas); Centro/núcleo sem natureza de escola,Q9 / C01
+ano_criacao,Numérico,Ano formal de criação ou instalação da unidade.,1900–2026,Q10
+site_escola,Texto,Endereço eletrônico (URL) institucional da unidade ou do tribunal.,URL,Q3
+planejamento,Texto,Situação do planejamento estratégico formalizado da unidade.,"Plano próprio vigente e formalizado; Plano próprio desatualizado/vencido; Em elaboração; Não possui; Adota o planejamento estratégico do tribunal; Apenas plano anual (PAC/PAT); Afirmativa em texto livre, sem especificação",Q11 / C01
+plan_A,Binário (0/1),Indicador A: Unidade possui plano próprio vigente e formalizado.,"0, 1",C02
+plan_B,Binário (0/1),"Indicador B: Unidade possui qualquer referência estratégica formal (próprio vigente, desatualizado, em elaboração ou do tribunal).","0, 1",C02
+dotacao,Texto,Arranjo orçamentário da unidade.,Rubrica orçamentária própria; Custeada por rubrica geral do tribunal; Rubrica específica de capacitação gerida pelo tribunal,Q13 / C01
+orcamento_faixa,Texto,Faixa de orçamento executado autodeclarado para o exercício 2025.,Até R$ 250 mil; R$ 250 mil a R$ 1 mi; R$ 1 mi a R$ 5 mi; Acima de R$ 5 mi; Sem informação consolidada,Q14 / C01
+instrumentos_governanca,Lista múltipla,Instrumentos normativos e colegiados formais vigentes.,Plano anual de capacitação (PAC); Ato normativo / Regimento interno; Projeto pedagógico institucional (PPI); Conselho ou colegiado formal,Q12
+estrutura_fisica,Lista múltipla,Espaços físicos dedicados ou disponíveis para as atividades formativas.,Sede / espaço próprio; Salas de aula; Auditório; Laboratório; Biblioteca; Estúdio audiovisual/EaD; Não dispõe de espaço dedicado,Q15
+efetivos_faixa,Texto ordinal,Quadro de servidores efetivos lotados na unidade.,Nenhum; 1 a 3; 4 a 10; Mais de 10,Q16
+comissionados_faixa,Texto ordinal,Quadro de ocupantes de cargos em comissão/funções de confiança.,Nenhum; 1 a 3; 4 a 10; Mais de 10; (sem resposta),Q17
+magistrados_gestao_faixa,Texto ordinal,Quadro de magistrados dedicados à gestão educacional.,Nenhum; 1 a 3; 4 a 10; Mais de 10; (sem resposta),Q18
+ava,Texto,Disponibilidade de Ambiente Virtual de Aprendizagem.,AVA próprio; AVA compartilhado com o tribunal; AVA de outra instituição; Sem AVA,Q26 / C01
+moodle,Binário (0/1),Indica menção ao software livre Moodle como plataforma AVA.,"0, 1",Q27 / C01
+capacidade_ead,Texto,Capacidade institucional para produção e gestão de cursos EaD.,Equipe multidisciplinar dedicada; Produção parcial com apoio de outras áreas; Não há capacidade própria de produção,Q29
+cadastro_formadores,Texto,Possui cadastro ou banco de talentos de docentes/formadores atualizado.,Sim; Não,Q33
+formacao_formadores,Texto,Iniciativas de formação continuada para docentes e formadores.,Programa permanente com certificação; Ações pontuais; Não desenvolve; Participação em eventos externos; Não se aplica,Q35 / C01
+n1_reacao,Texto ordinal,Frequência de aplicação da avaliação de nível 1 (Reação).,Na maioria das ações; Em parte das ações; Não aplica,Q37
+n2_aprendizagem,Texto ordinal,Frequência de aplicação da avaliação de nível 2 (Aprendizagem).,Na maioria das ações; Em parte das ações; Não aplica,Q37
+n3_transferencia,Texto ordinal,Frequência de aplicação da avaliação de nível 3 (Transferência/Comportamento no trabalho).,Na maioria das ações; Em parte das ações; Não aplica,Q37
+n4_impacto,Texto ordinal,Frequência de aplicação da avaliação de nível 4 (Impacto/Resultados organizacionais).,Na maioria das ações; Em parte das ações; Não aplica,Q37
+egressos,Texto,Realização de pesquisas de acompanhamento e impacto com egressos.,"Sim, de forma sistemática; Sim, de forma pontual; Não realiza",Q38
+parcerias,Texto,Manutenção de parcerias institucionais e acordos de cooperação.,"Sim, com convênios/acordos vigentes; Sim, com parcerias informais; Não mantém parcerias",Q40
+interesse_enaju,Texto,Interesse da unidade em integrar ações formativas em rede com a ENAJU/CNJ.,Alto; Moderado; Baixo,Q43 / C01

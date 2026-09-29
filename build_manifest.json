@@ -1,0 +1,24 @@
+{
+  "versao": "1.0.0",
+  "data_build": "2026-09-29T20:04:39.304001",
+  "commit_referencia": "9f726a63ef56efd41cfd6816a0d7aae84b03e11e",
+  "universo": {
+    "n_unidades": 110,
+    "n_orgaos": 92,
+    "n_indicadores_cortes": 1295
+  },
+  "hashes_dados_publicos": {
+    "diagnostico_unidades_publico.csv": "27d15b14f8cdfe7375d042dc25492e4314577e80b9101ec87b46d225249bf2cf",
+    "dicionario_dados_publicos.csv": "ccad4827614c0c884ba234266bb44932ecd1a43280fd8ffa8f21fc0dd0d2aa24",
+    "indicadores_nacionais.csv": "0bbeeeb48f4fc729607667ada0f1da6eed27f435b61835e4f7093c5d8b337f36",
+    "indicadores_painel_completo.csv": "f12022413be77205fa4c413793f5306128bbc7b4482cc79002002d7b8bf409d3",
+    "indicadores_por_ramo.csv": "dfb2fd915d7921ebff4f5ecdd3515b492fbd409dd875381f3a78cd21d9ce3152",
+    "indicadores_por_uf.csv": "ab52b4103393d556eb0dcf8d62d9cce654ba5e47600bfc5c23f19dada3ce7d53"
+  },
+  "resultado_testes": {
+    "testes_dados": "22/22 APROVADOS",
+    "teste_privacidade_lgpd": "PASSOU (0 PII detectado)",
+    "teste_consistencia_relatorio": "PASSOU (diferenca_n = 0, diferenca_pct = 0)"
+  },
+  "status": "BUILD_PRONTO_PRODUCAO"
+}

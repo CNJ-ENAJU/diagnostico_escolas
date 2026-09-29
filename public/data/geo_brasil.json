@@ -1,0 +1,1401 @@
+[
+  {
+    "uf": "AC",
+    "nome": "Acre",
+    "lat": -9.0,
+    "lon": -70.5,
+    "regiao": "Norte",
+    "n_unidades": 2,
+    "n_orgaos": 2,
+    "ramos": [
+      "Eleitoral",
+      "Estadual"
+    ],
+    "escolas_formais": 1,
+    "setores": 0,
+    "centros": 1,
+    "unidades": [
+      {
+        "id": "R109",
+        "escola": "Escola Judiciária Evandro Marques de Sousa",
+        "orgao": "TRE/ACRE",
+        "sigla": "TRE-AC",
+        "ramo": "Eleitoral",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      },
+      {
+        "id": "R038",
+        "escola": "ESJUD - Escola do Poder Judiciário do Acre",
+        "orgao": "Tribunal de Justiça do Estado do Acre",
+        "sigla": "TJAC",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "AL",
+    "nome": "Alagoas",
+    "lat": -9.6,
+    "lon": -36.6,
+    "regiao": "Nordeste",
+    "n_unidades": 2,
+    "n_orgaos": 2,
+    "ramos": [
+      "Eleitoral",
+      "Trabalho"
+    ],
+    "escolas_formais": 2,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R008",
+        "escola": "Escola Judiciária Eleitoral de Alagoas",
+        "orgao": "TRE-AL",
+        "sigla": "TRE-AL",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R084",
+        "escola": "Escola Judicial - EJUD19",
+        "orgao": "Tribunal Regional do Trabalho da 19ª Região - TRT19",
+        "sigla": "TRT19",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "AP",
+    "nome": "Amapá",
+    "lat": 1.4,
+    "lon": -51.8,
+    "regiao": "Norte",
+    "n_unidades": 2,
+    "n_orgaos": 2,
+    "ramos": [
+      "Eleitoral",
+      "Estadual"
+    ],
+    "escolas_formais": 2,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R001",
+        "escola": "ESCOLA JUDICIÁRIA ELEITORAL DO AMAPÁ",
+        "orgao": "Tribunal Regional Eleitoral do Amapá",
+        "sigla": "TRE-AP",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R016",
+        "escola": "Escola Judicial do Amapá",
+        "orgao": "Tribunal de Justiça do Amapá",
+        "sigla": "TJAP",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "AM",
+    "nome": "Amazonas",
+    "lat": -4.0,
+    "lon": -63.0,
+    "regiao": "Norte",
+    "n_unidades": 5,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 4,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R055",
+        "escola": "Escola Judiciária Eleitoral do Amazonas (EJE/AM)",
+        "orgao": "Tribunal Regional Eleitoral do Amazonas (TRE-AM)",
+        "sigla": "TRE-AM",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R087",
+        "escola": "SEÇÃO DE CAPACITAÇÃO - SECAP",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DO AMAZONAS - TRE-AM",
+        "sigla": "TRE-AM",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R078",
+        "escola": "Escola Superior da Magistratura do Amazonas",
+        "orgao": "Tribunal de Justiça do Estado do Amazonas",
+        "sigla": "TJAM",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R085",
+        "escola": "Escola Judicial do Tribunal de Justiça do Amazonas",
+        "orgao": "Tribunal de Justiça do Estado do Amazonas",
+        "sigla": "TJAM",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R076",
+        "escola": "Escola Judicial do Tribunal Regional da Trabalho da 11ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 11ª Região",
+        "sigla": "TRT11",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "BA",
+    "nome": "Bahia",
+    "lat": -12.5,
+    "lon": -41.7,
+    "regiao": "Nordeste",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R110",
+        "escola": "Escola Judiciária Eleitoral da Bahia",
+        "orgao": "Tribunal Regional Eleitoral da Bahia",
+        "sigla": "TRE-BA",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R032",
+        "escola": "Universidade Corporativa do Tribunal de Justiça do Estado da Bahia Ministro Hermes Lima",
+        "orgao": "Tribunal de Justiça do Estado da Bahia",
+        "sigla": "TJBA",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R030",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 5ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 5ª Região",
+        "sigla": "TRT5",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "CE",
+    "nome": "Ceará",
+    "lat": -5.2,
+    "lon": -39.5,
+    "regiao": "Nordeste",
+    "n_unidades": 5,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 1,
+    "centros": 1,
+    "unidades": [
+      {
+        "id": "R043",
+        "escola": "Escola Judiciária Eleitoral Cearense - EJEC",
+        "orgao": "Tribunal Regional Eleitoral do Ceará - TRE-CE",
+        "sigla": "TRE-CE",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R074",
+        "escola": "SEÇÃO DE DESENVOLVIMENTO ORGANIZACIONAL E CAPACITAÇÃO - SEDES",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DO CEARÁ - TRE/CE",
+        "sigla": "TRE-CE",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R057",
+        "escola": "Escola Superior da Magistratura",
+        "orgao": "Tribunal de Justiça do Estado do Ceará",
+        "sigla": "TJCE",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R094",
+        "escola": "Centro de Formação de Servidores do Poder Judiciário",
+        "orgao": "Tribunal de Justiça do Estado Ceará",
+        "sigla": "TJCE",
+        "ramo": "Estadual",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      },
+      {
+        "id": "R054",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 7ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 7ª Região",
+        "sigla": "TRT7",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "DF",
+    "nome": "Distrito Federal",
+    "lat": -15.8,
+    "lon": -47.9,
+    "regiao": "Centro-Oeste",
+    "n_unidades": 13,
+    "n_orgaos": 10,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Federal",
+      "Militar",
+      "Superior/Conselho",
+      "Trabalho"
+    ],
+    "escolas_formais": 6,
+    "setores": 3,
+    "centros": 4,
+    "unidades": [
+      {
+        "id": "R092",
+        "escola": "Escola Judiciária Eleitoral do Distrito Federal \"Rui Barbosa\"",
+        "orgao": "Tribunal Regional Eleitoral do Distrito Federal",
+        "sigla": "TRE-DF",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R107",
+        "escola": "Coordenadoria de Educação e Desenvolvimento (Coede)/Secretaria de Gestão de Pessoas",
+        "orgao": "Tribunal Superior Eleitoral",
+        "sigla": "TSE",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R108",
+        "escola": "Escola Judiciária Eleitoral (EJE)",
+        "orgao": "Tribunal Superior Eleitoral (TSE)",
+        "sigla": "TSE",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R068",
+        "escola": "Escola de Formação Judiciária do TJDFT - Ministro Luiz Vicente Cernicchiaro (EjuDFT)",
+        "orgao": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+        "sigla": "TJDFT",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R021",
+        "escola": "Cedap - Centro de Desenvolvimento e Aperfeiçaomento de Servidores",
+        "orgao": "TRF 1ª Região",
+        "sigla": "TRF1",
+        "ramo": "Federal",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      },
+      {
+        "id": "R036",
+        "escola": "ESCOLA DE MAGISTRATURA FEDERAL DA 1ª REGIÃO",
+        "orgao": "TRIBUNAL REGIONAL FEDERAL DA 1ª REGIÃO",
+        "sigla": "TRF1",
+        "ramo": "Federal",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R022",
+        "escola": "Escola Nacional de Formação e Aperfeiçoamento de Magistrados da Justiça Militar da União",
+        "orgao": "Superior Tribunal Militar",
+        "sigla": "STM",
+        "ramo": "Militar",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R103",
+        "escola": "Coordenadoria de Desenvolvimento e da Escola de Capacitação dos Servidores da JMU",
+        "orgao": "Superior Tribunal Militar -STM",
+        "sigla": "STM",
+        "ramo": "Militar",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R106",
+        "escola": "Centro de Estudos Judiciários - CEJ/CJF",
+        "orgao": "CJF",
+        "sigla": "CJF",
+        "ramo": "Superior/Conselho",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      },
+      {
+        "id": "R048",
+        "escola": "Centro de Educação Corporativa da Justiça do Trabalho de 1º e de 2º Graus - CEduc-JT",
+        "orgao": "Conselho Superior da Justiça do Trabalho",
+        "sigla": "CSJT",
+        "ramo": "Superior/Conselho",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R101",
+        "escola": "Centro de Formação e Gestão Judiciária (CEFOR)",
+        "orgao": "Superior Tribunal de Justiça (STJ)",
+        "sigla": "STJ",
+        "ramo": "Superior/Conselho",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      },
+      {
+        "id": "R031",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 10ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 10ª Região",
+        "sigla": "TRT10",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R093",
+        "escola": "Centro de Formação e Aperfeiçoamento de Assessores e Servidores do TST ",
+        "orgao": "Tribunal Superior do Trabalho",
+        "sigla": "TST",
+        "ramo": "Trabalho",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      }
+    ]
+  },
+  {
+    "uf": "ES",
+    "nome": "Espírito Santo",
+    "lat": -19.6,
+    "lon": -40.3,
+    "regiao": "Sudeste",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R004",
+        "escola": "Escola Judiciária Eleitoral do Espírito Santo \"Desembargador Antônio José Miguel Feu Rosa\"",
+        "orgao": "TRE-ES",
+        "sigla": "TRE-ES",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R090",
+        "escola": "Escola da Magistratura do Estado do Espírito Santo  - Emes",
+        "orgao": "Tribunal de Justiça do Estado do Espírito Santo (TJES)",
+        "sigla": "TJES",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R065",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 17a Região",
+        "orgao": "Tribunal Regional do Trabalho da 17a Região",
+        "sigla": "TRT17",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "GO",
+    "nome": "Goiás",
+    "lat": -16.3,
+    "lon": -49.4,
+    "regiao": "Centro-Oeste",
+    "n_unidades": 4,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R039",
+        "escola": "SEÇÃO DE CAPACITAÇÃO",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DE GOIÁS",
+        "sigla": "TRE-GO",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R064",
+        "escola": "Escola Judiciária Eleitoral de Goiás Desembargador José Soares de Castro",
+        "orgao": "Tribunal Regional Eleitoral de Goiás",
+        "sigla": "TRE-GO",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R010",
+        "escola": "Escola Judicial do Tribunal de Justiça do Estado de Goiás",
+        "orgao": "Tribunal de Justiça do Estado de Goiás",
+        "sigla": "TJGO",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R023",
+        "escola": "Escola Judicial ",
+        "orgao": "Tribunal Regional do Trabalho da 18ª Região",
+        "sigla": "TRT18",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "MA",
+    "nome": "Maranhão",
+    "lat": -5.0,
+    "lon": -45.0,
+    "regiao": "Nordeste",
+    "n_unidades": 4,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R009",
+        "escola": "Escola Judiciária Eleitoral do Maranhão",
+        "orgao": "Tribunal Regional Eleitoral do Maranhão",
+        "sigla": "TRE-MA",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R104",
+        "escola": "SEÇÃO DE CAPACITAÇÃO",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DO MARANHÃO",
+        "sigla": "TRE-MA",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R046",
+        "escola": "Escola Superior da Magistratura do Estado do Maranhão - ESMAM",
+        "orgao": "Tribunal de Justiça do Estado do Maranhão",
+        "sigla": "TJMA",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R025",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 16ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 16ª Região",
+        "sigla": "TRT16",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "MG",
+    "nome": "Minas Gerais",
+    "lat": -18.5,
+    "lon": -44.5,
+    "regiao": "Sudeste",
+    "n_unidades": 5,
+    "n_orgaos": 5,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Federal",
+      "Militar",
+      "Trabalho"
+    ],
+    "escolas_formais": 5,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R088",
+        "escola": "Escola Judiciária Eleitoral Ministro Sálvio de Figueiredo Teixeira ",
+        "orgao": "Tribunal Regional Eleitoral de Minas Gerais",
+        "sigla": "TRE-MG",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R035",
+        "escola": "Escola Judicial Desembargador Edésio Fernandes",
+        "orgao": "Tribunal de Justiça do Estado de Minas Gerais",
+        "sigla": "TJMG",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R026",
+        "escola": "Escola de Magistratura ",
+        "orgao": "Tribunal Regional Federal da 6ª Região",
+        "sigla": "TRF6",
+        "ramo": "Federal",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R067",
+        "escola": "Escola Judicial Militar",
+        "orgao": "Tribunal de Justiça Militar de Minas Gerais",
+        "sigla": "TJMMG",
+        "ramo": "Militar",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R086",
+        "escola": "Secretaria da Escola Judicial",
+        "orgao": "Tribunal Regional do Trabalho da 3ª Região – Minas Gerais",
+        "sigla": "TRT3",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "MS",
+    "nome": "Mato Grosso do Sul",
+    "lat": -20.5,
+    "lon": -54.5,
+    "regiao": "Centro-Oeste",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R052",
+        "escola": "ESCOLA JUDICIÁRIA ELEITORAL DE MATO GROSSO DO SUL",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DE MATO GROSSO DO SUL",
+        "sigla": "TRE-MS",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R105",
+        "escola": "Escola Judicial do Estado de Mato Grosso do Sul - EJUD-MS",
+        "orgao": "Tribunal de Justiça do Estado de Mato Grosso do Sul",
+        "sigla": "TJMS",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R062",
+        "escola": "ESCOLA JUDICIAL DO TRT 24ª REGIÃO",
+        "orgao": "TRIBUNAL REGIONAL DO TRABALHO 24ª REGIÃO",
+        "sigla": "TRT24",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "MT",
+    "nome": "Mato Grosso",
+    "lat": -13.0,
+    "lon": -56.0,
+    "regiao": "Centro-Oeste",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R012",
+        "escola": "Escola Judiciária Eleitoral",
+        "orgao": "Tribunal Regional Eleitoral de Mato Grosso",
+        "sigla": "TRE-MT",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R098",
+        "escola": "Escola dos Servidores do Poder Judiciário de Mato Grosso",
+        "orgao": "Tribunal de Justiça do Estado de Mato Grosso",
+        "sigla": "TJMT",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R050",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 23ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 23ª Região",
+        "sigla": "TRT23",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "PA",
+    "nome": "Pará",
+    "lat": -4.0,
+    "lon": -52.0,
+    "regiao": "Norte",
+    "n_unidades": 4,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R003",
+        "escola": "Escola Judiciária Eleitoral do Pará",
+        "orgao": "Tribunal Regional Eleitoral do Pará",
+        "sigla": "TRE-PA",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R037",
+        "escola": "ESCOLA JUDICIAL DO PODER JUDICIÁRIO DO ESTADO DO PARÁ - EJPA",
+        "orgao": "TRIBUNAL DE JUSTIÇA DO ESTADO DO PARÁ-TJPA",
+        "sigla": "TJPA",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R059",
+        "escola": "ESCOLA JUDICIAL DO TRT DA 8ª REGIÃO (EJUD8)",
+        "orgao": "TRIBUNAL REGIONAL DO TRABALHO DA 8ª REGIÃO (TRT8)",
+        "sigla": "TRT8",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R063",
+        "escola": "Escola de Capacitação Itair Sá da Silva - ECAISS ",
+        "orgao": "Tribunal do Trabalho da 8.ª Região",
+        "sigla": "TRT8",
+        "ramo": "Trabalho",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      }
+    ]
+  },
+  {
+    "uf": "PB",
+    "nome": "Paraíba",
+    "lat": -7.1,
+    "lon": -36.7,
+    "regiao": "Nordeste",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R034",
+        "escola": "Escola Judiciária Eleitoral da Paraíba \"Des. Flodoardo Lima da Silveira",
+        "orgao": "Tribunal Regiona Eleitoral da Paraíba",
+        "sigla": "TRE-PB",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R066",
+        "escola": "Escola Superior da Magistratura da Paraíba",
+        "orgao": "Tribunal de Justiça do Estado da Paraíba",
+        "sigla": "TJPB",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R058",
+        "escola": "ESCOLA JUDICIAL DO TRIBUNAL REGIONAL DO TRABALHO DA 13ª REGIÃO",
+        "orgao": "TRIBUNAL REGIONAL DO TRABALHO DA 13ª REGIÃO",
+        "sigla": "TRT13",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "PE",
+    "nome": "Pernambuco",
+    "lat": -8.3,
+    "lon": -37.8,
+    "regiao": "Nordeste",
+    "n_unidades": 5,
+    "n_orgaos": 4,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Federal",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 2,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R080",
+        "escola": "Escola Judiciária Eleitoral de Pernambuco",
+        "orgao": "Tribunal Regional Eleitoral de Pernambuco",
+        "sigla": "TRE-PE",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R081",
+        "escola": "SEÇÃO DE DESENVOLVIMENTO ORGANIZACIONAL E CAPACITAÇÃO",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DE PERNAMBUCO",
+        "sigla": "TRE-PE",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R017",
+        "escola": "Escola Judicial de Pernambuco - ESMAPE",
+        "orgao": "Tribunal de Justiça de Pernambuco",
+        "sigla": "TJPE",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R014",
+        "escola": "Divisão de Desenvolvimento Humano",
+        "orgao": "TRF5",
+        "sigla": "TRF5",
+        "ramo": "Federal",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R083",
+        "escola": "ESCOLA JUDICIAL DO TRT DA 6ª REGIÃO (EJUD-6)",
+        "orgao": "TRIBUNAL REGIONAL DO TRABALHO DA 6ª REGIÃO",
+        "sigla": "TRT6",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "PI",
+    "nome": "Piauí",
+    "lat": -7.0,
+    "lon": -42.8,
+    "regiao": "Nordeste",
+    "n_unidades": 4,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R029",
+        "escola": "Escola Judiciária Eleitoral do Piauí ",
+        "orgao": "Tribunal Regional Eleitoral do Piauí",
+        "sigla": "TRE-PI",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R033",
+        "escola": "Coordenadoria de Educação e Desenvolvimento",
+        "orgao": "Tribunal Regional Eleitoral do Estado do Piauí",
+        "sigla": "TRE-PI",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R013",
+        "escola": "Escola Judiciária do Estado do Piauí (EJUD/TJPI)",
+        "orgao": "Tribunal de Justiça do Estado Pauí",
+        "sigla": "TJPI",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R082",
+        "escola": "Escola Judicial do TRT da 22ª Região",
+        "orgao": "Tribunal Regional do Trabalho da 22ª Região",
+        "sigla": "TRT22",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "PR",
+    "nome": "Paraná",
+    "lat": -24.5,
+    "lon": -51.5,
+    "regiao": "Sul",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R019",
+        "escola": "Escola Judiciária Eleitoral do Paraná",
+        "orgao": "Tribunal Regional Eleitoral do Paraná",
+        "sigla": "TRE-PR",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R020",
+        "escola": "escola Judicial do paraná",
+        "orgao": "TRIBUNAL DE JUSTIÇA DO PARANÁ",
+        "sigla": "TJPR",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R096",
+        "escola": "ESCOLA JUDICIAL DO TRIBUNAL REGIONAL DO TRABALHO DA 9ª REGIÃO",
+        "orgao": "TRIBUNAL REGIONAL DO TRABALHO DA 9ª REGIÃO",
+        "sigla": "TRT9",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "RJ",
+    "nome": "Rio de Janeiro",
+    "lat": -22.3,
+    "lon": -43.2,
+    "regiao": "Sudeste",
+    "n_unidades": 6,
+    "n_orgaos": 4,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Federal",
+      "Trabalho"
+    ],
+    "escolas_formais": 4,
+    "setores": 2,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R070",
+        "escola": "Escola Judiciária Eleitoral Desembargador Roberto Felinto",
+        "orgao": "Tribunal Regional Eleitoral do Estado do Rio de Janeiro ",
+        "sigla": "TRE-RJ",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R091",
+        "escola": "Seção de Educação Corporativa - SEDCOR",
+        "orgao": "TRibunal Regional Eleitoral do Rio de Janeiro",
+        "sigla": "TRE-RJ",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R040",
+        "escola": "Escola de Administração Judiciária",
+        "orgao": "Tribunal de Justiça do Estado do Rio de Janeiro",
+        "sigla": "TJRJ",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R061",
+        "escola": "ESCOLA DE MEDIAÇÃO DO ESTADO DO RIO DE JANEIRO ",
+        "orgao": "TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO DE JANEIRO",
+        "sigla": "TJRJ",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R097",
+        "escola": "Divisão de Desenvolvimento de Pessoas, Estratégia e Relatórios",
+        "orgao": "Tribunal Regional Federal da 2ª Região",
+        "sigla": "TRF2",
+        "ramo": "Federal",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R071",
+        "escola": "ESCOLA JUDICIAL DO TRIBUNAL REGIONAL DO TRABALHO DA PRIMEIRA REGIÃO",
+        "orgao": "TRIBUNAL REGIONAL DO TRABALHO DA PRIMEIRA REGIÃO",
+        "sigla": "TRT1",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "RN",
+    "nome": "Rio Grande do Norte",
+    "lat": -5.7,
+    "lon": -36.6,
+    "regiao": "Nordeste",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R047",
+        "escola": "Escola Judiciária Eleitoral Celina Guimarães Viana do Rio Grande do Norte",
+        "orgao": "TRE/RN",
+        "sigla": "TRE-RN",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R077",
+        "escola": "Escola da Magistratura do Rio Grande do Norte (Esmarn)",
+        "orgao": "Tribunal de Justiça do Estado do Rio Grande do Norte",
+        "sigla": "TJRN",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R079",
+        "escola": "Secretaria da Escola Judicial",
+        "orgao": "Tribunal Regional do Trabalho da 21ª Região",
+        "sigla": "TRT21",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "RO",
+    "nome": "Rondônia",
+    "lat": -11.0,
+    "lon": -63.0,
+    "regiao": "Norte",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 2,
+    "setores": 0,
+    "centros": 1,
+    "unidades": [
+      {
+        "id": "R005",
+        "escola": "ESCOLA JUDICIÁRIA ELEITORAL DE RONDÔNIA",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DE RONDÔNIA",
+        "sigla": "TRE-RO",
+        "ramo": "Eleitoral",
+        "natureza": "Centro/núcleo sem natureza de escola"
+      },
+      {
+        "id": "R028",
+        "escola": "Escola da Magistratura do Estado de Rondônia - Emeron",
+        "orgao": "Tribunal de Justiça do Estado de Rondônia",
+        "sigla": "TJRO",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R018",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 14ª Região ",
+        "orgao": "Tribunal Regional do Trabalho de Rondônia e Acre",
+        "sigla": "TRT14",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "RR",
+    "nome": "Roraima",
+    "lat": 2.0,
+    "lon": -61.3,
+    "regiao": "Norte",
+    "n_unidades": 2,
+    "n_orgaos": 2,
+    "ramos": [
+      "Eleitoral",
+      "Estadual"
+    ],
+    "escolas_formais": 2,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R072",
+        "escola": "Escola Judicária Eleitoral de Roraima",
+        "orgao": "Tribunal Regional Eleitoral de Roraima",
+        "sigla": "TRE-RR",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R002",
+        "escola": "Escola Judicial de Roraima",
+        "orgao": "Tribunal de Justiça do Estado de Roraima",
+        "sigla": "TJRR",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "RS",
+    "nome": "Rio Grande do Sul",
+    "lat": -30.0,
+    "lon": -51.0,
+    "regiao": "Sul",
+    "n_unidades": 5,
+    "n_orgaos": 5,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Federal",
+      "Militar",
+      "Trabalho"
+    ],
+    "escolas_formais": 5,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R011",
+        "escola": "Escola Judiciária Eleitoral Ministro Paulo Brossard de Souza Pinto",
+        "orgao": "TRE-RS",
+        "sigla": "TRE-RS",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R069",
+        "escola": "Centro de Formação e Desenvolvimento de Pessoas do Poder Judiciário do RS – CJUD/DICAF",
+        "orgao": "Tribunal de Justiça do Rio Grande do Sul",
+        "sigla": "TJRS",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R006",
+        "escola": "ESCOLA DE MAGISTRADOS E SERVIDORES DO TRF4",
+        "orgao": "TRIBUNAL REGIONAL FEDERAL DA 4ª REGIÃO",
+        "sigla": "TRF4",
+        "ramo": "Federal",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R056",
+        "escola": "Escola Juiz Coronel Antonio Claudio Barcellos de Abreu",
+        "orgao": "Tribunal de Justiça Militar do Estado do Rio Grande do Sul",
+        "sigla": "TJMRS",
+        "ramo": "Militar",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R100",
+        "escola": "Escola Judicial do TRT4",
+        "orgao": "Tribunal Regional do Trabalho da 4ª Região",
+        "sigla": "TRT4",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "SC",
+    "nome": "Santa Catarina",
+    "lat": -27.2,
+    "lon": -49.5,
+    "regiao": "Sul",
+    "n_unidades": 3,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 0,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R099",
+        "escola": "Escola Judiciária Eleitoral de Santa Catarina",
+        "orgao": "Tribunal Regional Eleitoral de Santa Catarina",
+        "sigla": "TRE-SC",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R042",
+        "escola": "Academia Judicial do Poder Judiciário de Santa Catarina",
+        "orgao": "Tribunal de Justiça do Estado de Santa Catarina",
+        "sigla": "TJSC",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R044",
+        "escola": "Escola Judicial do TRT12",
+        "orgao": "Tribunal Regional do Trabalho da 12ª Região",
+        "sigla": "TRT12",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "SE",
+    "nome": "Sergipe",
+    "lat": -10.7,
+    "lon": -37.3,
+    "regiao": "Nordeste",
+    "n_unidades": 4,
+    "n_orgaos": 3,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Trabalho"
+    ],
+    "escolas_formais": 3,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R045",
+        "escola": "Escola Judiciária Eleitoral de Sergipe",
+        "orgao": "Tribunal Regional Eleitoral de Sergipe",
+        "sigla": "TRE-SE",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R075",
+        "escola": "SEÇÃO DE DESENVOLVIMENTO DE COMPETÊNCIAS - SEDEC",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DE SERGIPE",
+        "sigla": "TRE-SE",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R073",
+        "escola": "Escola Judicial do Estado de Sergipe - Ejuse",
+        "orgao": "Tribunal de Justiça do Estado de Sergipe",
+        "sigla": "TJSE",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R053",
+        "escola": "Escola Judicial do Tribunal Regional da 20a Região",
+        "orgao": "Tribunal Regional da 20a Região",
+        "sigla": "TRT20",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "SP",
+    "nome": "São Paulo",
+    "lat": -22.4,
+    "lon": -48.5,
+    "regiao": "Sudeste",
+    "n_unidades": 8,
+    "n_orgaos": 6,
+    "ramos": [
+      "Eleitoral",
+      "Estadual",
+      "Federal",
+      "Militar",
+      "Trabalho"
+    ],
+    "escolas_formais": 6,
+    "setores": 2,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R095",
+        "escola": "SEÇÃO DE GESTÃO DO CONHECIMENTO E SEÇÃO DE EDUCAÇÃO A DISTÂNCIA",
+        "orgao": "TRIBUNAL REGIONAL ELEITORAL DE SÃO PAULO",
+        "sigla": "TRE-SP",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R102",
+        "escola": "Escola Judiciária Eleitoral Paulista (EJEP)",
+        "orgao": "Tribunal Regional Eleitoral de São Paulo (TRE/SP)",
+        "sigla": "TRE-SP",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R051",
+        "escola": "Escola Judicial dos Servidores - EJUS",
+        "orgao": "Tribunal de Justiça do Estado de São Paulo",
+        "sigla": "TJSP",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R041",
+        "escola": "Escola de Formação e Aperfeiçoamento de Servidores-DIES",
+        "orgao": "Seção Judiciária de São Paulo (TRF3)",
+        "sigla": "TRF3",
+        "ramo": "Federal",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R049",
+        "escola": "Núcleo da Escola de Servidores - TRF3",
+        "orgao": "Tribunal Regional Federal da 3ª Região",
+        "sigla": "TRF3",
+        "ramo": "Federal",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R007",
+        "escola": "Escola Judiciária Militar do Estado de SP",
+        "orgao": "Tribunal de Justiça Militar do Estado de SP",
+        "sigla": "TJMSP",
+        "ramo": "Militar",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R027",
+        "escola": "Escola Judicial",
+        "orgao": "Tribunal Regional do Trabalho da 15ª Região",
+        "sigla": "TRT15",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R089",
+        "escola": "Escola Judicial do Tribunal Regional do Trabalho da 2a. Região",
+        "orgao": "Tribunal Regional do Trabalho da 2a. Região",
+        "sigla": "TRT2",
+        "ramo": "Trabalho",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  },
+  {
+    "uf": "TO",
+    "nome": "Tocantins",
+    "lat": -10.2,
+    "lon": -48.3,
+    "regiao": "Norte",
+    "n_unidades": 3,
+    "n_orgaos": 2,
+    "ramos": [
+      "Eleitoral",
+      "Estadual"
+    ],
+    "escolas_formais": 2,
+    "setores": 1,
+    "centros": 0,
+    "unidades": [
+      {
+        "id": "R015",
+        "escola": "Escola Judiciária Eleitoral Ministro Humberto Gomes de Barros",
+        "orgao": "Tribunal Regional Eleitoral do Tocantins",
+        "sigla": "TRE-TO",
+        "ramo": "Eleitoral",
+        "natureza": "Escola formalmente instituída"
+      },
+      {
+        "id": "R024",
+        "escola": "SECAP/COEDE - Seção de Capacitação / Coordenadoria de Educação e Desenvolvimento",
+        "orgao": "Tribunal Regional Eleitoral do Tocantins",
+        "sigla": "TRE-TO",
+        "ramo": "Eleitoral",
+        "natureza": "Setor de capacitação (gestão de pessoas)"
+      },
+      {
+        "id": "R060",
+        "escola": "Escola Superior da Magistratura Tocantinense (ESMAT)",
+        "orgao": "Tribunal de Justiça do Estado do Tocantins - TJTO",
+        "sigla": "TJTO",
+        "ramo": "Estadual",
+        "natureza": "Escola formalmente instituída"
+      }
+    ]
+  }
+]

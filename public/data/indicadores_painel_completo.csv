@@ -1,0 +1,1296 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+natureza,Escola formalmente instituída,Nacional,86,110,78.18181818181819,unica
+natureza,Escola formalmente instituída,Eleitoral,26,39,66.66666666666667,unica
+natureza,Escola formalmente instituída,Estadual,28,29,96.55172413793105,unica
+natureza,Escola formalmente instituída,Trabalho,24,26,92.3076923076923,unica
+natureza,Escola formalmente instituída,Federal,4,8,50.0,unica
+natureza,Escola formalmente instituída,Militar,4,5,80.0,unica
+natureza,Escola formalmente instituída,Superior/Conselho,0,3,0.0,unica
+natureza,Setor de capacitação (gestão de pessoas),Nacional,17,110,15.454545454545457,unica
+natureza,Setor de capacitação (gestão de pessoas),Eleitoral,11,39,28.205128205128204,unica
+natureza,Setor de capacitação (gestão de pessoas),Estadual,0,29,0.0,unica
+natureza,Setor de capacitação (gestão de pessoas),Trabalho,1,26,3.8461538461538463,unica
+natureza,Setor de capacitação (gestão de pessoas),Federal,3,8,37.5,unica
+natureza,Setor de capacitação (gestão de pessoas),Militar,1,5,20.0,unica
+natureza,Setor de capacitação (gestão de pessoas),Superior/Conselho,1,3,33.333333333333336,unica
+natureza,Centro/núcleo sem natureza de escola,Nacional,7,110,6.363636363636363,unica
+natureza,Centro/núcleo sem natureza de escola,Eleitoral,2,39,5.128205128205129,unica
+natureza,Centro/núcleo sem natureza de escola,Estadual,1,29,3.4482758620689653,unica
+natureza,Centro/núcleo sem natureza de escola,Trabalho,1,26,3.8461538461538463,unica
+natureza,Centro/núcleo sem natureza de escola,Federal,1,8,12.5,unica
+natureza,Centro/núcleo sem natureza de escola,Militar,0,5,0.0,unica
+natureza,Centro/núcleo sem natureza de escola,Superior/Conselho,2,3,66.66666666666667,unica
+planejamento,Plano próprio vigente e formalizado,Nacional,52,110,47.27272727272727,unica
+planejamento,Plano próprio vigente e formalizado,Eleitoral,11,39,28.205128205128204,unica
+planejamento,Plano próprio vigente e formalizado,Estadual,16,29,55.172413793103445,unica
+planejamento,Plano próprio vigente e formalizado,Trabalho,16,26,61.53846153846154,unica
+planejamento,Plano próprio vigente e formalizado,Federal,5,8,62.5,unica
+planejamento,Plano próprio vigente e formalizado,Militar,3,5,60.0,unica
+planejamento,Plano próprio vigente e formalizado,Superior/Conselho,1,3,33.333333333333336,unica
+planejamento,Plano próprio desatualizado/vencido,Nacional,7,110,6.363636363636363,unica
+planejamento,Plano próprio desatualizado/vencido,Eleitoral,1,39,2.5641025641025643,unica
+planejamento,Plano próprio desatualizado/vencido,Estadual,4,29,13.79310344827586,unica
+planejamento,Plano próprio desatualizado/vencido,Trabalho,0,26,0.0,unica
+planejamento,Plano próprio desatualizado/vencido,Federal,1,8,12.5,unica
+planejamento,Plano próprio desatualizado/vencido,Militar,0,5,0.0,unica
+planejamento,Plano próprio desatualizado/vencido,Superior/Conselho,1,3,33.333333333333336,unica
+planejamento,Em elaboração,Nacional,11,110,10.0,unica
+planejamento,Em elaboração,Eleitoral,3,39,7.6923076923076925,unica
+planejamento,Em elaboração,Estadual,5,29,17.24137931034483,unica
+planejamento,Em elaboração,Trabalho,1,26,3.8461538461538463,unica
+planejamento,Em elaboração,Federal,0,8,0.0,unica
+planejamento,Em elaboração,Militar,2,5,40.0,unica
+planejamento,Em elaboração,Superior/Conselho,0,3,0.0,unica
+planejamento,Não possui,Nacional,31,110,28.181818181818183,unica
+planejamento,Não possui,Eleitoral,18,39,46.15384615384615,unica
+planejamento,Não possui,Estadual,3,29,10.344827586206897,unica
+planejamento,Não possui,Trabalho,7,26,26.923076923076923,unica
+planejamento,Não possui,Federal,2,8,25.0,unica
+planejamento,Não possui,Militar,0,5,0.0,unica
+planejamento,Não possui,Superior/Conselho,1,3,33.333333333333336,unica
+planejamento,Adota o planejamento estratégico do tribunal,Nacional,5,110,4.545454545454546,unica
+planejamento,Adota o planejamento estratégico do tribunal,Eleitoral,3,39,7.6923076923076925,unica
+planejamento,Adota o planejamento estratégico do tribunal,Estadual,1,29,3.4482758620689653,unica
+planejamento,Adota o planejamento estratégico do tribunal,Trabalho,1,26,3.8461538461538463,unica
+planejamento,Adota o planejamento estratégico do tribunal,Federal,0,8,0.0,unica
+planejamento,Adota o planejamento estratégico do tribunal,Militar,0,5,0.0,unica
+planejamento,Adota o planejamento estratégico do tribunal,Superior/Conselho,0,3,0.0,unica
+planejamento,Apenas plano anual (PAC/PAT),Nacional,3,110,2.727272727272727,unica
+planejamento,Apenas plano anual (PAC/PAT),Eleitoral,2,39,5.128205128205129,unica
+planejamento,Apenas plano anual (PAC/PAT),Estadual,0,29,0.0,unica
+planejamento,Apenas plano anual (PAC/PAT),Trabalho,1,26,3.8461538461538463,unica
+planejamento,Apenas plano anual (PAC/PAT),Federal,0,8,0.0,unica
+planejamento,Apenas plano anual (PAC/PAT),Militar,0,5,0.0,unica
+planejamento,Apenas plano anual (PAC/PAT),Superior/Conselho,0,3,0.0,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Nacional,1,110,0.9090909090909092,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Eleitoral,1,39,2.5641025641025643,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Estadual,0,29,0.0,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Trabalho,0,26,0.0,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Federal,0,8,0.0,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Militar,0,5,0.0,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Superior/Conselho,0,3,0.0,unica
+dotacao,Rubrica orçamentária própria,Nacional,95,110,86.36363636363636,unica
+dotacao,Rubrica orçamentária própria,Eleitoral,34,39,87.17948717948718,unica
+dotacao,Rubrica orçamentária própria,Estadual,23,29,79.3103448275862,unica
+dotacao,Rubrica orçamentária própria,Trabalho,26,26,100.0,unica
+dotacao,Rubrica orçamentária própria,Federal,7,8,87.5,unica
+dotacao,Rubrica orçamentária própria,Militar,3,5,60.0,unica
+dotacao,Rubrica orçamentária própria,Superior/Conselho,2,3,66.66666666666667,unica
+dotacao,Custeada por rubrica geral do tribunal,Nacional,12,110,10.909090909090908,unica
+dotacao,Custeada por rubrica geral do tribunal,Eleitoral,4,39,10.256410256410255,unica
+dotacao,Custeada por rubrica geral do tribunal,Estadual,5,29,17.24137931034483,unica
+dotacao,Custeada por rubrica geral do tribunal,Trabalho,0,26,0.0,unica
+dotacao,Custeada por rubrica geral do tribunal,Federal,0,8,0.0,unica
+dotacao,Custeada por rubrica geral do tribunal,Militar,2,5,40.0,unica
+dotacao,Custeada por rubrica geral do tribunal,Superior/Conselho,1,3,33.333333333333336,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Nacional,3,110,2.727272727272727,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Eleitoral,1,39,2.5641025641025643,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Estadual,1,29,3.4482758620689653,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Trabalho,0,26,0.0,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Federal,1,8,12.5,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Militar,0,5,0.0,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Superior/Conselho,0,3,0.0,unica
+orcamento,Até R$ 250 mil,Nacional,17,110,15.454545454545457,unica
+orcamento,Até R$ 250 mil,Eleitoral,13,39,33.333333333333336,unica
+orcamento,Até R$ 250 mil,Estadual,2,29,6.896551724137931,unica
+orcamento,Até R$ 250 mil,Trabalho,0,26,0.0,unica
+orcamento,Até R$ 250 mil,Federal,1,8,12.5,unica
+orcamento,Até R$ 250 mil,Militar,1,5,20.0,unica
+orcamento,Até R$ 250 mil,Superior/Conselho,0,3,0.0,unica
+orcamento,R$ 250 mil a R$ 1 mi,Nacional,41,110,37.27272727272727,unica
+orcamento,R$ 250 mil a R$ 1 mi,Eleitoral,24,39,61.53846153846154,unica
+orcamento,R$ 250 mil a R$ 1 mi,Estadual,2,29,6.896551724137931,unica
+orcamento,R$ 250 mil a R$ 1 mi,Trabalho,9,26,34.61538461538461,unica
+orcamento,R$ 250 mil a R$ 1 mi,Federal,3,8,37.5,unica
+orcamento,R$ 250 mil a R$ 1 mi,Militar,2,5,40.0,unica
+orcamento,R$ 250 mil a R$ 1 mi,Superior/Conselho,1,3,33.333333333333336,unica
+orcamento,R$ 1 mi a R$ 5 mi,Nacional,39,110,35.45454545454545,unica
+orcamento,R$ 1 mi a R$ 5 mi,Eleitoral,1,39,2.5641025641025643,unica
+orcamento,R$ 1 mi a R$ 5 mi,Estadual,14,29,48.27586206896552,unica
+orcamento,R$ 1 mi a R$ 5 mi,Trabalho,17,26,65.38461538461539,unica
+orcamento,R$ 1 mi a R$ 5 mi,Federal,4,8,50.0,unica
+orcamento,R$ 1 mi a R$ 5 mi,Militar,1,5,20.0,unica
+orcamento,R$ 1 mi a R$ 5 mi,Superior/Conselho,2,3,66.66666666666667,unica
+orcamento,Acima de R$ 5 mi,Nacional,11,110,10.0,unica
+orcamento,Acima de R$ 5 mi,Eleitoral,0,39,0.0,unica
+orcamento,Acima de R$ 5 mi,Estadual,11,29,37.93103448275862,unica
+orcamento,Acima de R$ 5 mi,Trabalho,0,26,0.0,unica
+orcamento,Acima de R$ 5 mi,Federal,0,8,0.0,unica
+orcamento,Acima de R$ 5 mi,Militar,0,5,0.0,unica
+orcamento,Acima de R$ 5 mi,Superior/Conselho,0,3,0.0,unica
+orcamento,Sem informação consolidada,Nacional,2,110,1.818181818181818,unica
+orcamento,Sem informação consolidada,Eleitoral,1,39,2.5641025641025643,unica
+orcamento,Sem informação consolidada,Estadual,0,29,0.0,unica
+orcamento,Sem informação consolidada,Trabalho,0,26,0.0,unica
+orcamento,Sem informação consolidada,Federal,0,8,0.0,unica
+orcamento,Sem informação consolidada,Militar,1,5,20.0,unica
+orcamento,Sem informação consolidada,Superior/Conselho,0,3,0.0,unica
+efetivos,Nenhum,Nacional,1,110,0.9090909090909092,unica
+efetivos,Nenhum,Eleitoral,0,39,0.0,unica
+efetivos,Nenhum,Estadual,0,29,0.0,unica
+efetivos,Nenhum,Trabalho,0,26,0.0,unica
+efetivos,Nenhum,Federal,0,8,0.0,unica
+efetivos,Nenhum,Militar,1,5,20.0,unica
+efetivos,Nenhum,Superior/Conselho,0,3,0.0,unica
+efetivos,1 a 3,Nacional,23,110,20.90909090909091,unica
+efetivos,1 a 3,Eleitoral,14,39,35.8974358974359,unica
+efetivos,1 a 3,Estadual,5,29,17.24137931034483,unica
+efetivos,1 a 3,Trabalho,1,26,3.8461538461538463,unica
+efetivos,1 a 3,Federal,1,8,12.5,unica
+efetivos,1 a 3,Militar,2,5,40.0,unica
+efetivos,1 a 3,Superior/Conselho,0,3,0.0,unica
+efetivos,4 a 10,Nacional,45,110,40.90909090909091,unica
+efetivos,4 a 10,Eleitoral,19,39,48.71794871794872,unica
+efetivos,4 a 10,Estadual,6,29,20.689655172413797,unica
+efetivos,4 a 10,Trabalho,13,26,50.0,unica
+efetivos,4 a 10,Federal,6,8,75.0,unica
+efetivos,4 a 10,Militar,0,5,0.0,unica
+efetivos,4 a 10,Superior/Conselho,1,3,33.333333333333336,unica
+efetivos,Mais de 10,Nacional,41,110,37.27272727272727,unica
+efetivos,Mais de 10,Eleitoral,6,39,15.384615384615383,unica
+efetivos,Mais de 10,Estadual,18,29,62.06896551724138,unica
+efetivos,Mais de 10,Trabalho,12,26,46.15384615384615,unica
+efetivos,Mais de 10,Federal,1,8,12.5,unica
+efetivos,Mais de 10,Militar,2,5,40.0,unica
+efetivos,Mais de 10,Superior/Conselho,2,3,66.66666666666667,unica
+comissionados,Nenhum,Nacional,1,110,0.9090909090909092,unica
+comissionados,Nenhum,Eleitoral,0,39,0.0,unica
+comissionados,Nenhum,Estadual,0,29,0.0,unica
+comissionados,Nenhum,Trabalho,1,26,3.8461538461538463,unica
+comissionados,Nenhum,Federal,0,8,0.0,unica
+comissionados,Nenhum,Militar,0,5,0.0,unica
+comissionados,Nenhum,Superior/Conselho,0,3,0.0,unica
+comissionados,1 a 3,Nacional,37,110,33.63636363636363,unica
+comissionados,1 a 3,Eleitoral,22,39,56.41025641025641,unica
+comissionados,1 a 3,Estadual,3,29,10.344827586206897,unica
+comissionados,1 a 3,Trabalho,7,26,26.923076923076923,unica
+comissionados,1 a 3,Federal,2,8,25.0,unica
+comissionados,1 a 3,Militar,3,5,60.0,unica
+comissionados,1 a 3,Superior/Conselho,0,3,0.0,unica
+comissionados,4 a 10,Nacional,47,110,42.72727272727273,unica
+comissionados,4 a 10,Eleitoral,13,39,33.333333333333336,unica
+comissionados,4 a 10,Estadual,12,29,41.37931034482759,unica
+comissionados,4 a 10,Trabalho,14,26,53.84615384615385,unica
+comissionados,4 a 10,Federal,6,8,75.0,unica
+comissionados,4 a 10,Militar,0,5,0.0,unica
+comissionados,4 a 10,Superior/Conselho,2,3,66.66666666666667,unica
+comissionados,Mais de 10,Nacional,22,110,20.0,unica
+comissionados,Mais de 10,Eleitoral,1,39,2.5641025641025643,unica
+comissionados,Mais de 10,Estadual,14,29,48.27586206896552,unica
+comissionados,Mais de 10,Trabalho,4,26,15.384615384615383,unica
+comissionados,Mais de 10,Federal,0,8,0.0,unica
+comissionados,Mais de 10,Militar,2,5,40.0,unica
+comissionados,Mais de 10,Superior/Conselho,1,3,33.333333333333336,unica
+comissionados,(sem resposta),Nacional,3,110,2.727272727272727,unica
+comissionados,(sem resposta),Eleitoral,3,39,7.6923076923076925,unica
+comissionados,(sem resposta),Estadual,0,29,0.0,unica
+comissionados,(sem resposta),Trabalho,0,26,0.0,unica
+comissionados,(sem resposta),Federal,0,8,0.0,unica
+comissionados,(sem resposta),Militar,0,5,0.0,unica
+comissionados,(sem resposta),Superior/Conselho,0,3,0.0,unica
+magistrados_gestao,Nenhum,Nacional,24,110,21.818181818181817,unica
+magistrados_gestao,Nenhum,Eleitoral,11,39,28.205128205128204,unica
+magistrados_gestao,Nenhum,Estadual,5,29,17.24137931034483,unica
+magistrados_gestao,Nenhum,Trabalho,2,26,7.6923076923076925,unica
+magistrados_gestao,Nenhum,Federal,3,8,37.5,unica
+magistrados_gestao,Nenhum,Militar,1,5,20.0,unica
+magistrados_gestao,Nenhum,Superior/Conselho,2,3,66.66666666666667,unica
+magistrados_gestao,1 a 3,Nacional,70,110,63.63636363636363,unica
+magistrados_gestao,1 a 3,Eleitoral,24,39,61.53846153846154,unica
+magistrados_gestao,1 a 3,Estadual,17,29,58.62068965517241,unica
+magistrados_gestao,1 a 3,Trabalho,20,26,76.92307692307692,unica
+magistrados_gestao,1 a 3,Federal,4,8,50.0,unica
+magistrados_gestao,1 a 3,Militar,4,5,80.0,unica
+magistrados_gestao,1 a 3,Superior/Conselho,1,3,33.333333333333336,unica
+magistrados_gestao,4 a 10,Nacional,9,110,8.181818181818182,unica
+magistrados_gestao,4 a 10,Eleitoral,1,39,2.5641025641025643,unica
+magistrados_gestao,4 a 10,Estadual,4,29,13.79310344827586,unica
+magistrados_gestao,4 a 10,Trabalho,4,26,15.384615384615383,unica
+magistrados_gestao,4 a 10,Federal,0,8,0.0,unica
+magistrados_gestao,4 a 10,Militar,0,5,0.0,unica
+magistrados_gestao,4 a 10,Superior/Conselho,0,3,0.0,unica
+magistrados_gestao,Mais de 10,Nacional,2,110,1.818181818181818,unica
+magistrados_gestao,Mais de 10,Eleitoral,0,39,0.0,unica
+magistrados_gestao,Mais de 10,Estadual,2,29,6.896551724137931,unica
+magistrados_gestao,Mais de 10,Trabalho,0,26,0.0,unica
+magistrados_gestao,Mais de 10,Federal,0,8,0.0,unica
+magistrados_gestao,Mais de 10,Militar,0,5,0.0,unica
+magistrados_gestao,Mais de 10,Superior/Conselho,0,3,0.0,unica
+magistrados_gestao,(sem resposta),Nacional,5,110,4.545454545454546,unica
+magistrados_gestao,(sem resposta),Eleitoral,3,39,7.6923076923076925,unica
+magistrados_gestao,(sem resposta),Estadual,1,29,3.4482758620689653,unica
+magistrados_gestao,(sem resposta),Trabalho,0,26,0.0,unica
+magistrados_gestao,(sem resposta),Federal,1,8,12.5,unica
+magistrados_gestao,(sem resposta),Militar,0,5,0.0,unica
+magistrados_gestao,(sem resposta),Superior/Conselho,0,3,0.0,unica
+ava,AVA próprio,Nacional,74,110,67.27272727272727,unica
+ava,AVA próprio,Eleitoral,14,39,35.8974358974359,unica
+ava,AVA próprio,Estadual,25,29,86.20689655172414,unica
+ava,AVA próprio,Trabalho,23,26,88.46153846153847,unica
+ava,AVA próprio,Federal,5,8,62.5,unica
+ava,AVA próprio,Militar,4,5,80.0,unica
+ava,AVA próprio,Superior/Conselho,3,3,100.0,unica
+ava,AVA compartilhado com o tribunal,Nacional,26,110,23.63636363636364,unica
+ava,AVA compartilhado com o tribunal,Eleitoral,17,39,43.58974358974359,unica
+ava,AVA compartilhado com o tribunal,Estadual,4,29,13.79310344827586,unica
+ava,AVA compartilhado com o tribunal,Trabalho,3,26,11.538461538461538,unica
+ava,AVA compartilhado com o tribunal,Federal,2,8,25.0,unica
+ava,AVA compartilhado com o tribunal,Militar,0,5,0.0,unica
+ava,AVA compartilhado com o tribunal,Superior/Conselho,0,3,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Nacional,1,110,0.9090909090909092,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Eleitoral,1,39,2.5641025641025643,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Estadual,0,29,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Trabalho,0,26,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Federal,0,8,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Militar,0,5,0.0,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Superior/Conselho,0,3,0.0,unica
+ava,Sem AVA,Nacional,9,110,8.181818181818182,unica
+ava,Sem AVA,Eleitoral,7,39,17.94871794871795,unica
+ava,Sem AVA,Estadual,0,29,0.0,unica
+ava,Sem AVA,Trabalho,0,26,0.0,unica
+ava,Sem AVA,Federal,1,8,12.5,unica
+ava,Sem AVA,Militar,1,5,20.0,unica
+ava,Sem AVA,Superior/Conselho,0,3,0.0,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Nacional,27,110,24.545454545454547,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Eleitoral,5,39,12.82051282051282,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Estadual,14,29,48.27586206896552,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Trabalho,4,26,15.384615384615383,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Federal,2,8,25.0,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Militar,1,5,20.0,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Superior/Conselho,1,3,33.333333333333336,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Nacional,49,110,44.54545454545455,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Eleitoral,17,39,43.58974358974359,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Estadual,11,29,37.93103448275862,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Trabalho,12,26,46.15384615384615,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Federal,5,8,62.5,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Militar,2,5,40.0,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Superior/Conselho,2,3,66.66666666666667,unica
+capacidade_ead,Não há capacidade própria de produção,Nacional,34,110,30.90909090909091,unica
+capacidade_ead,Não há capacidade própria de produção,Eleitoral,17,39,43.58974358974359,unica
+capacidade_ead,Não há capacidade própria de produção,Estadual,4,29,13.79310344827586,unica
+capacidade_ead,Não há capacidade própria de produção,Trabalho,10,26,38.46153846153846,unica
+capacidade_ead,Não há capacidade própria de produção,Federal,1,8,12.5,unica
+capacidade_ead,Não há capacidade própria de produção,Militar,2,5,40.0,unica
+capacidade_ead,Não há capacidade própria de produção,Superior/Conselho,0,3,0.0,unica
+plano_2026,Sim,Nacional,105,110,95.45454545454544,unica
+plano_2026,Sim,Eleitoral,39,39,100.0,unica
+plano_2026,Sim,Estadual,26,29,89.65517241379311,unica
+plano_2026,Sim,Trabalho,25,26,96.15384615384616,unica
+plano_2026,Sim,Federal,8,8,100.0,unica
+plano_2026,Sim,Militar,5,5,100.0,unica
+plano_2026,Sim,Superior/Conselho,2,3,66.66666666666667,unica
+plano_2026,Em elaboração,Nacional,5,110,4.545454545454546,unica
+plano_2026,Em elaboração,Eleitoral,0,39,0.0,unica
+plano_2026,Em elaboração,Estadual,3,29,10.344827586206897,unica
+plano_2026,Em elaboração,Trabalho,1,26,3.8461538461538463,unica
+plano_2026,Em elaboração,Federal,0,8,0.0,unica
+plano_2026,Em elaboração,Militar,0,5,0.0,unica
+plano_2026,Em elaboração,Superior/Conselho,1,3,33.333333333333336,unica
+cadastro_formadores,Sim,Nacional,97,110,88.18181818181819,unica
+cadastro_formadores,Sim,Eleitoral,30,39,76.92307692307692,unica
+cadastro_formadores,Sim,Estadual,29,29,100.0,unica
+cadastro_formadores,Sim,Trabalho,24,26,92.3076923076923,unica
+cadastro_formadores,Sim,Federal,6,8,75.0,unica
+cadastro_formadores,Sim,Militar,5,5,100.0,unica
+cadastro_formadores,Sim,Superior/Conselho,3,3,100.0,unica
+cadastro_formadores,Não,Nacional,13,110,11.818181818181818,unica
+cadastro_formadores,Não,Eleitoral,9,39,23.07692307692308,unica
+cadastro_formadores,Não,Estadual,0,29,0.0,unica
+cadastro_formadores,Não,Trabalho,2,26,7.6923076923076925,unica
+cadastro_formadores,Não,Federal,2,8,25.0,unica
+cadastro_formadores,Não,Militar,0,5,0.0,unica
+cadastro_formadores,Não,Superior/Conselho,0,3,0.0,unica
+formacao_formadores,Programa permanente com certificação,Nacional,18,110,16.363636363636363,unica
+formacao_formadores,Programa permanente com certificação,Eleitoral,0,39,0.0,unica
+formacao_formadores,Programa permanente com certificação,Estadual,15,29,51.72413793103448,unica
+formacao_formadores,Programa permanente com certificação,Trabalho,2,26,7.6923076923076925,unica
+formacao_formadores,Programa permanente com certificação,Federal,0,8,0.0,unica
+formacao_formadores,Programa permanente com certificação,Militar,1,5,20.0,unica
+formacao_formadores,Programa permanente com certificação,Superior/Conselho,0,3,0.0,unica
+formacao_formadores,Ações pontuais,Nacional,35,110,31.818181818181817,unica
+formacao_formadores,Ações pontuais,Eleitoral,9,39,23.07692307692308,unica
+formacao_formadores,Ações pontuais,Estadual,8,29,27.58620689655172,unica
+formacao_formadores,Ações pontuais,Trabalho,13,26,50.0,unica
+formacao_formadores,Ações pontuais,Federal,3,8,37.5,unica
+formacao_formadores,Ações pontuais,Militar,1,5,20.0,unica
+formacao_formadores,Ações pontuais,Superior/Conselho,1,3,33.333333333333336,unica
+formacao_formadores,Não desenvolve,Nacional,51,110,46.36363636363637,unica
+formacao_formadores,Não desenvolve,Eleitoral,27,39,69.23076923076923,unica
+formacao_formadores,Não desenvolve,Estadual,5,29,17.24137931034483,unica
+formacao_formadores,Não desenvolve,Trabalho,11,26,42.30769230769231,unica
+formacao_formadores,Não desenvolve,Federal,4,8,50.0,unica
+formacao_formadores,Não desenvolve,Militar,2,5,40.0,unica
+formacao_formadores,Não desenvolve,Superior/Conselho,2,3,66.66666666666667,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Nacional,4,110,3.636363636363636,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Eleitoral,1,39,2.5641025641025643,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Estadual,1,29,3.4482758620689653,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Trabalho,0,26,0.0,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Federal,1,8,12.5,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Militar,1,5,20.0,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Superior/Conselho,0,3,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Nacional,1,110,0.9090909090909092,unica
+formacao_formadores,"Outro texto livre, não classificável",Eleitoral,1,39,2.5641025641025643,unica
+formacao_formadores,"Outro texto livre, não classificável",Estadual,0,29,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Trabalho,0,26,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Federal,0,8,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Militar,0,5,0.0,unica
+formacao_formadores,"Outro texto livre, não classificável",Superior/Conselho,0,3,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Nacional,1,110,0.9090909090909092,unica
+formacao_formadores,Não se aplica (texto livre),Eleitoral,1,39,2.5641025641025643,unica
+formacao_formadores,Não se aplica (texto livre),Estadual,0,29,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Trabalho,0,26,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Federal,0,8,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Militar,0,5,0.0,unica
+formacao_formadores,Não se aplica (texto livre),Superior/Conselho,0,3,0.0,unica
+relacao_cursos,Sim,Nacional,96,110,87.27272727272727,unica
+relacao_cursos,Sim,Eleitoral,31,39,79.48717948717949,unica
+relacao_cursos,Sim,Estadual,28,29,96.55172413793105,unica
+relacao_cursos,Sim,Trabalho,24,26,92.3076923076923,unica
+relacao_cursos,Sim,Federal,7,8,87.5,unica
+relacao_cursos,Sim,Militar,4,5,80.0,unica
+relacao_cursos,Sim,Superior/Conselho,2,3,66.66666666666667,unica
+relacao_cursos,Não,Nacional,14,110,12.727272727272728,unica
+relacao_cursos,Não,Eleitoral,8,39,20.512820512820515,unica
+relacao_cursos,Não,Estadual,1,29,3.4482758620689653,unica
+relacao_cursos,Não,Trabalho,2,26,7.6923076923076925,unica
+relacao_cursos,Não,Federal,1,8,12.5,unica
+relacao_cursos,Não,Militar,1,5,20.0,unica
+relacao_cursos,Não,Superior/Conselho,1,3,33.333333333333336,unica
+egressos,"Sim, de forma sistemática",Nacional,10,110,9.090909090909092,unica
+egressos,"Sim, de forma sistemática",Eleitoral,2,39,5.128205128205129,unica
+egressos,"Sim, de forma sistemática",Estadual,4,29,13.79310344827586,unica
+egressos,"Sim, de forma sistemática",Trabalho,2,26,7.6923076923076925,unica
+egressos,"Sim, de forma sistemática",Federal,1,8,12.5,unica
+egressos,"Sim, de forma sistemática",Militar,0,5,0.0,unica
+egressos,"Sim, de forma sistemática",Superior/Conselho,1,3,33.333333333333336,unica
+egressos,"Sim, de forma pontual",Nacional,19,110,17.272727272727273,unica
+egressos,"Sim, de forma pontual",Eleitoral,4,39,10.256410256410255,unica
+egressos,"Sim, de forma pontual",Estadual,7,29,24.13793103448276,unica
+egressos,"Sim, de forma pontual",Trabalho,5,26,19.23076923076923,unica
+egressos,"Sim, de forma pontual",Federal,1,8,12.5,unica
+egressos,"Sim, de forma pontual",Militar,2,5,40.0,unica
+egressos,"Sim, de forma pontual",Superior/Conselho,0,3,0.0,unica
+egressos,Não realiza,Nacional,81,110,73.63636363636364,unica
+egressos,Não realiza,Eleitoral,33,39,84.61538461538461,unica
+egressos,Não realiza,Estadual,18,29,62.06896551724138,unica
+egressos,Não realiza,Trabalho,19,26,73.07692307692308,unica
+egressos,Não realiza,Federal,6,8,75.0,unica
+egressos,Não realiza,Militar,3,5,60.0,unica
+egressos,Não realiza,Superior/Conselho,2,3,66.66666666666667,unica
+parcerias,"Sim, com convênios/acordos vigentes",Nacional,94,110,85.45454545454545,unica
+parcerias,"Sim, com convênios/acordos vigentes",Eleitoral,32,39,82.05128205128206,unica
+parcerias,"Sim, com convênios/acordos vigentes",Estadual,27,29,93.10344827586206,unica
+parcerias,"Sim, com convênios/acordos vigentes",Trabalho,22,26,84.61538461538461,unica
+parcerias,"Sim, com convênios/acordos vigentes",Federal,5,8,62.5,unica
+parcerias,"Sim, com convênios/acordos vigentes",Militar,5,5,100.0,unica
+parcerias,"Sim, com convênios/acordos vigentes",Superior/Conselho,3,3,100.0,unica
+parcerias,"Sim, com parcerias informais",Nacional,9,110,8.181818181818182,unica
+parcerias,"Sim, com parcerias informais",Eleitoral,2,39,5.128205128205129,unica
+parcerias,"Sim, com parcerias informais",Estadual,2,29,6.896551724137931,unica
+parcerias,"Sim, com parcerias informais",Trabalho,2,26,7.6923076923076925,unica
+parcerias,"Sim, com parcerias informais",Federal,3,8,37.5,unica
+parcerias,"Sim, com parcerias informais",Militar,0,5,0.0,unica
+parcerias,"Sim, com parcerias informais",Superior/Conselho,0,3,0.0,unica
+parcerias,Não mantém parcerias,Nacional,7,110,6.363636363636363,unica
+parcerias,Não mantém parcerias,Eleitoral,5,39,12.82051282051282,unica
+parcerias,Não mantém parcerias,Estadual,0,29,0.0,unica
+parcerias,Não mantém parcerias,Trabalho,2,26,7.6923076923076925,unica
+parcerias,Não mantém parcerias,Federal,0,8,0.0,unica
+parcerias,Não mantém parcerias,Militar,0,5,0.0,unica
+parcerias,Não mantém parcerias,Superior/Conselho,0,3,0.0,unica
+interesse,Alto,Nacional,58,110,52.72727272727273,unica
+interesse,Alto,Eleitoral,19,39,48.71794871794872,unica
+interesse,Alto,Estadual,22,29,75.86206896551724,unica
+interesse,Alto,Trabalho,10,26,38.46153846153846,unica
+interesse,Alto,Federal,3,8,37.5,unica
+interesse,Alto,Militar,2,5,40.0,unica
+interesse,Alto,Superior/Conselho,2,3,66.66666666666667,unica
+interesse,Moderado,Nacional,47,110,42.72727272727273,unica
+interesse,Moderado,Eleitoral,15,39,38.46153846153846,unica
+interesse,Moderado,Estadual,7,29,24.13793103448276,unica
+interesse,Moderado,Trabalho,16,26,61.53846153846154,unica
+interesse,Moderado,Federal,5,8,62.5,unica
+interesse,Moderado,Militar,3,5,60.0,unica
+interesse,Moderado,Superior/Conselho,1,3,33.333333333333336,unica
+interesse,Baixo,Nacional,5,110,4.545454545454546,unica
+interesse,Baixo,Eleitoral,5,39,12.82051282051282,unica
+interesse,Baixo,Estadual,0,29,0.0,unica
+interesse,Baixo,Trabalho,0,26,0.0,unica
+interesse,Baixo,Federal,0,8,0.0,unica
+interesse,Baixo,Militar,0,5,0.0,unica
+interesse,Baixo,Superior/Conselho,0,3,0.0,unica
+n1,Na maioria das ações,Nacional,88,110,80.0,unica
+n1,Na maioria das ações,Eleitoral,26,39,66.66666666666667,unica
+n1,Na maioria das ações,Estadual,29,29,100.0,unica
+n1,Na maioria das ações,Trabalho,22,26,84.61538461538461,unica
+n1,Na maioria das ações,Federal,6,8,75.0,unica
+n1,Na maioria das ações,Militar,3,5,60.0,unica
+n1,Na maioria das ações,Superior/Conselho,2,3,66.66666666666667,unica
+n1,Em parte das ações,Nacional,15,110,13.636363636363637,unica
+n1,Em parte das ações,Eleitoral,8,39,20.512820512820515,unica
+n1,Em parte das ações,Estadual,0,29,0.0,unica
+n1,Em parte das ações,Trabalho,3,26,11.538461538461538,unica
+n1,Em parte das ações,Federal,2,8,25.0,unica
+n1,Em parte das ações,Militar,1,5,20.0,unica
+n1,Em parte das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n1,Não aplica,Nacional,7,110,6.363636363636363,unica
+n1,Não aplica,Eleitoral,5,39,12.82051282051282,unica
+n1,Não aplica,Estadual,0,29,0.0,unica
+n1,Não aplica,Trabalho,1,26,3.8461538461538463,unica
+n1,Não aplica,Federal,0,8,0.0,unica
+n1,Não aplica,Militar,1,5,20.0,unica
+n1,Não aplica,Superior/Conselho,0,3,0.0,unica
+n2,Na maioria das ações,Nacional,32,110,29.09090909090909,unica
+n2,Na maioria das ações,Eleitoral,8,39,20.512820512820515,unica
+n2,Na maioria das ações,Estadual,13,29,44.82758620689656,unica
+n2,Na maioria das ações,Trabalho,10,26,38.46153846153846,unica
+n2,Na maioria das ações,Federal,1,8,12.5,unica
+n2,Na maioria das ações,Militar,0,5,0.0,unica
+n2,Na maioria das ações,Superior/Conselho,0,3,0.0,unica
+n2,Em parte das ações,Nacional,42,110,38.18181818181818,unica
+n2,Em parte das ações,Eleitoral,10,39,25.64102564102564,unica
+n2,Em parte das ações,Estadual,12,29,41.37931034482759,unica
+n2,Em parte das ações,Trabalho,12,26,46.15384615384615,unica
+n2,Em parte das ações,Federal,2,8,25.0,unica
+n2,Em parte das ações,Militar,3,5,60.0,unica
+n2,Em parte das ações,Superior/Conselho,3,3,100.0,unica
+n2,Não aplica,Nacional,36,110,32.72727272727273,unica
+n2,Não aplica,Eleitoral,21,39,53.84615384615385,unica
+n2,Não aplica,Estadual,4,29,13.79310344827586,unica
+n2,Não aplica,Trabalho,4,26,15.384615384615383,unica
+n2,Não aplica,Federal,5,8,62.5,unica
+n2,Não aplica,Militar,2,5,40.0,unica
+n2,Não aplica,Superior/Conselho,0,3,0.0,unica
+n3,Na maioria das ações,Nacional,19,110,17.272727272727273,unica
+n3,Na maioria das ações,Eleitoral,7,39,17.94871794871795,unica
+n3,Na maioria das ações,Estadual,7,29,24.13793103448276,unica
+n3,Na maioria das ações,Trabalho,4,26,15.384615384615383,unica
+n3,Na maioria das ações,Federal,0,8,0.0,unica
+n3,Na maioria das ações,Militar,1,5,20.0,unica
+n3,Na maioria das ações,Superior/Conselho,0,3,0.0,unica
+n3,Em parte das ações,Nacional,17,110,15.454545454545457,unica
+n3,Em parte das ações,Eleitoral,3,39,7.6923076923076925,unica
+n3,Em parte das ações,Estadual,7,29,24.13793103448276,unica
+n3,Em parte das ações,Trabalho,3,26,11.538461538461538,unica
+n3,Em parte das ações,Federal,1,8,12.5,unica
+n3,Em parte das ações,Militar,2,5,40.0,unica
+n3,Em parte das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n3,Não aplica,Nacional,74,110,67.27272727272727,unica
+n3,Não aplica,Eleitoral,29,39,74.35897435897436,unica
+n3,Não aplica,Estadual,15,29,51.72413793103448,unica
+n3,Não aplica,Trabalho,19,26,73.07692307692308,unica
+n3,Não aplica,Federal,7,8,87.5,unica
+n3,Não aplica,Militar,2,5,40.0,unica
+n3,Não aplica,Superior/Conselho,2,3,66.66666666666667,unica
+n4,Na maioria das ações,Nacional,12,110,10.909090909090908,unica
+n4,Na maioria das ações,Eleitoral,4,39,10.256410256410255,unica
+n4,Na maioria das ações,Estadual,3,29,10.344827586206897,unica
+n4,Na maioria das ações,Trabalho,3,26,11.538461538461538,unica
+n4,Na maioria das ações,Federal,1,8,12.5,unica
+n4,Na maioria das ações,Militar,0,5,0.0,unica
+n4,Na maioria das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n4,Em parte das ações,Nacional,20,110,18.181818181818183,unica
+n4,Em parte das ações,Eleitoral,7,39,17.94871794871795,unica
+n4,Em parte das ações,Estadual,7,29,24.13793103448276,unica
+n4,Em parte das ações,Trabalho,2,26,7.6923076923076925,unica
+n4,Em parte das ações,Federal,1,8,12.5,unica
+n4,Em parte das ações,Militar,2,5,40.0,unica
+n4,Em parte das ações,Superior/Conselho,1,3,33.333333333333336,unica
+n4,Não aplica,Nacional,78,110,70.9090909090909,unica
+n4,Não aplica,Eleitoral,28,39,71.7948717948718,unica
+n4,Não aplica,Estadual,19,29,65.51724137931035,unica
+n4,Não aplica,Trabalho,21,26,80.76923076923077,unica
+n4,Não aplica,Federal,6,8,75.0,unica
+n4,Não aplica,Militar,3,5,60.0,unica
+n4,Não aplica,Superior/Conselho,1,3,33.333333333333336,unica
+mod_presencial,0%,Nacional,3,110,2.727272727272727,unica
+mod_presencial,0%,Eleitoral,3,39,7.6923076923076925,unica
+mod_presencial,0%,Estadual,0,29,0.0,unica
+mod_presencial,0%,Trabalho,0,26,0.0,unica
+mod_presencial,0%,Federal,0,8,0.0,unica
+mod_presencial,0%,Militar,0,5,0.0,unica
+mod_presencial,0%,Superior/Conselho,0,3,0.0,unica
+mod_presencial,Até 25%,Nacional,30,110,27.272727272727277,unica
+mod_presencial,Até 25%,Eleitoral,15,39,38.46153846153846,unica
+mod_presencial,Até 25%,Estadual,7,29,24.13793103448276,unica
+mod_presencial,Até 25%,Trabalho,5,26,19.23076923076923,unica
+mod_presencial,Até 25%,Federal,1,8,12.5,unica
+mod_presencial,Até 25%,Militar,2,5,40.0,unica
+mod_presencial,Até 25%,Superior/Conselho,0,3,0.0,unica
+mod_presencial,26% a 50%,Nacional,40,110,36.36363636363637,unica
+mod_presencial,26% a 50%,Eleitoral,14,39,35.8974358974359,unica
+mod_presencial,26% a 50%,Estadual,12,29,41.37931034482759,unica
+mod_presencial,26% a 50%,Trabalho,8,26,30.76923076923077,unica
+mod_presencial,26% a 50%,Federal,2,8,25.0,unica
+mod_presencial,26% a 50%,Militar,2,5,40.0,unica
+mod_presencial,26% a 50%,Superior/Conselho,2,3,66.66666666666667,unica
+mod_presencial,Acima de 50%,Nacional,37,110,33.63636363636363,unica
+mod_presencial,Acima de 50%,Eleitoral,7,39,17.94871794871795,unica
+mod_presencial,Acima de 50%,Estadual,10,29,34.48275862068966,unica
+mod_presencial,Acima de 50%,Trabalho,13,26,50.0,unica
+mod_presencial,Acima de 50%,Federal,5,8,62.5,unica
+mod_presencial,Acima de 50%,Militar,1,5,20.0,unica
+mod_presencial,Acima de 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_autoinstrucional,0%,Nacional,18,110,16.363636363636363,unica
+mod_ead_autoinstrucional,0%,Eleitoral,14,39,35.8974358974359,unica
+mod_ead_autoinstrucional,0%,Estadual,1,29,3.4482758620689653,unica
+mod_ead_autoinstrucional,0%,Trabalho,1,26,3.8461538461538463,unica
+mod_ead_autoinstrucional,0%,Federal,2,8,25.0,unica
+mod_ead_autoinstrucional,0%,Militar,0,5,0.0,unica
+mod_ead_autoinstrucional,0%,Superior/Conselho,0,3,0.0,unica
+mod_ead_autoinstrucional,Até 25%,Nacional,47,110,42.72727272727273,unica
+mod_ead_autoinstrucional,Até 25%,Eleitoral,12,39,30.76923076923077,unica
+mod_ead_autoinstrucional,Até 25%,Estadual,10,29,34.48275862068966,unica
+mod_ead_autoinstrucional,Até 25%,Trabalho,17,26,65.38461538461539,unica
+mod_ead_autoinstrucional,Até 25%,Federal,4,8,50.0,unica
+mod_ead_autoinstrucional,Até 25%,Militar,2,5,40.0,unica
+mod_ead_autoinstrucional,Até 25%,Superior/Conselho,2,3,66.66666666666667,unica
+mod_ead_autoinstrucional,26% a 50%,Nacional,24,110,21.818181818181817,unica
+mod_ead_autoinstrucional,26% a 50%,Eleitoral,7,39,17.94871794871795,unica
+mod_ead_autoinstrucional,26% a 50%,Estadual,10,29,34.48275862068966,unica
+mod_ead_autoinstrucional,26% a 50%,Trabalho,3,26,11.538461538461538,unica
+mod_ead_autoinstrucional,26% a 50%,Federal,2,8,25.0,unica
+mod_ead_autoinstrucional,26% a 50%,Militar,2,5,40.0,unica
+mod_ead_autoinstrucional,26% a 50%,Superior/Conselho,0,3,0.0,unica
+mod_ead_autoinstrucional,Acima de 50%,Nacional,21,110,19.09090909090909,unica
+mod_ead_autoinstrucional,Acima de 50%,Eleitoral,6,39,15.384615384615383,unica
+mod_ead_autoinstrucional,Acima de 50%,Estadual,8,29,27.58620689655172,unica
+mod_ead_autoinstrucional,Acima de 50%,Trabalho,5,26,19.23076923076923,unica
+mod_ead_autoinstrucional,Acima de 50%,Federal,0,8,0.0,unica
+mod_ead_autoinstrucional,Acima de 50%,Militar,1,5,20.0,unica
+mod_ead_autoinstrucional,Acima de 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_tutoria,0%,Nacional,13,110,11.818181818181818,unica
+mod_ead_tutoria,0%,Eleitoral,5,39,12.82051282051282,unica
+mod_ead_tutoria,0%,Estadual,2,29,6.896551724137931,unica
+mod_ead_tutoria,0%,Trabalho,4,26,15.384615384615383,unica
+mod_ead_tutoria,0%,Federal,1,8,12.5,unica
+mod_ead_tutoria,0%,Militar,1,5,20.0,unica
+mod_ead_tutoria,0%,Superior/Conselho,0,3,0.0,unica
+mod_ead_tutoria,Até 25%,Nacional,56,110,50.90909090909091,unica
+mod_ead_tutoria,Até 25%,Eleitoral,14,39,35.8974358974359,unica
+mod_ead_tutoria,Até 25%,Estadual,16,29,55.172413793103445,unica
+mod_ead_tutoria,Até 25%,Trabalho,19,26,73.07692307692308,unica
+mod_ead_tutoria,Até 25%,Federal,3,8,37.5,unica
+mod_ead_tutoria,Até 25%,Militar,3,5,60.0,unica
+mod_ead_tutoria,Até 25%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_tutoria,26% a 50%,Nacional,25,110,22.727272727272727,unica
+mod_ead_tutoria,26% a 50%,Eleitoral,11,39,28.205128205128204,unica
+mod_ead_tutoria,26% a 50%,Estadual,6,29,20.689655172413797,unica
+mod_ead_tutoria,26% a 50%,Trabalho,2,26,7.6923076923076925,unica
+mod_ead_tutoria,26% a 50%,Federal,4,8,50.0,unica
+mod_ead_tutoria,26% a 50%,Militar,1,5,20.0,unica
+mod_ead_tutoria,26% a 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_ead_tutoria,Acima de 50%,Nacional,16,110,14.545454545454543,unica
+mod_ead_tutoria,Acima de 50%,Eleitoral,9,39,23.07692307692308,unica
+mod_ead_tutoria,Acima de 50%,Estadual,5,29,17.24137931034483,unica
+mod_ead_tutoria,Acima de 50%,Trabalho,1,26,3.8461538461538463,unica
+mod_ead_tutoria,Acima de 50%,Federal,0,8,0.0,unica
+mod_ead_tutoria,Acima de 50%,Militar,0,5,0.0,unica
+mod_ead_tutoria,Acima de 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_hibrida,0%,Nacional,10,110,9.090909090909092,unica
+mod_hibrida,0%,Eleitoral,9,39,23.07692307692308,unica
+mod_hibrida,0%,Estadual,0,29,0.0,unica
+mod_hibrida,0%,Trabalho,0,26,0.0,unica
+mod_hibrida,0%,Federal,1,8,12.5,unica
+mod_hibrida,0%,Militar,0,5,0.0,unica
+mod_hibrida,0%,Superior/Conselho,0,3,0.0,unica
+mod_hibrida,Até 25%,Nacional,69,110,62.72727272727273,unica
+mod_hibrida,Até 25%,Eleitoral,19,39,48.71794871794872,unica
+mod_hibrida,Até 25%,Estadual,22,29,75.86206896551724,unica
+mod_hibrida,Até 25%,Trabalho,17,26,65.38461538461539,unica
+mod_hibrida,Até 25%,Federal,5,8,62.5,unica
+mod_hibrida,Até 25%,Militar,4,5,80.0,unica
+mod_hibrida,Até 25%,Superior/Conselho,2,3,66.66666666666667,unica
+mod_hibrida,26% a 50%,Nacional,18,110,16.363636363636363,unica
+mod_hibrida,26% a 50%,Eleitoral,8,39,20.512820512820515,unica
+mod_hibrida,26% a 50%,Estadual,5,29,17.24137931034483,unica
+mod_hibrida,26% a 50%,Trabalho,2,26,7.6923076923076925,unica
+mod_hibrida,26% a 50%,Federal,1,8,12.5,unica
+mod_hibrida,26% a 50%,Militar,1,5,20.0,unica
+mod_hibrida,26% a 50%,Superior/Conselho,1,3,33.333333333333336,unica
+mod_hibrida,Acima de 50%,Nacional,13,110,11.818181818181818,unica
+mod_hibrida,Acima de 50%,Eleitoral,3,39,7.6923076923076925,unica
+mod_hibrida,Acima de 50%,Estadual,2,29,6.896551724137931,unica
+mod_hibrida,Acima de 50%,Trabalho,7,26,26.923076923076923,unica
+mod_hibrida,Acima de 50%,Federal,1,8,12.5,unica
+mod_hibrida,Acima de 50%,Militar,0,5,0.0,unica
+mod_hibrida,Acima de 50%,Superior/Conselho,0,3,0.0,unica
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Nacional,52,110,47.27272727272727,binaria
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Eleitoral,11,39,28.205128205128204,binaria
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Estadual,16,29,55.172413793103445,binaria
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Trabalho,16,26,61.53846153846154,binaria
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Federal,5,8,62.5,binaria
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Militar,3,5,60.0,binaria
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Superior/Conselho,1,3,33.333333333333336,binaria
+plan_B,Indicador B — referência estratégica existente,Nacional,75,110,68.18181818181819,binaria
+plan_B,Indicador B — referência estratégica existente,Eleitoral,18,39,46.15384615384615,binaria
+plan_B,Indicador B — referência estratégica existente,Estadual,26,29,89.65517241379311,binaria
+plan_B,Indicador B — referência estratégica existente,Trabalho,18,26,69.23076923076923,binaria
+plan_B,Indicador B — referência estratégica existente,Federal,6,8,75.0,binaria
+plan_B,Indicador B — referência estratégica existente,Militar,5,5,100.0,binaria
+plan_B,Indicador B — referência estratégica existente,Superior/Conselho,2,3,66.66666666666667,binaria
+ava_algum,Dispõe de algum AVA,Nacional,101,110,91.8181818181818,binaria
+ava_algum,Dispõe de algum AVA,Eleitoral,32,39,82.05128205128206,binaria
+ava_algum,Dispõe de algum AVA,Estadual,29,29,100.0,binaria
+ava_algum,Dispõe de algum AVA,Trabalho,26,26,100.0,binaria
+ava_algum,Dispõe de algum AVA,Federal,7,8,87.5,binaria
+ava_algum,Dispõe de algum AVA,Militar,4,5,80.0,binaria
+ava_algum,Dispõe de algum AVA,Superior/Conselho,3,3,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Nacional,105,110,95.45454545454544,binaria
+interesse_aberto,Interesse alto ou moderado,Eleitoral,34,39,87.17948717948718,binaria
+interesse_aberto,Interesse alto ou moderado,Estadual,29,29,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Trabalho,26,26,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Federal,8,8,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Militar,5,5,100.0,binaria
+interesse_aberto,Interesse alto ou moderado,Superior/Conselho,3,3,100.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Nacional,103,110,93.63636363636364,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Eleitoral,34,39,87.17948717948718,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Estadual,29,29,100.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Trabalho,25,26,96.15384615384616,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Federal,8,8,100.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Militar,4,5,80.0,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Superior/Conselho,3,3,100.0,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Nacional,74,110,67.27272727272727,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Eleitoral,18,39,46.15384615384615,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Estadual,25,29,86.20689655172414,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Trabalho,22,26,84.61538461538461,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Federal,3,8,37.5,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Militar,3,5,60.0,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Superior/Conselho,3,3,100.0,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Nacional,36,110,32.72727272727273,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Eleitoral,10,39,25.64102564102564,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Estadual,14,29,48.27586206896552,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Trabalho,7,26,26.923076923076923,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Federal,1,8,12.5,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Militar,3,5,60.0,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Superior/Conselho,1,3,33.333333333333336,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Nacional,32,110,29.09090909090909,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Eleitoral,11,39,28.205128205128204,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Estadual,10,29,34.48275862068966,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Trabalho,5,26,19.23076923076923,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Federal,2,8,25.0,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Militar,2,5,40.0,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Superior/Conselho,2,3,66.66666666666667,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Nacional,12,110,10.909090909090908,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Eleitoral,7,39,17.94871794871795,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Estadual,2,29,6.896551724137931,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Trabalho,0,26,0.0,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Federal,3,8,37.5,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Militar,0,5,0.0,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Superior/Conselho,0,3,0.0,binaria
+moodle,Cita o Moodle como plataforma de AVA,Nacional,97,110,88.18181818181819,binaria
+moodle,Cita o Moodle como plataforma de AVA,Eleitoral,31,39,79.48717948717949,binaria
+moodle,Cita o Moodle como plataforma de AVA,Estadual,26,29,89.65517241379311,binaria
+moodle,Cita o Moodle como plataforma de AVA,Trabalho,26,26,100.0,binaria
+moodle,Cita o Moodle como plataforma de AVA,Federal,7,8,87.5,binaria
+moodle,Cita o Moodle como plataforma de AVA,Militar,4,5,80.0,binaria
+moodle,Cita o Moodle como plataforma de AVA,Superior/Conselho,3,3,100.0,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Nacional,10,110,9.090909090909092,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Eleitoral,4,39,10.256410256410255,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Estadual,1,29,3.4482758620689653,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Trabalho,2,26,7.6923076923076925,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Federal,2,8,25.0,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Militar,0,5,0.0,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Superior/Conselho,1,3,33.333333333333336,binaria
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Nacional,93,110,84.54545454545455,multipla
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Eleitoral,34,39,87.17948717948718,multipla
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Estadual,20,29,68.96551724137932,multipla
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Trabalho,25,26,96.15384615384616,multipla
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Federal,7,8,87.5,multipla
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Militar,5,5,100.0,multipla
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Superior/Conselho,2,3,66.66666666666667,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Nacional,82,110,74.54545454545455,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Eleitoral,26,39,66.66666666666667,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Estadual,27,29,93.10344827586206,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Trabalho,21,26,80.76923076923077,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Federal,2,8,25.0,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Militar,4,5,80.0,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Superior/Conselho,2,3,66.66666666666667,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Nacional,57,110,51.81818181818182,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Eleitoral,8,39,20.512820512820515,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Estadual,20,29,68.96551724137932,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Trabalho,21,26,80.76923076923077,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Federal,3,8,37.5,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Militar,3,5,60.0,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Superior/Conselho,2,3,66.66666666666667,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Nacional,54,110,49.09090909090909,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Eleitoral,6,39,15.384615384615383,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Estadual,22,29,75.86206896551724,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Trabalho,23,26,88.46153846153847,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Federal,0,8,0.0,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Militar,2,5,40.0,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Superior/Conselho,1,3,33.333333333333336,multipla
+instrumentos_governanca,Outro (texto livre),Nacional,9,110,8.181818181818182,multipla
+instrumentos_governanca,Outro (texto livre),Eleitoral,3,39,7.6923076923076925,multipla
+instrumentos_governanca,Outro (texto livre),Estadual,3,29,10.344827586206897,multipla
+instrumentos_governanca,Outro (texto livre),Trabalho,3,26,11.538461538461538,multipla
+instrumentos_governanca,Outro (texto livre),Federal,0,8,0.0,multipla
+instrumentos_governanca,Outro (texto livre),Militar,0,5,0.0,multipla
+instrumentos_governanca,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Nacional,109,110,99.0909090909091,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Eleitoral,38,39,97.43589743589745,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Estadual,29,29,100.0,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Trabalho,26,26,100.0,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Federal,8,8,100.0,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Militar,5,5,100.0,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Superior/Conselho,3,3,100.0,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Nacional,22,110,20.0,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Eleitoral,7,39,17.94871794871795,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Estadual,3,29,10.344827586206897,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Trabalho,6,26,23.07692307692308,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Federal,3,8,37.5,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Militar,1,5,20.0,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Superior/Conselho,2,3,66.66666666666667,multipla
+fontes_financiamento,Outro (texto livre),Nacional,5,110,4.545454545454546,multipla
+fontes_financiamento,Outro (texto livre),Eleitoral,2,39,5.128205128205129,multipla
+fontes_financiamento,Outro (texto livre),Estadual,1,29,3.4482758620689653,multipla
+fontes_financiamento,Outro (texto livre),Trabalho,2,26,7.6923076923076925,multipla
+fontes_financiamento,Outro (texto livre),Federal,0,8,0.0,multipla
+fontes_financiamento,Outro (texto livre),Militar,0,5,0.0,multipla
+fontes_financiamento,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Nacional,70,110,63.63636363636363,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Eleitoral,17,39,43.58974358974359,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Estadual,23,29,79.3103448275862,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Trabalho,23,26,88.46153846153847,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Federal,2,8,25.0,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Militar,3,5,60.0,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Salas de aula / treinamento,Nacional,85,110,77.27272727272727,multipla
+estrutura_fisica,Salas de aula / treinamento,Eleitoral,22,39,56.41025641025641,multipla
+estrutura_fisica,Salas de aula / treinamento,Estadual,28,29,96.55172413793105,multipla
+estrutura_fisica,Salas de aula / treinamento,Trabalho,24,26,92.3076923076923,multipla
+estrutura_fisica,Salas de aula / treinamento,Federal,6,8,75.0,multipla
+estrutura_fisica,Salas de aula / treinamento,Militar,3,5,60.0,multipla
+estrutura_fisica,Salas de aula / treinamento,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Auditório,Nacional,66,110,60.0,multipla
+estrutura_fisica,Auditório,Eleitoral,16,39,41.02564102564103,multipla
+estrutura_fisica,Auditório,Estadual,21,29,72.41379310344827,multipla
+estrutura_fisica,Auditório,Trabalho,21,26,80.76923076923077,multipla
+estrutura_fisica,Auditório,Federal,3,8,37.5,multipla
+estrutura_fisica,Auditório,Militar,3,5,60.0,multipla
+estrutura_fisica,Auditório,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Laboratório de informática,Nacional,60,110,54.54545454545455,multipla
+estrutura_fisica,Laboratório de informática,Eleitoral,6,39,15.384615384615383,multipla
+estrutura_fisica,Laboratório de informática,Estadual,21,29,72.41379310344827,multipla
+estrutura_fisica,Laboratório de informática,Trabalho,25,26,96.15384615384616,multipla
+estrutura_fisica,Laboratório de informática,Federal,5,8,62.5,multipla
+estrutura_fisica,Laboratório de informática,Militar,1,5,20.0,multipla
+estrutura_fisica,Laboratório de informática,Superior/Conselho,2,3,66.66666666666667,multipla
+estrutura_fisica,Biblioteca / centro de memória,Nacional,43,110,39.09090909090909,multipla
+estrutura_fisica,Biblioteca / centro de memória,Eleitoral,8,39,20.512820512820515,multipla
+estrutura_fisica,Biblioteca / centro de memória,Estadual,17,29,58.62068965517241,multipla
+estrutura_fisica,Biblioteca / centro de memória,Trabalho,12,26,46.15384615384615,multipla
+estrutura_fisica,Biblioteca / centro de memória,Federal,1,8,12.5,multipla
+estrutura_fisica,Biblioteca / centro de memória,Militar,4,5,80.0,multipla
+estrutura_fisica,Biblioteca / centro de memória,Superior/Conselho,1,3,33.333333333333336,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Nacional,26,110,23.63636363636364,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Eleitoral,3,39,7.6923076923076925,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Estadual,17,29,58.62068965517241,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Trabalho,3,26,11.538461538461538,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Federal,1,8,12.5,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Militar,1,5,20.0,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Superior/Conselho,1,3,33.333333333333336,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Nacional,28,110,25.454545454545453,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Eleitoral,15,39,38.46153846153846,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Estadual,4,29,13.79310344827586,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Trabalho,3,26,11.538461538461538,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Federal,3,8,37.5,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Militar,2,5,40.0,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Superior/Conselho,1,3,33.333333333333336,multipla
+estrutura_fisica,Outro (texto livre),Nacional,0,110,0.0,multipla
+estrutura_fisica,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+estrutura_fisica,Outro (texto livre),Estadual,0,29,0.0,multipla
+estrutura_fisica,Outro (texto livre),Trabalho,0,26,0.0,multipla
+estrutura_fisica,Outro (texto livre),Federal,0,8,0.0,multipla
+estrutura_fisica,Outro (texto livre),Militar,0,5,0.0,multipla
+estrutura_fisica,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+publicos_2025,Servidores(as),Nacional,110,110,100.0,multipla
+publicos_2025,Servidores(as),Eleitoral,39,39,100.0,multipla
+publicos_2025,Servidores(as),Estadual,29,29,100.0,multipla
+publicos_2025,Servidores(as),Trabalho,26,26,100.0,multipla
+publicos_2025,Servidores(as),Federal,8,8,100.0,multipla
+publicos_2025,Servidores(as),Militar,5,5,100.0,multipla
+publicos_2025,Servidores(as),Superior/Conselho,3,3,100.0,multipla
+publicos_2025,Magistrados(as),Nacional,94,110,85.45454545454545,multipla
+publicos_2025,Magistrados(as),Eleitoral,30,39,76.92307692307692,multipla
+publicos_2025,Magistrados(as),Estadual,28,29,96.55172413793105,multipla
+publicos_2025,Magistrados(as),Trabalho,25,26,96.15384615384616,multipla
+publicos_2025,Magistrados(as),Federal,5,8,62.5,multipla
+publicos_2025,Magistrados(as),Militar,4,5,80.0,multipla
+publicos_2025,Magistrados(as),Superior/Conselho,2,3,66.66666666666667,multipla
+publicos_2025,Estagiários(as),Nacional,69,110,62.72727272727273,multipla
+publicos_2025,Estagiários(as),Eleitoral,20,39,51.282051282051285,multipla
+publicos_2025,Estagiários(as),Estadual,24,29,82.75862068965517,multipla
+publicos_2025,Estagiários(as),Trabalho,20,26,76.92307692307692,multipla
+publicos_2025,Estagiários(as),Federal,2,8,25.0,multipla
+publicos_2025,Estagiários(as),Militar,2,5,40.0,multipla
+publicos_2025,Estagiários(as),Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Público externo / sociedade,Nacional,64,110,58.18181818181818,multipla
+publicos_2025,Público externo / sociedade,Eleitoral,15,39,38.46153846153846,multipla
+publicos_2025,Público externo / sociedade,Estadual,23,29,79.3103448275862,multipla
+publicos_2025,Público externo / sociedade,Trabalho,16,26,61.53846153846154,multipla
+publicos_2025,Público externo / sociedade,Federal,4,8,50.0,multipla
+publicos_2025,Público externo / sociedade,Militar,5,5,100.0,multipla
+publicos_2025,Público externo / sociedade,Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Colaboradores terceirizados,Nacional,55,110,50.0,multipla
+publicos_2025,Colaboradores terceirizados,Eleitoral,16,39,41.02564102564103,multipla
+publicos_2025,Colaboradores terceirizados,Estadual,18,29,62.06896551724138,multipla
+publicos_2025,Colaboradores terceirizados,Trabalho,14,26,53.84615384615385,multipla
+publicos_2025,Colaboradores terceirizados,Federal,3,8,37.5,multipla
+publicos_2025,Colaboradores terceirizados,Militar,3,5,60.0,multipla
+publicos_2025,Colaboradores terceirizados,Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Nacional,36,110,32.72727272727273,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Eleitoral,0,39,0.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Estadual,20,29,68.96551724137932,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Trabalho,12,26,46.15384615384615,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Federal,2,8,25.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Militar,1,5,20.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Superior/Conselho,1,3,33.333333333333336,multipla
+publicos_2025,Outro (texto livre),Nacional,6,110,5.454545454545454,multipla
+publicos_2025,Outro (texto livre),Eleitoral,1,39,2.5641025641025643,multipla
+publicos_2025,Outro (texto livre),Estadual,4,29,13.79310344827586,multipla
+publicos_2025,Outro (texto livre),Trabalho,0,26,0.0,multipla
+publicos_2025,Outro (texto livre),Federal,0,8,0.0,multipla
+publicos_2025,Outro (texto livre),Militar,1,5,20.0,multipla
+publicos_2025,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Nacional,98,110,89.0909090909091,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Eleitoral,34,39,87.17948717948718,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Estadual,27,29,93.10344827586206,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Trabalho,25,26,96.15384615384616,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Federal,6,8,75.0,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Militar,5,5,100.0,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Nacional,96,110,87.27272727272727,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Eleitoral,30,39,76.92307692307692,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Estadual,27,29,93.10344827586206,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Trabalho,26,26,100.0,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Federal,7,8,87.5,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Militar,4,5,80.0,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Nacional,93,110,84.54545454545455,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Eleitoral,30,39,76.92307692307692,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Estadual,24,29,82.75862068965517,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Trabalho,25,26,96.15384615384616,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Federal,7,8,87.5,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Militar,5,5,100.0,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Nacional,91,110,82.72727272727273,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Eleitoral,25,39,64.1025641025641,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Estadual,26,29,89.65517241379311,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Trabalho,25,26,96.15384615384616,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Federal,8,8,100.0,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Militar,4,5,80.0,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Superior/Conselho,3,3,100.0,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Nacional,72,110,65.45454545454545,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Eleitoral,15,39,38.46153846153846,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Estadual,23,29,79.3103448275862,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Trabalho,21,26,80.76923076923077,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Federal,7,8,87.5,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Militar,3,5,60.0,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Superior/Conselho,3,3,100.0,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Nacional,66,110,60.0,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Estadual,20,29,68.96551724137932,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Trabalho,23,26,88.46153846153847,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Federal,5,8,62.5,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Militar,4,5,80.0,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Nacional,65,110,59.09090909090909,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Eleitoral,11,39,28.205128205128204,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Estadual,22,29,75.86206896551724,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Trabalho,20,26,76.92307692307692,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Federal,6,8,75.0,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Militar,4,5,80.0,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Nacional,58,110,52.72727272727273,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Eleitoral,18,39,46.15384615384615,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Estadual,13,29,44.82758620689656,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Trabalho,17,26,65.38461538461539,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Federal,4,8,50.0,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Militar,3,5,60.0,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Superior/Conselho,3,3,100.0,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Nacional,53,110,48.18181818181818,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Eleitoral,14,39,35.8974358974359,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Estadual,13,29,44.82758620689656,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Trabalho,16,26,61.53846153846154,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Federal,5,8,62.5,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Militar,3,5,60.0,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Nacional,52,110,47.27272727272727,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Estadual,17,29,58.62068965517241,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Trabalho,15,26,57.69230769230769,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Federal,4,8,50.0,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Militar,3,5,60.0,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Nacional,51,110,46.36363636363637,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Estadual,17,29,58.62068965517241,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Trabalho,17,26,65.38461538461539,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Federal,3,8,37.5,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Militar,1,5,20.0,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Nacional,51,110,46.36363636363637,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Eleitoral,4,39,10.256410256410255,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Estadual,21,29,72.41379310344827,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Trabalho,19,26,73.07692307692308,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Federal,5,8,62.5,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Militar,1,5,20.0,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Nacional,47,110,42.72727272727273,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Eleitoral,12,39,30.76923076923077,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Estadual,11,29,37.93103448275862,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Trabalho,16,26,61.53846153846154,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Federal,4,8,50.0,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Militar,2,5,40.0,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Superior/Conselho,2,3,66.66666666666667,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Nacional,46,110,41.81818181818182,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Eleitoral,7,39,17.94871794871795,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Estadual,16,29,55.172413793103445,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Trabalho,14,26,53.84615384615385,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Federal,5,8,62.5,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Militar,3,5,60.0,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Nacional,44,110,40.0,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Eleitoral,7,39,17.94871794871795,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Estadual,21,29,72.41379310344827,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Trabalho,10,26,38.46153846153846,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Federal,3,8,37.5,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Militar,2,5,40.0,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Nacional,40,110,36.36363636363637,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Eleitoral,11,39,28.205128205128204,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Estadual,16,29,55.172413793103445,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Trabalho,9,26,34.61538461538461,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Federal,3,8,37.5,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Militar,0,5,0.0,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Nacional,23,110,20.90909090909091,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Eleitoral,6,39,15.384615384615383,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Estadual,8,29,27.58620689655172,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Trabalho,4,26,15.384615384615383,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Federal,2,8,25.0,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Militar,2,5,40.0,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Superior/Conselho,1,3,33.333333333333336,multipla
+tematicas_2025,Outro (texto livre),Nacional,13,110,11.818181818181818,multipla
+tematicas_2025,Outro (texto livre),Eleitoral,4,39,10.256410256410255,multipla
+tematicas_2025,Outro (texto livre),Estadual,5,29,17.24137931034483,multipla
+tematicas_2025,Outro (texto livre),Trabalho,1,26,3.8461538461538463,multipla
+tematicas_2025,Outro (texto livre),Federal,1,8,12.5,multipla
+tematicas_2025,Outro (texto livre),Militar,1,5,20.0,multipla
+tematicas_2025,Outro (texto livre),Superior/Conselho,1,3,33.333333333333336,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Nacional,91,110,82.72727272727273,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Eleitoral,26,39,66.66666666666667,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Estadual,27,29,93.10344827586206,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Trabalho,23,26,88.46153846153847,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Federal,7,8,87.5,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Militar,5,5,100.0,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Superior/Conselho,3,3,100.0,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Nacional,91,110,82.72727272727273,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Eleitoral,26,39,66.66666666666667,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Estadual,27,29,93.10344827586206,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Trabalho,24,26,92.3076923076923,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Federal,7,8,87.5,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Militar,4,5,80.0,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Superior/Conselho,3,3,100.0,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Nacional,79,110,71.81818181818181,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Eleitoral,22,39,56.41025641025641,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Estadual,25,29,86.20689655172414,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Trabalho,18,26,69.23076923076923,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Federal,7,8,87.5,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Militar,4,5,80.0,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Superior/Conselho,3,3,100.0,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Nacional,65,110,59.09090909090909,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Eleitoral,19,39,48.71794871794872,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Estadual,23,29,79.3103448275862,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Trabalho,12,26,46.15384615384615,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Federal,6,8,75.0,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Militar,3,5,60.0,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Superior/Conselho,2,3,66.66666666666667,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Nacional,29,110,26.363636363636363,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Eleitoral,5,39,12.82051282051282,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Estadual,13,29,44.82758620689656,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Trabalho,6,26,23.07692307692308,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Federal,3,8,37.5,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Militar,1,5,20.0,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Superior/Conselho,1,3,33.333333333333336,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Nacional,28,110,25.454545454545453,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Eleitoral,6,39,15.384615384615383,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Estadual,13,29,44.82758620689656,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Trabalho,4,26,15.384615384615383,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Federal,1,8,12.5,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Militar,3,5,60.0,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Superior/Conselho,1,3,33.333333333333336,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Nacional,7,110,6.363636363636363,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Eleitoral,4,39,10.256410256410255,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Estadual,2,29,6.896551724137931,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Trabalho,1,26,3.8461538461538463,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Federal,0,8,0.0,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Militar,0,5,0.0,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Superior/Conselho,0,3,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Nacional,0,110,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Estadual,0,29,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Trabalho,0,26,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Federal,0,8,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Militar,0,5,0.0,multipla
+recursos_tecnologias,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Nacional,98,110,89.0909090909091,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Eleitoral,32,39,82.05128205128206,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Estadual,28,29,96.55172413793105,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Trabalho,24,26,92.3076923076923,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Federal,7,8,87.5,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Militar,5,5,100.0,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Superior/Conselho,2,3,66.66666666666667,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Nacional,94,110,85.45454545454545,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Eleitoral,29,39,74.35897435897436,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Estadual,29,29,100.0,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Trabalho,22,26,84.61538461538461,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Federal,8,8,100.0,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Militar,3,5,60.0,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Superior/Conselho,3,3,100.0,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Nacional,62,110,56.36363636363637,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Eleitoral,12,39,30.76923076923077,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Estadual,22,29,75.86206896551724,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Trabalho,17,26,65.38461538461539,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Federal,6,8,75.0,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Militar,2,5,40.0,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Superior/Conselho,3,3,100.0,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Nacional,50,110,45.45454545454545,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Eleitoral,20,39,51.282051282051285,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Estadual,11,29,37.93103448275862,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Trabalho,12,26,46.15384615384615,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Federal,2,8,25.0,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Militar,3,5,60.0,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Superior/Conselho,2,3,66.66666666666667,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Nacional,46,110,41.81818181818182,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Eleitoral,10,39,25.64102564102564,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Estadual,13,29,44.82758620689656,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Trabalho,15,26,57.69230769230769,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Federal,4,8,50.0,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Militar,4,5,80.0,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Superior/Conselho,0,3,0.0,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Nacional,46,110,41.81818181818182,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Eleitoral,2,39,5.128205128205129,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Estadual,15,29,51.72413793103448,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Trabalho,21,26,80.76923076923077,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Federal,6,8,75.0,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Militar,1,5,20.0,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Superior/Conselho,1,3,33.333333333333336,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Nacional,18,110,16.363636363636363,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Eleitoral,6,39,15.384615384615383,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Estadual,8,29,27.58620689655172,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Trabalho,1,26,3.8461538461538463,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Federal,1,8,12.5,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Militar,2,5,40.0,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Superior/Conselho,0,3,0.0,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Nacional,15,110,13.636363636363637,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Eleitoral,3,39,7.6923076923076925,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Estadual,8,29,27.58620689655172,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Trabalho,0,26,0.0,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Federal,3,8,37.5,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Militar,0,5,0.0,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Superior/Conselho,1,3,33.333333333333336,multipla
+eixos_prioritarios_2026,Outro (texto livre),Nacional,27,110,24.545454545454547,multipla
+eixos_prioritarios_2026,Outro (texto livre),Eleitoral,18,39,46.15384615384615,multipla
+eixos_prioritarios_2026,Outro (texto livre),Estadual,2,29,6.896551724137931,multipla
+eixos_prioritarios_2026,Outro (texto livre),Trabalho,3,26,11.538461538461538,multipla
+eixos_prioritarios_2026,Outro (texto livre),Federal,1,8,12.5,multipla
+eixos_prioritarios_2026,Outro (texto livre),Militar,1,5,20.0,multipla
+eixos_prioritarios_2026,Outro (texto livre),Superior/Conselho,2,3,66.66666666666667,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Nacional,102,110,92.72727272727272,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Eleitoral,32,39,82.05128205128206,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Estadual,29,29,100.0,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Trabalho,25,26,96.15384615384616,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Federal,8,8,100.0,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Militar,5,5,100.0,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Superior/Conselho,3,3,100.0,multipla
+composicao_docente_2025,Docentes externos / convidados,Nacional,101,110,91.8181818181818,multipla
+composicao_docente_2025,Docentes externos / convidados,Eleitoral,32,39,82.05128205128206,multipla
+composicao_docente_2025,Docentes externos / convidados,Estadual,29,29,100.0,multipla
+composicao_docente_2025,Docentes externos / convidados,Trabalho,25,26,96.15384615384616,multipla
+composicao_docente_2025,Docentes externos / convidados,Federal,7,8,87.5,multipla
+composicao_docente_2025,Docentes externos / convidados,Militar,5,5,100.0,multipla
+composicao_docente_2025,Docentes externos / convidados,Superior/Conselho,3,3,100.0,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Nacional,97,110,88.18181818181819,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Eleitoral,32,39,82.05128205128206,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Estadual,28,29,96.55172413793105,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Trabalho,23,26,88.46153846153847,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Federal,7,8,87.5,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Militar,4,5,80.0,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Superior/Conselho,3,3,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Nacional,86,110,78.18181818181819,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Eleitoral,17,39,43.58974358974359,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Estadual,29,29,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Trabalho,25,26,96.15384615384616,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Federal,8,8,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Militar,5,5,100.0,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Superior/Conselho,2,3,66.66666666666667,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Nacional,72,110,65.45454545454545,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Eleitoral,20,39,51.282051282051285,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Estadual,23,29,79.3103448275862,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Trabalho,22,26,84.61538461538461,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Federal,5,8,62.5,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Militar,2,5,40.0,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Superior/Conselho,0,3,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Nacional,0,110,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Estadual,0,29,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Trabalho,0,26,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Federal,0,8,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Militar,0,5,0.0,multipla
+composicao_docente_2025,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Nacional,82,110,74.54545454545455,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Eleitoral,23,39,58.97435897435897,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Estadual,26,29,89.65517241379311,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Trabalho,20,26,76.92307692307692,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Federal,7,8,87.5,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Militar,3,5,60.0,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Superior/Conselho,3,3,100.0,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Nacional,76,110,69.0909090909091,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Eleitoral,21,39,53.84615384615385,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Estadual,26,29,89.65517241379311,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Trabalho,17,26,65.38461538461539,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Federal,6,8,75.0,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Militar,4,5,80.0,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Superior/Conselho,2,3,66.66666666666667,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Nacional,63,110,57.27272727272727,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Eleitoral,17,39,43.58974358974359,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Estadual,22,29,75.86206896551724,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Trabalho,15,26,57.69230769230769,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Federal,7,8,87.5,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Militar,1,5,20.0,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Superior/Conselho,1,3,33.333333333333336,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Nacional,44,110,40.0,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Eleitoral,16,39,41.02564102564103,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Estadual,14,29,48.27586206896552,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Trabalho,8,26,30.76923076923077,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Federal,4,8,50.0,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Militar,1,5,20.0,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Superior/Conselho,1,3,33.333333333333336,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Nacional,7,110,6.363636363636363,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Eleitoral,5,39,12.82051282051282,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Estadual,0,29,0.0,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Trabalho,1,26,3.8461538461538463,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Federal,1,8,12.5,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Militar,0,5,0.0,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Superior/Conselho,0,3,0.0,multipla
+instrumentos_gestao_docente,Outro (texto livre),Nacional,9,110,8.181818181818182,multipla
+instrumentos_gestao_docente,Outro (texto livre),Eleitoral,5,39,12.82051282051282,multipla
+instrumentos_gestao_docente,Outro (texto livre),Estadual,2,29,6.896551724137931,multipla
+instrumentos_gestao_docente,Outro (texto livre),Trabalho,2,26,7.6923076923076925,multipla
+instrumentos_gestao_docente,Outro (texto livre),Federal,0,8,0.0,multipla
+instrumentos_gestao_docente,Outro (texto livre),Militar,0,5,0.0,multipla
+instrumentos_gestao_docente,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Nacional,83,110,75.45454545454545,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Eleitoral,24,39,61.53846153846154,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Estadual,26,29,89.65517241379311,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Trabalho,22,26,84.61538461538461,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Federal,5,8,62.5,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Militar,3,5,60.0,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Superior/Conselho,3,3,100.0,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Nacional,62,110,56.36363636363637,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Eleitoral,19,39,48.71794871794872,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Estadual,26,29,89.65517241379311,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Trabalho,13,26,50.0,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Federal,1,8,12.5,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Militar,3,5,60.0,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Superior/Conselho,0,3,0.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Nacional,55,110,50.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Eleitoral,18,39,46.15384615384615,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Estadual,19,29,65.51724137931035,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Trabalho,12,26,46.15384615384615,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Federal,2,8,25.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Militar,2,5,40.0,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Superior/Conselho,2,3,66.66666666666667,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Nacional,53,110,48.18181818181818,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Eleitoral,12,39,30.76923076923077,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Estadual,17,29,58.62068965517241,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Trabalho,18,26,69.23076923076923,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Federal,1,8,12.5,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Militar,3,5,60.0,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Superior/Conselho,2,3,66.66666666666667,multipla
+instituicoes_cooperacao,ENFAM,Nacional,43,110,39.09090909090909,multipla
+instituicoes_cooperacao,ENFAM,Eleitoral,11,39,28.205128205128204,multipla
+instituicoes_cooperacao,ENFAM,Estadual,21,29,72.41379310344827,multipla
+instituicoes_cooperacao,ENFAM,Trabalho,4,26,15.384615384615383,multipla
+instituicoes_cooperacao,ENFAM,Federal,3,8,37.5,multipla
+instituicoes_cooperacao,ENFAM,Militar,1,5,20.0,multipla
+instituicoes_cooperacao,ENFAM,Superior/Conselho,3,3,100.0,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Nacional,34,110,30.90909090909091,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Eleitoral,3,39,7.6923076923076925,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Estadual,21,29,72.41379310344827,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Trabalho,5,26,19.23076923076923,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Federal,2,8,25.0,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Militar,1,5,20.0,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Superior/Conselho,2,3,66.66666666666667,multipla
+instituicoes_cooperacao,Organismos internacionais,Nacional,13,110,11.818181818181818,multipla
+instituicoes_cooperacao,Organismos internacionais,Eleitoral,0,39,0.0,multipla
+instituicoes_cooperacao,Organismos internacionais,Estadual,7,29,24.13793103448276,multipla
+instituicoes_cooperacao,Organismos internacionais,Trabalho,3,26,11.538461538461538,multipla
+instituicoes_cooperacao,Organismos internacionais,Federal,0,8,0.0,multipla
+instituicoes_cooperacao,Organismos internacionais,Militar,2,5,40.0,multipla
+instituicoes_cooperacao,Organismos internacionais,Superior/Conselho,1,3,33.333333333333336,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Nacional,8,110,7.272727272727272,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Eleitoral,6,39,15.384615384615383,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Estadual,0,29,0.0,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Trabalho,1,26,3.8461538461538463,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Federal,1,8,12.5,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Militar,0,5,0.0,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Superior/Conselho,0,3,0.0,multipla
+instituicoes_cooperacao,Outro (texto livre),Nacional,17,110,15.454545454545457,multipla
+instituicoes_cooperacao,Outro (texto livre),Eleitoral,5,39,12.82051282051282,multipla
+instituicoes_cooperacao,Outro (texto livre),Estadual,2,29,6.896551724137931,multipla
+instituicoes_cooperacao,Outro (texto livre),Trabalho,6,26,23.07692307692308,multipla
+instituicoes_cooperacao,Outro (texto livre),Federal,2,8,25.0,multipla
+instituicoes_cooperacao,Outro (texto livre),Militar,1,5,20.0,multipla
+instituicoes_cooperacao,Outro (texto livre),Superior/Conselho,1,3,33.333333333333336,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Nacional,98,110,89.0909090909091,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Eleitoral,32,39,82.05128205128206,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Estadual,27,29,93.10344827586206,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Trabalho,24,26,92.3076923076923,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Federal,7,8,87.5,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Militar,5,5,100.0,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Superior/Conselho,3,3,100.0,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Nacional,65,110,59.09090909090909,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Eleitoral,20,39,51.282051282051285,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Estadual,21,29,72.41379310344827,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Trabalho,18,26,69.23076923076923,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Federal,3,8,37.5,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Militar,1,5,20.0,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Superior/Conselho,2,3,66.66666666666667,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Nacional,58,110,52.72727272727273,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Eleitoral,16,39,41.02564102564103,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Estadual,18,29,62.06896551724138,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Trabalho,14,26,53.84615384615385,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Federal,3,8,37.5,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Militar,5,5,100.0,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Superior/Conselho,2,3,66.66666666666667,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Nacional,49,110,44.54545454545455,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Eleitoral,14,39,35.8974358974359,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Estadual,17,29,58.62068965517241,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Trabalho,9,26,34.61538461538461,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Federal,6,8,75.0,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Militar,1,5,20.0,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Superior/Conselho,2,3,66.66666666666667,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Nacional,32,110,29.09090909090909,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Eleitoral,5,39,12.82051282051282,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Estadual,13,29,44.82758620689656,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Trabalho,8,26,30.76923076923077,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Federal,2,8,25.0,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Militar,3,5,60.0,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Superior/Conselho,1,3,33.333333333333336,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Nacional,9,110,8.181818181818182,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Eleitoral,7,39,17.94871794871795,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Estadual,0,29,0.0,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Trabalho,1,26,3.8461538461538463,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Federal,1,8,12.5,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Militar,0,5,0.0,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Superior/Conselho,0,3,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Nacional,0,110,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Eleitoral,0,39,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Estadual,0,29,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Trabalho,0,26,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Federal,0,8,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Militar,0,5,0.0,multipla
+modalidades_cooperacao,Outro (texto livre),Superior/Conselho,0,3,0.0,multipla

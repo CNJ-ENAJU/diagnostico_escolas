@@ -1,0 +1,186 @@
+﻿variavel,categoria,segmento,n,N,pct,tipo
+natureza,Escola formalmente instituída,Nacional,86,110,78.18181818181819,unica
+natureza,Setor de capacitação (gestão de pessoas),Nacional,17,110,15.454545454545457,unica
+natureza,Centro/núcleo sem natureza de escola,Nacional,7,110,6.363636363636363,unica
+planejamento,Plano próprio vigente e formalizado,Nacional,52,110,47.27272727272727,unica
+planejamento,Plano próprio desatualizado/vencido,Nacional,7,110,6.363636363636363,unica
+planejamento,Em elaboração,Nacional,11,110,10.0,unica
+planejamento,Não possui,Nacional,31,110,28.181818181818183,unica
+planejamento,Adota o planejamento estratégico do tribunal,Nacional,5,110,4.545454545454546,unica
+planejamento,Apenas plano anual (PAC/PAT),Nacional,3,110,2.727272727272727,unica
+planejamento,"Afirmativa em texto livre, sem especificação",Nacional,1,110,0.9090909090909092,unica
+dotacao,Rubrica orçamentária própria,Nacional,95,110,86.36363636363636,unica
+dotacao,Custeada por rubrica geral do tribunal,Nacional,12,110,10.909090909090908,unica
+dotacao,Rubrica específica de capacitação gerida pelo tribunal (texto livre),Nacional,3,110,2.727272727272727,unica
+orcamento,Até R$ 250 mil,Nacional,17,110,15.454545454545457,unica
+orcamento,R$ 250 mil a R$ 1 mi,Nacional,41,110,37.27272727272727,unica
+orcamento,R$ 1 mi a R$ 5 mi,Nacional,39,110,35.45454545454545,unica
+orcamento,Acima de R$ 5 mi,Nacional,11,110,10.0,unica
+orcamento,Sem informação consolidada,Nacional,2,110,1.818181818181818,unica
+efetivos,Nenhum,Nacional,1,110,0.9090909090909092,unica
+efetivos,1 a 3,Nacional,23,110,20.90909090909091,unica
+efetivos,4 a 10,Nacional,45,110,40.90909090909091,unica
+efetivos,Mais de 10,Nacional,41,110,37.27272727272727,unica
+comissionados,Nenhum,Nacional,1,110,0.9090909090909092,unica
+comissionados,1 a 3,Nacional,37,110,33.63636363636363,unica
+comissionados,4 a 10,Nacional,47,110,42.72727272727273,unica
+comissionados,Mais de 10,Nacional,22,110,20.0,unica
+comissionados,(sem resposta),Nacional,3,110,2.727272727272727,unica
+magistrados_gestao,Nenhum,Nacional,24,110,21.818181818181817,unica
+magistrados_gestao,1 a 3,Nacional,70,110,63.63636363636363,unica
+magistrados_gestao,4 a 10,Nacional,9,110,8.181818181818182,unica
+magistrados_gestao,Mais de 10,Nacional,2,110,1.818181818181818,unica
+magistrados_gestao,(sem resposta),Nacional,5,110,4.545454545454546,unica
+ava,AVA próprio,Nacional,74,110,67.27272727272727,unica
+ava,AVA compartilhado com o tribunal,Nacional,26,110,23.63636363636364,unica
+ava,AVA de outra instituição (ENFAM/ENAJU/outra),Nacional,1,110,0.9090909090909092,unica
+ava,Sem AVA,Nacional,9,110,8.181818181818182,unica
+capacidade_ead,"Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",Nacional,27,110,24.545454545454547,unica
+capacidade_ead,"Produção parcial, com apoio pontual de outras áreas",Nacional,49,110,44.54545454545455,unica
+capacidade_ead,Não há capacidade própria de produção,Nacional,34,110,30.90909090909091,unica
+plano_2026,Sim,Nacional,105,110,95.45454545454544,unica
+plano_2026,Em elaboração,Nacional,5,110,4.545454545454546,unica
+cadastro_formadores,Sim,Nacional,97,110,88.18181818181819,unica
+cadastro_formadores,Não,Nacional,13,110,11.818181818181818,unica
+formacao_formadores,Programa permanente com certificação,Nacional,18,110,16.363636363636363,unica
+formacao_formadores,Ações pontuais,Nacional,35,110,31.818181818181817,unica
+formacao_formadores,Não desenvolve,Nacional,51,110,46.36363636363637,unica
+formacao_formadores,Participação em programa/eventos externos (texto livre),Nacional,4,110,3.636363636363636,unica
+formacao_formadores,"Outro texto livre, não classificável",Nacional,1,110,0.9090909090909092,unica
+formacao_formadores,Não se aplica (texto livre),Nacional,1,110,0.9090909090909092,unica
+relacao_cursos,Sim,Nacional,96,110,87.27272727272727,unica
+relacao_cursos,Não,Nacional,14,110,12.727272727272728,unica
+egressos,"Sim, de forma sistemática",Nacional,10,110,9.090909090909092,unica
+egressos,"Sim, de forma pontual",Nacional,19,110,17.272727272727273,unica
+egressos,Não realiza,Nacional,81,110,73.63636363636364,unica
+parcerias,"Sim, com convênios/acordos vigentes",Nacional,94,110,85.45454545454545,unica
+parcerias,"Sim, com parcerias informais",Nacional,9,110,8.181818181818182,unica
+parcerias,Não mantém parcerias,Nacional,7,110,6.363636363636363,unica
+interesse,Alto,Nacional,58,110,52.72727272727273,unica
+interesse,Moderado,Nacional,47,110,42.72727272727273,unica
+interesse,Baixo,Nacional,5,110,4.545454545454546,unica
+n1,Na maioria das ações,Nacional,88,110,80.0,unica
+n1,Em parte das ações,Nacional,15,110,13.636363636363637,unica
+n1,Não aplica,Nacional,7,110,6.363636363636363,unica
+n2,Na maioria das ações,Nacional,32,110,29.09090909090909,unica
+n2,Em parte das ações,Nacional,42,110,38.18181818181818,unica
+n2,Não aplica,Nacional,36,110,32.72727272727273,unica
+n3,Na maioria das ações,Nacional,19,110,17.272727272727273,unica
+n3,Em parte das ações,Nacional,17,110,15.454545454545457,unica
+n3,Não aplica,Nacional,74,110,67.27272727272727,unica
+n4,Na maioria das ações,Nacional,12,110,10.909090909090908,unica
+n4,Em parte das ações,Nacional,20,110,18.181818181818183,unica
+n4,Não aplica,Nacional,78,110,70.9090909090909,unica
+mod_presencial,0%,Nacional,3,110,2.727272727272727,unica
+mod_presencial,Até 25%,Nacional,30,110,27.272727272727277,unica
+mod_presencial,26% a 50%,Nacional,40,110,36.36363636363637,unica
+mod_presencial,Acima de 50%,Nacional,37,110,33.63636363636363,unica
+mod_ead_autoinstrucional,0%,Nacional,18,110,16.363636363636363,unica
+mod_ead_autoinstrucional,Até 25%,Nacional,47,110,42.72727272727273,unica
+mod_ead_autoinstrucional,26% a 50%,Nacional,24,110,21.818181818181817,unica
+mod_ead_autoinstrucional,Acima de 50%,Nacional,21,110,19.09090909090909,unica
+mod_ead_tutoria,0%,Nacional,13,110,11.818181818181818,unica
+mod_ead_tutoria,Até 25%,Nacional,56,110,50.90909090909091,unica
+mod_ead_tutoria,26% a 50%,Nacional,25,110,22.727272727272727,unica
+mod_ead_tutoria,Acima de 50%,Nacional,16,110,14.545454545454543,unica
+mod_hibrida,0%,Nacional,10,110,9.090909090909092,unica
+mod_hibrida,Até 25%,Nacional,69,110,62.72727272727273,unica
+mod_hibrida,26% a 50%,Nacional,18,110,16.363636363636363,unica
+mod_hibrida,Acima de 50%,Nacional,13,110,11.818181818181818,unica
+plan_A,Indicador A — planejamento próprio vigente e formalizado,Nacional,52,110,47.27272727272727,binaria
+plan_B,Indicador B — referência estratégica existente,Nacional,75,110,68.18181818181819,binaria
+ava_algum,Dispõe de algum AVA,Nacional,101,110,91.8181818181818,binaria
+interesse_aberto,Interesse alto ou moderado,Nacional,105,110,95.45454545454544,binaria
+n1_aplica,"Nível 1 (reação) aplicado, em parte ou na maioria das ações",Nacional,103,110,93.63636363636364,binaria
+n2_aplica,"Nível 2 (aprendizagem) aplicado, em parte ou na maioria das ações",Nacional,74,110,67.27272727272727,binaria
+n3_aplica,"Nível 3 (transferência) aplicado, em parte ou na maioria das ações",Nacional,36,110,32.72727272727273,binaria
+n4_aplica,"Nível 4 (impacto) aplicado, em parte ou na maioria das ações",Nacional,32,110,29.09090909090909,binaria
+est_sem_marcacao_sede,Sem marcação de sede própria nem de uso da estrutura do tribunal,Nacional,12,110,10.909090909090908,binaria
+moodle,Cita o Moodle como plataforma de AVA,Nacional,97,110,88.18181818181819,binaria
+n4_sem_n3,Aplica impacto (N4) sem aplicar transferência (N3),Nacional,10,110,9.090909090909092,binaria
+instrumentos_governanca,Plano anual de capacitação (PAC) aprovado,Nacional,93,110,84.54545454545455,multipla
+instrumentos_governanca,Ato normativo / regimento interno próprio,Nacional,82,110,74.54545454545455,multipla
+instrumentos_governanca,Projeto pedagógico institucional / político-pedagógico,Nacional,57,110,51.81818181818182,multipla
+instrumentos_governanca,Conselho ou colegiado pedagógico / acadêmico,Nacional,54,110,49.09090909090909,multipla
+instrumentos_governanca,Outro (texto livre),Nacional,9,110,8.181818181818182,multipla
+fontes_financiamento,Orçamento ordinário do tribunal,Nacional,109,110,99.0909090909091,multipla
+fontes_financiamento,Recursos de convênios / parcerias institucionais,Nacional,22,110,20.0,multipla
+fontes_financiamento,Outro (texto livre),Nacional,5,110,4.545454545454546,multipla
+estrutura_fisica,Sede / espaço físico próprio e exclusivo,Nacional,70,110,63.63636363636363,multipla
+estrutura_fisica,Salas de aula / treinamento,Nacional,85,110,77.27272727272727,multipla
+estrutura_fisica,Auditório,Nacional,66,110,60.0,multipla
+estrutura_fisica,Laboratório de informática,Nacional,60,110,54.54545454545455,multipla
+estrutura_fisica,Biblioteca / centro de memória,Nacional,43,110,39.09090909090909,multipla
+estrutura_fisica,Estúdio de gravação / produção audiovisual (EaD),Nacional,26,110,23.63636363636364,multipla
+estrutura_fisica,"Não dispõe de espaço físico dedicado, utiliza estrutura do tribunal",Nacional,28,110,25.454545454545453,multipla
+estrutura_fisica,Outro (texto livre),Nacional,0,110,0.0,multipla
+publicos_2025,Servidores(as),Nacional,110,110,100.0,multipla
+publicos_2025,Magistrados(as),Nacional,94,110,85.45454545454545,multipla
+publicos_2025,Estagiários(as),Nacional,69,110,62.72727272727273,multipla
+publicos_2025,Público externo / sociedade,Nacional,64,110,58.18181818181818,multipla
+publicos_2025,Colaboradores terceirizados,Nacional,55,110,50.0,multipla
+publicos_2025,Conciliadores / mediadores / juízes leigos,Nacional,36,110,32.72727272727273,multipla
+publicos_2025,Outro (texto livre),Nacional,6,110,5.454545454545454,multipla
+tematicas_2025,"Direitos humanos, cidadania e inclusão social",Nacional,98,110,89.0909090909091,multipla
+tematicas_2025,"Diversidade, igualdade e não discriminação",Nacional,96,110,87.27272727272727,multipla
+tematicas_2025,"Direito, processo e atuação jurisdicional",Nacional,93,110,84.54545454545455,multipla
+tematicas_2025,"Tecnologia, governo digital e inovação no setor público",Nacional,91,110,82.72727272727273,multipla
+tematicas_2025,"Gestão de pessoas, liderança e desenvolvimento de equipes",Nacional,72,110,65.45454545454545,multipla
+tematicas_2025,"Sustentabilidade, meio ambiente e mudanças climáticas",Nacional,66,110,60.0,multipla
+tematicas_2025,"Saúde, bem-estar e qualidade de vida no trabalho",Nacional,65,110,59.09090909090909,multipla
+tematicas_2025,"Dados, informação, privacidade e proteção de dados pessoais",Nacional,58,110,52.72727272727273,multipla
+tematicas_2025,"Governança pública, gestão estratégica e resultados",Nacional,53,110,48.18181818181818,multipla
+tematicas_2025,"Comunicação institucional, linguagem clara e relacionamento com a sociedade",Nacional,52,110,47.27272727272727,multipla
+tematicas_2025,"Acesso à justiça, atendimento ao público e humanização",Nacional,51,110,46.36363636363637,multipla
+tematicas_2025,Meios consensuais de solução de conflitos e justiça restaurativa,Nacional,51,110,46.36363636363637,multipla
+tematicas_2025,"Ética, integridade, transparência e controle social",Nacional,47,110,42.72727272727273,multipla
+tematicas_2025,Competências comportamentais e socioemocionais,Nacional,46,110,41.81818181818182,multipla
+tematicas_2025,"Educação, docência e formação de formadores",Nacional,44,110,40.0,multipla
+tematicas_2025,"Gestão de projetos, processos e melhoria contínua",Nacional,40,110,36.36363636363637,multipla
+tematicas_2025,"Políticas públicas, planejamento e avaliação",Nacional,23,110,20.90909090909091,multipla
+tematicas_2025,Outro (texto livre),Nacional,13,110,11.818181818181818,multipla
+recursos_tecnologias,Webinários / transmissões ao vivo,Nacional,91,110,82.72727272727273,multipla
+recursos_tecnologias,Salas virtuais de videoconferência,Nacional,91,110,82.72727272727273,multipla
+recursos_tecnologias,"Acessibilidade digital, como legendas, audiodescrição e Libras",Nacional,79,110,71.81818181818181,multipla
+recursos_tecnologias,"Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",Nacional,65,110,59.09090909090909,multipla
+recursos_tecnologias,Recursos de inteligência artificial aplicados à formação,Nacional,29,110,26.363636363636363,multipla
+recursos_tecnologias,Gamificação / objetos de aprendizagem interativos,Nacional,28,110,25.454545454545453,multipla
+recursos_tecnologias,Não utiliza recursos digitais estruturados,Nacional,7,110,6.363636363636363,multipla
+recursos_tecnologias,Outro (texto livre),Nacional,0,110,0.0,multipla
+eixos_prioritarios_2026,"Direitos humanos, diversidade e inclusão",Nacional,98,110,89.0909090909091,multipla
+eixos_prioritarios_2026,Inteligência artificial e inovação no Judiciário,Nacional,94,110,85.45454545454545,multipla
+eixos_prioritarios_2026,Gestão judiciária e produtividade,Nacional,62,110,56.36363636363637,multipla
+eixos_prioritarios_2026,"Proteção de dados, privacidade e prova digital",Nacional,50,110,45.45454545454545,multipla
+eixos_prioritarios_2026,Saúde mental e qualidade de vida,Nacional,46,110,41.81818181818182,multipla
+eixos_prioritarios_2026,Métodos consensuais e justiça restaurativa,Nacional,46,110,41.81818181818182,multipla
+eixos_prioritarios_2026,Formação inicial de magistrados,Nacional,18,110,16.363636363636363,multipla
+eixos_prioritarios_2026,Combate ao crime organizado e atuação criminal,Nacional,15,110,13.636363636363637,multipla
+eixos_prioritarios_2026,Outro (texto livre),Nacional,27,110,24.545454545454547,multipla
+composicao_docente_2025,Servidores(as) da própria instituição,Nacional,102,110,92.72727272727272,multipla
+composicao_docente_2025,Docentes externos / convidados,Nacional,101,110,91.8181818181818,multipla
+composicao_docente_2025,Profissionais de outras instituições públicas,Nacional,97,110,88.18181818181819,multipla
+composicao_docente_2025,Magistrados(as) da própria instituição,Nacional,86,110,78.18181818181819,multipla
+composicao_docente_2025,Docentes de instituições de ensino superior,Nacional,72,110,65.45454545454545,multipla
+composicao_docente_2025,Outro (texto livre),Nacional,0,110,0.0,multipla
+instrumentos_gestao_docente,Política de retribuição / gratificação por hora-aula,Nacional,82,110,74.54545454545455,multipla
+instrumentos_gestao_docente,Banco / cadastro de formadores,Nacional,76,110,69.0909090909091,multipla
+instrumentos_gestao_docente,Avaliação de desempenho dos formadores,Nacional,63,110,57.27272727272727,multipla
+instrumentos_gestao_docente,Critérios formais de seleção e credenciamento,Nacional,44,110,40.0,multipla
+instrumentos_gestao_docente,Nenhum dos anteriores,Nacional,7,110,6.363636363636363,multipla
+instrumentos_gestao_docente,Outro (texto livre),Nacional,9,110,8.181818181818182,multipla
+instituicoes_cooperacao,Outras escolas judiciais / da magistratura,Nacional,83,110,75.45454545454545,multipla
+instituicoes_cooperacao,Instituições de ensino superior / universidades,Nacional,62,110,56.36363636363637,multipla
+instituicoes_cooperacao,"Ministério Público, Defensoria, OAB ou outras carreiras",Nacional,55,110,50.0,multipla
+instituicoes_cooperacao,"Escolas de governo, como ENAP e escolas estaduais",Nacional,53,110,48.18181818181818,multipla
+instituicoes_cooperacao,ENFAM,Nacional,43,110,39.09090909090909,multipla
+instituicoes_cooperacao,ENAJU / CNJ,Nacional,34,110,30.90909090909091,multipla
+instituicoes_cooperacao,Organismos internacionais,Nacional,13,110,11.818181818181818,multipla
+instituicoes_cooperacao,Não há cooperação formalizada,Nacional,8,110,7.272727272727272,multipla
+instituicoes_cooperacao,Outro (texto livre),Nacional,17,110,15.454545454545457,multipla
+modalidades_cooperacao,Compartilhamento de cursos / vagas entre escolas,Nacional,98,110,89.0909090909091,multipla
+modalidades_cooperacao,Compartilhamento de conteúdos e objetos de aprendizagem,Nacional,65,110,59.09090909090909,multipla
+modalidades_cooperacao,Produção conjunta de ações formativas,Nacional,58,110,52.72727272727273,multipla
+modalidades_cooperacao,Intercâmbio de formadores,Nacional,49,110,44.54545454545455,multipla
+modalidades_cooperacao,Participação em redes nacionais temáticas,Nacional,32,110,29.09090909090909,multipla
+modalidades_cooperacao,Nenhuma das anteriores,Nacional,9,110,8.181818181818182,multipla
+modalidades_cooperacao,Outro (texto livre),Nacional,0,110,0.0,multipla

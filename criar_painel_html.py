@@ -2,7 +2,7 @@
 """Gera o painel interativo HTML do Diagnóstico Nacional das Escolas Judiciais (ENAJU/CNJ)."""
 from pathlib import Path
 
-PAINEL_DIR = Path(__file__).resolve().parent
+PAINEL_DIR = Path(r"G:\Meu Drive\ENAJU\Diagnóstico das Escolas\06_Painel")
 
 html = """<!DOCTYPE html>
 <html lang="pt-BR">

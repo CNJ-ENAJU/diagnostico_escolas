@@ -1,0 +1,33 @@
+{
+  "titulo": "Diagnóstico Nacional das Unidades de Formação do Poder Judiciário — Base de Dados Pública",
+  "subtitulo": "Camada pública auditável de dados e indicadores",
+  "instituicao": "Conselho Nacional de Justiça (CNJ) · Escola Nacional do Judiciário (ENAJU)",
+  "versao": "1.0.0",
+  "data_atualizacao": "29/09/2026 19:55",
+  "periodo_coleta": "2025/2026",
+  "universo": {
+    "n_unidades": 110,
+    "n_orgaos": 92,
+    "n_tribunais_escopo": 91,
+    "n_tribunais_representados": 90,
+    "n_ufs": 27,
+    "n_indicadores_cortes": 1295
+  },
+  "arquivos_publicos": {
+    "diagnostico_unidades_publico.csv": "27d15b14f8cdfe7375d042dc25492e4314577e80b9101ec87b46d225249bf2cf",
+    "indicadores_nacionais.csv": "0bbeeeb48f4fc729607667ada0f1da6eed27f435b61835e4f7093c5d8b337f36",
+    "indicadores_por_ramo.csv": "dfb2fd915d7921ebff4f5ecdd3515b492fbd409dd875381f3a78cd21d9ce3152",
+    "indicadores_por_uf.csv": "ab52b4103393d556eb0dcf8d62d9cce654ba5e47600bfc5c23f19dada3ce7d53",
+    "indicadores_painel_completo.csv": "f12022413be77205fa4c413793f5306128bbc7b4482cc79002002d7b8bf409d3",
+    "dicionario_dados_publicos.csv": "ccad4827614c0c884ba234266bb44932ecd1a43280fd8ffa8f21fc0dd0d2aa24"
+  },
+  "regras_aplicadas": [
+    "R01.1 — Supressão de percentuais em recortes com N <= 10 (apresentação exclusiva em números absolutos n de N)",
+    "C02 — TJDFT agregado à Justiça Estadual nos cortes comparativos por ramo",
+    "C02 — STJ classificado em Tribunais Superiores e Conselhos",
+    "C02 — Indicador A (47,3% plano próprio vigente) e Indicador B (68,2% referência existente) não conflacionados",
+    "LGPD — Exclusão total de dados de contato, emails, telefones, assinaturas e nomes de respondentes",
+    "Bloqueio — Exclusão de anexos documentais de 2025 e perguntas qualitativas não homologadas (Q44)"
+  ],
+  "status": "dados homologados prontos para publicação"
+}

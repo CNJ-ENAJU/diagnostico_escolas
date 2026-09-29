@@ -1,0 +1,611 @@
+[
+  {
+    "uf": "AC",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "AC",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "AL",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "AL",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "AM",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 5,
+    "pct_uf": 40.0
+  },
+  {
+    "uf": "AM",
+    "segmento": "Estadual",
+    "n": 2,
+    "N_uf": 5,
+    "pct_uf": 40.0
+  },
+  {
+    "uf": "AM",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "AP",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "AP",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "BA",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "BA",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "BA",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "CE",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 5,
+    "pct_uf": 40.0
+  },
+  {
+    "uf": "CE",
+    "segmento": "Estadual",
+    "n": 2,
+    "N_uf": 5,
+    "pct_uf": 40.0
+  },
+  {
+    "uf": "CE",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "DF",
+    "segmento": "Eleitoral",
+    "n": 3,
+    "N_uf": 13,
+    "pct_uf": 23.07692307692308
+  },
+  {
+    "uf": "DF",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 13,
+    "pct_uf": 7.6923076923076925
+  },
+  {
+    "uf": "DF",
+    "segmento": "Federal",
+    "n": 2,
+    "N_uf": 13,
+    "pct_uf": 15.384615384615383
+  },
+  {
+    "uf": "DF",
+    "segmento": "Militar",
+    "n": 2,
+    "N_uf": 13,
+    "pct_uf": 15.384615384615383
+  },
+  {
+    "uf": "DF",
+    "segmento": "Superior/Conselho",
+    "n": 3,
+    "N_uf": 13,
+    "pct_uf": 23.07692307692308
+  },
+  {
+    "uf": "DF",
+    "segmento": "Trabalho",
+    "n": 2,
+    "N_uf": 13,
+    "pct_uf": 15.384615384615383
+  },
+  {
+    "uf": "ES",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "ES",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "ES",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "GO",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 4,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "GO",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "GO",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "MA",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 4,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "MA",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "MA",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "MG",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "MG",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "MG",
+    "segmento": "Federal",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "MG",
+    "segmento": "Militar",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "MG",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "MS",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "MS",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "MS",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "MT",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "MT",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "MT",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "PA",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "PA",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "PA",
+    "segmento": "Trabalho",
+    "n": 2,
+    "N_uf": 4,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "PB",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "PB",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "PB",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "PE",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 5,
+    "pct_uf": 40.0
+  },
+  {
+    "uf": "PE",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "PE",
+    "segmento": "Federal",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "PE",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "PI",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 4,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "PI",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "PI",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "PR",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "PR",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "PR",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RJ",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 6,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RJ",
+    "segmento": "Estadual",
+    "n": 2,
+    "N_uf": 6,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RJ",
+    "segmento": "Federal",
+    "n": 1,
+    "N_uf": 6,
+    "pct_uf": 16.666666666666668
+  },
+  {
+    "uf": "RJ",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 6,
+    "pct_uf": 16.666666666666668
+  },
+  {
+    "uf": "RN",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RN",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RN",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RO",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RO",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RO",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "RR",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "RR",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 2,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "RS",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "RS",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "RS",
+    "segmento": "Federal",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "RS",
+    "segmento": "Militar",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "RS",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 5,
+    "pct_uf": 20.0
+  },
+  {
+    "uf": "SC",
+    "segmento": "Eleitoral",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "SC",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "SC",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  },
+  {
+    "uf": "SE",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 4,
+    "pct_uf": 50.0
+  },
+  {
+    "uf": "SE",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "SE",
+    "segmento": "Trabalho",
+    "n": 1,
+    "N_uf": 4,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "SP",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 8,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "SP",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 8,
+    "pct_uf": 12.5
+  },
+  {
+    "uf": "SP",
+    "segmento": "Federal",
+    "n": 2,
+    "N_uf": 8,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "SP",
+    "segmento": "Militar",
+    "n": 1,
+    "N_uf": 8,
+    "pct_uf": 12.5
+  },
+  {
+    "uf": "SP",
+    "segmento": "Trabalho",
+    "n": 2,
+    "N_uf": 8,
+    "pct_uf": 25.0
+  },
+  {
+    "uf": "TO",
+    "segmento": "Eleitoral",
+    "n": 2,
+    "N_uf": 3,
+    "pct_uf": 66.66666666666667
+  },
+  {
+    "uf": "TO",
+    "segmento": "Estadual",
+    "n": 1,
+    "N_uf": 3,
+    "pct_uf": 33.333333333333336
+  }
+]
