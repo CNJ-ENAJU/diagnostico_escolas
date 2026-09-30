@@ -3,7 +3,13 @@
 > **Conselho Nacional de Justiça (CNJ) · Escola Nacional do Judiciário (ENAJU)**  
 > Resolução CNJ nº 643/2025 · Ciclo 2025/2026
 
-Aplicação estática moderna, auditável e responsiva para exploração pública dos indicadores institucionais, tecnológicos e pedagógicos das **110 unidades de formação** do Poder Judiciário brasileiro em **92 órgãos**.
+Aplicação estática moderna, auditável e responsiva para exploração pública dos indicadores institucionais, tecnológicos e pedagógicos das **110 unidades de formação** do Poder Judiciário.
+
+## 🔗 Acesse o painel
+
+**[Clique aqui para visualizar o painel público](https://cairesmachado-svg.github.io/diagnostico_escolas/)**
+
+> Se o link ainda não estiver publicado no GitHub Pages, rode localmente com `npm install` e `npm run dev`.
 
 ---
 
@@ -51,7 +57,7 @@ npm run build
 
 ## 🛡️ Salvaguardas Metodológicas e Proteção de Dados (LGPD)
 
-* **Regra R01.1:** Ramos com $N \le 10$ unidades (Justiça Federal $n=8$, Justiça Militar $n=5$, Tribunais Superiores $n=3$) têm resultados exibidos exclusivamente em valores absolutos ($n \text{ de } N$). Filtros que resultem em $N < 10$ suprimem as visualizações desagregadas para proteger o sigilo estatístico.
+* **Regra R01.1:** Ramos com $N \le 10$ unidades (Justiça Federal $n=8$, Justiça Militar $n=5$, Tribunais Superiores $n=3$) têm resultados exibidos exclusivamente em valores absolutos ($n$) e nunca em percentuais.
 * **Privacidade Absoluta:** O front-end não tem acesso à base bruta e nenhum dado de contato pessoal (nome de respondente, email, telefone, assinatura) integra os arquivos públicos.
 * **Consistência Matemática:** 100% dos indicadores coincidem com o Relatório Oficial com diferença zero ($d = 0$).
 
