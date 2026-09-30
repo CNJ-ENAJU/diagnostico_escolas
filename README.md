@@ -7,7 +7,13 @@ Aplicação estática moderna, auditável e responsiva para exploração públic
 
 ## 🔗 Acesse o painel
 
-**[Clique aqui para visualizar o painel público](https://cairesmachado-svg.github.io/diagnostico_escolas/)**
+<p align="center">
+  <a href="https://cnj-enaju.github.io/diagnostico_escolas/">
+    <img alt="Acessar o Painel Público" src="https://img.shields.io/badge/%F0%9F%93%8A%20Acessar%20o%20Painel%20P%C3%BAblico-1a73e8?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center"><strong><a href="https://cnj-enaju.github.io/diagnostico_escolas/">https://cnj-enaju.github.io/diagnostico_escolas/</a></strong></p>
 
 > Se o link ainda não estiver publicado no GitHub Pages, rode localmente com `npm install` e `npm run dev`.
 
