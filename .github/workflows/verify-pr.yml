@@ -1,0 +1,32 @@
+name: Verificar conciliação do relatório e painel
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Dependências de validação
+        run: python -m pip install pandas numpy pyyaml
+      - name: Dependências front-end
+        run: npm ci
+      - name: Validar camada pública
+        run: npm test
+      - name: Validar concordância UI e dados homologados
+        run: python scripts/validate_ui_consistency.py
+      - name: Compilar interface sem deploy
+        run: npm run build
