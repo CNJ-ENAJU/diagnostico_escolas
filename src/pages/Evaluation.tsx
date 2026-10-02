@@ -92,7 +92,7 @@ export const Evaluation: React.FC<EvaluationProps> = ({ unidades, indicadores, r
 
       {/* Alerta Metodológico: Escada Avaliativa (Regra 21) */}
       <div style={{ background: "#F8FAFC", borderLeft: "4px solid #00367C", padding: "1rem 1.25rem", borderRadius: "0 8px 8px 0", marginBottom: "2rem", fontSize: "0.85rem", color: "#334155", lineHeight: 1.5 }}>
-        <strong>Nota Metodológica (Capítulo 9 do Relatório):</strong> As opções do questionário preservam três graus ordinais (<em>Não aplica</em>, <em>Em parte das ações</em> e <em>Na maioria das ações</em>). A representação é apresentada tanto para "qualquer aplicação" quanto para "aplicação sistemática na maioria das ações". Evita-se representação exclusiva em funil para não pressupor uma linearidade obrigatória entre todos os níveis em todas as ações formativas.
+        <strong>Nota Metodológica (Capítulo 8 do Relatório):</strong> As opções do questionário preservam três graus ordinais (<em>Não aplica</em>, <em>Em parte das ações</em> e <em>Na maioria das ações</em>). A representação é apresentada tanto para "qualquer aplicação" quanto para "aplicação na maioria das ações". Os níveis não formam uma sequência empírica obrigatória: dez unidades declaram avaliação de impacto sem avaliação de transferência. Evita-se representação exclusiva em funil.
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(460px, 1fr))", gap: "1.5rem" }}>
@@ -109,7 +109,7 @@ export const Evaluation: React.FC<EvaluationProps> = ({ unidades, indicadores, r
             regraCalculo: "Soma das opções 'Em parte das ações' e 'Na maioria das ações'.",
             limitacao: "Autodeclarado."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 9", texto: "A Escada Avaliativa de Kirkpatrick" }}
+          linkRelatorio={{ capitulo: "Capítulo 8", texto: "A Escada Avaliativa de Kirkpatrick" }}
         />
 
         {/* Gráfico 2: Aplicação na Maioria das Ações */}
@@ -119,13 +119,13 @@ export const Evaluation: React.FC<EvaluationProps> = ({ unidades, indicadores, r
           itens={itensMaioriaAcoes}
           modoAbsoluto={modoAbsoluto}
           metadados={{
-            definicao: "Unidades que executam a avaliação de forma sistemática na quase totalidade das ações.",
+            definicao: "Unidades que executam a avaliação de forma sistemática na maioria das ações.",
             perguntaOrigem: "Q37 do formulário oficial.",
             denominador: `N = ${nAtual} unidades respondentes.`,
             regraCalculo: "Percentual exclusivo da categoria 'Na maioria das ações'.",
             limitacao: "Critérios de delimitação de 'maioria' autodeclarados pelas unidades."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 9", texto: "Intensidade Avaliativa por Ramo" }}
+          linkRelatorio={{ capitulo: "Capítulo 8", texto: "Intensidade Avaliativa por Ramo" }}
         />
       </div>
 
@@ -143,7 +143,7 @@ export const Evaluation: React.FC<EvaluationProps> = ({ unidades, indicadores, r
             regraCalculo: "Percentual por arranjo de pesquisa declarado.",
             limitacao: "Autodeclarado."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 9", texto: "Pesquisa de Egressos e Impacto Organizacional" }}
+          linkRelatorio={{ capitulo: "Capítulo 8", texto: "Pesquisa de Egressos e Impacto Organizacional" }}
         />
       </div>
     </div>

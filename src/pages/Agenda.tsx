@@ -3,6 +3,7 @@ import { UnidadePublica, IndicadorCorte } from "../types";
 import { ChartCard, ItemGrafico } from "../components/ChartCard";
 import { SmallGroupAlert } from "../components/SmallGroupAlert";
 import { MIN_PUBLIC_GROUP_SIZE } from "../config";
+import { itemCategoria } from "../services/metricasCanonicas";
 
 interface AgendaProps {
   unidades: UnidadePublica[];
@@ -15,61 +16,49 @@ export const Agenda: React.FC<AgendaProps> = ({ unidades, indicadores, ramoSelec
   const isSmallGroup = nAtual < MIN_PUBLIC_GROUP_SIZE;
   const modoAbsoluto = nAtual <= 10;
 
-  // 1. Temáticas Realizadas em 2025 (Lista de 17 Áreas)
-  const itensTemas2025: ItemGrafico[] = React.useMemo(() => {
-    const contarTema = (termo: string, rotulo: string): ItemGrafico => {
-      const n = unidades.filter(u => u.tematicas_2025.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor: "#0163AC",
-      };
-    };
+  // Categorias textuais idênticas às perguntas Q23 e Q31 e à camada pública homologada.
+  // Correspondência exata após separação por ponto e vírgula; nenhum eixo novo é inferido.
+  const temas2025 = [
+    "Direitos humanos, cidadania e inclusão social",
+    "Diversidade, igualdade e não discriminação",
+    "Direito, processo e atuação jurisdicional",
+    "Tecnologia, governo digital e inovação no setor público",
+    "Gestão de pessoas, liderança e desenvolvimento de equipes",
+    "Sustentabilidade, meio ambiente e mudanças climáticas",
+    "Saúde, bem-estar e qualidade de vida no trabalho",
+    "Dados, informação, privacidade e proteção de dados pessoais",
+    "Governança pública, gestão estratégica e resultados",
+    "Comunicação institucional, linguagem clara e relacionamento com a sociedade",
+    "Acesso à justiça, atendimento ao público e humanização",
+    "Meios consensuais de solução de conflitos e justiça restaurativa",
+    "Ética, integridade, transparência e controle social",
+    "Competências comportamentais e socioemocionais",
+    "Educação, docência e formação de formadores",
+    "Gestão de projetos, processos e melhoria contínua",
+    "Políticas públicas, planejamento e avaliação",
+    "Outro (texto livre)",
+  ];
 
-    return [
-      contarTema("Tecnologia da informação", "Tecnologia da Informação e Inovação"),
-      contarTema("Gestão de pessoas", "Gestão de Pessoas e Liderança"),
-      contarTema("Direito processual", "Direito Processual"),
-      contarTema("Direitos humanos", "Direitos Humanos e Vulnerabilidades"),
-      contarTema("Ética", "Ética, Integridade e Prevenção ao Assédio"),
-      contarTema("Inteligência artificial", "Inteligência Artificial"),
-      contarTema("Comunicação", "Comunicação e Linguagem Simples"),
-      contarTema("Meio ambiente", "Sustentabilidade e Direito Ambiental"),
-      contarTema("Gestão estratégica", "Gestão Estratégica e Projetos"),
-      contarTema("Métodos consensuais", "Métodos Consensuais / Mediação"),
-      contarTema("Direito administrativo", "Direito Administrativo e Contratações"),
-      contarTema("Saúde", "Saúde e Qualidade de Vida"),
-      contarTema("Outro", "Outro (texto livre)"),
-    ].sort((a, b) => b.n - a.n);
-  }, [unidades, nAtual]);
+  const eixos2026 = [
+    "Direitos humanos, diversidade e inclusão",
+    "Inteligência artificial e inovação no Judiciário",
+    "Gestão judiciária e produtividade",
+    "Proteção de dados, privacidade e prova digital",
+    "Saúde mental e qualidade de vida",
+    "Métodos consensuais e justiça restaurativa",
+    "Formação inicial de magistrados",
+    "Combate ao crime organizado e atuação criminal",
+    "Outro (texto livre)",
+  ];
 
-  // 2. Eixos Prioritários de 2026 (Lista de Eixos Estruturados)
-  const itensEixos2026: ItemGrafico[] = React.useMemo(() => {
-    const contarEixo = (termo: string, rotulo: string): ItemGrafico => {
-      const n = unidades.filter(u => u.eixos_prioritarios_2026.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor: "#00367C",
-      };
-    };
-
-    return [
-      contarEixo("Inteligência artificial", "Inteligência Artificial e Transformação Digital"),
-      contarEixo("Direitos humanos", "Direitos Humanos e Proteção de Grupos Vulneráveis"),
-      contarEixo("Inovação", "Inovação, Linguagem Simples e Acesso à Justiça"),
-      contarEixo("Gestão", "Gestão Judiciária, Produtividade e Governança"),
-      contarEixo("Sustentabilidade", "Sustentabilidade, Meio Ambiente e Clima"),
-      contarEixo("Ética", "Ética, Integridade e Equidade de Gênero/Raça"),
-      contarEixo("Métodos consensuais", "Métodos Consensuais e Solução de Conflitos"),
-      contarEixo("Precedentes", "Sistema de Precedentes e Segurança Jurídica"),
-      contarEixo("Outro", "Outro (especificado em texto livre)"),
-    ].sort((a, b) => b.n - a.n);
-  }, [unidades, nAtual]);
+  const itensTemas2025: ItemGrafico[] = React.useMemo(() =>
+    temas2025.map(categoria => itemCategoria(unidades, "tematicas_2025", categoria))
+      .sort((a, b) => b.n - a.n), [unidades]
+  );
+  const itensEixos2026: ItemGrafico[] = React.useMemo(() =>
+    eixos2026.map(categoria => itemCategoria(unidades, "eixos_prioritarios_2026", categoria, categoria, "#00367C"))
+      .sort((a, b) => b.n - a.n), [unidades]
+  );
 
   return (
     <div>
@@ -78,7 +67,7 @@ export const Agenda: React.FC<AgendaProps> = ({ unidades, indicadores, ramoSelec
           Agenda Formativa: Temáticas 2025 & Eixos Prioritários 2026
         </h2>
         <p style={{ color: "#64748B", fontSize: "0.95rem" }}>
-          Mapeamento comparativo das áreas pedagógicas desenvolvidas e intenções estratégicas para o próximo ciclo · N = {nAtual}
+          Dois retratos descritivos independentes: temas de 2025 e prioridades de 2026 · N = {nAtual}
         </p>
       </div>
 
@@ -86,7 +75,7 @@ export const Agenda: React.FC<AgendaProps> = ({ unidades, indicadores, ramoSelec
 
       {/* Alerta Metodológico Obrigatório de Não-Comparabilidade (Regra 22) */}
       <div style={{ background: "#FEF3C7", borderLeft: "4px solid #D97706", padding: "1.25rem", borderRadius: "0 8px 8px 0", marginBottom: "2rem", fontSize: "0.88rem", color: "#92400E", lineHeight: 1.5 }}>
-        <strong>Alerta Metodológico Crítico (Capítulo 10 do Relatório):</strong> As perguntas de 2025 e 2026 utilizaram listas, agrupamentos e regras de resposta distintas (em 2026 vigorou limitação de no máximo 5 eixos prioritários por unidade). <em>Os resultados não constituem série temporal e não devem ser interpretados como crescimento ou redução entre os anos.</em>
+        <strong>Alerta Metodológico Crítico (Capítulo 9 do Relatório):</strong> As perguntas de 2025 e 2026 utilizaram listas, agrupamentos e regras de resposta distintas (em 2026 vigorou limitação de no máximo 5 eixos prioritários por unidade). <em>Os resultados não constituem série temporal e não devem ser interpretados como crescimento ou redução entre os anos. A categoria “Outro” em 2026 inclui temas eleitorais que não constavam da lista fechada.</em>
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(460px, 1fr))", gap: "1.5rem" }}>
@@ -103,7 +92,7 @@ export const Agenda: React.FC<AgendaProps> = ({ unidades, indicadores, ramoSelec
             regraCalculo: "Múltipla escolha (respondente com a opção assinalada).",
             limitacao: "Múltipla escolha sem limite máximo de opções; percentuais não somam 100%."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 10", texto: "Temáticas de Capacitação em 2025" }}
+          linkRelatorio={{ capitulo: "Capítulo 9", texto: "Temáticas de Capacitação em 2025" }}
         />
 
         {/* Gráfico 2: Eixos 2026 */}
@@ -119,7 +108,7 @@ export const Agenda: React.FC<AgendaProps> = ({ unidades, indicadores, ramoSelec
             regraCalculo: "Múltipla escolha com teto de até 5 opções assinaladas por unidade.",
             limitacao: "Não comparável diretamente com 2025 devido à limitação de escolhas."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 10", texto: "Eixos Prioritários para 2026" }}
+          linkRelatorio={{ capitulo: "Capítulo 9", texto: "Eixos Prioritários para 2026" }}
         />
       </div>
     </div>

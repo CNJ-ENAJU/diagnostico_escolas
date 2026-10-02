@@ -29,12 +29,12 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ unidades, indicadore
     };
 
     return [
-      contarEst("Salas de aula", "Salas de aula dedicadas / exclusivas", "#00367C"),
-      contarEst("Auditório", "Auditório próprio ou compartilhado", "#0163AC"),
+      contarEst("Salas de aula", "Salas de aula / treinamento", "#00367C"),
+      contarEst("Auditório", "Auditório (disponibilidade declarada)", "#0163AC"),
       contarEst("Estúdio", "Estúdio de gravação audiovisual / EaD", "#009BD4"),
       contarEst("Sede", "Sede / espaço físico próprio e exclusivo", "#3E9F9B"),
-      contarEst("Biblioteca", "Biblioteca setorial ou especializada", "#64748B"),
-      contarEst("Laboratório", "Laboratório de informática / inovação", "#D9982B"),
+      contarEst("Biblioteca", "Biblioteca / centro de memória", "#64748B"),
+      contarEst("Laboratório", "Laboratório de informática", "#D9982B"),
       contarEst("Não dispõe", "Não dispõe de espaço físico dedicado (usa do tribunal)", "#C62828"),
     ];
   }, [unidades, nAtual]);
@@ -92,7 +92,7 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ unidades, indicadore
 
       {/* Alerta Metodológico Obrigatório (Regra 18) */}
       <div style={{ background: "#F8FAFC", borderLeft: "4px solid #D9982B", padding: "1rem 1.25rem", borderRadius: "0 8px 8px 0", marginBottom: "2rem", fontSize: "0.85rem", color: "#334155", lineHeight: 1.5 }}>
-        <strong>Salvaguarda Metodológica (Capítulo 6 do Relatório):</strong> As variáveis de pessoal e orçamento foram coletadas em <em>faixas ordinais autodeclaradas</em>. Por determinação metodológica, é vedado o cálculo de médias artificiais, extrapolações de pontos médios ou somas do total nacional de servidores/orçamento, pois tais operações induzem a estimativas enviesadas.
+        <strong>Salvaguarda Metodológica (Capítulo 5 do Relatório):</strong> As variáveis de pessoal e orçamento foram coletadas em <em>faixas ordinais autodeclaradas</em>. Por determinação metodológica, é vedado o cálculo de médias artificiais, extrapolações de pontos médios ou somas do total nacional de servidores/orçamento, pois tais operações induzem a estimativas enviesadas.
       </div>
 
       {/* Gráfico 1: Estrutura Física */}
@@ -109,7 +109,7 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ unidades, indicadore
             regraCalculo: "Múltipla escolha (respondente com a opção assinalada).",
             limitacao: "Valores autodeclarados; a soma dos percentuais não totaliza 100%."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 6", texto: "Capacidades Físicas e Estruturais" }}
+          linkRelatorio={{ capitulo: "Capítulo 5", texto: "Capacidades Físicas e Estruturais" }}
         />
       </div>
 
@@ -127,7 +127,7 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ unidades, indicadore
             regraCalculo: "Percentual de unidades em cada faixa ordinal.",
             limitacao: "Faixas ordinais; não reflete a soma exata de servidores."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 6", texto: "Força de Trabalho e Quadro Funcional" }}
+          linkRelatorio={{ capitulo: "Capítulo 5", texto: "Força de Trabalho e Quadro Funcional" }}
         />
 
         {/* Gráfico 3: Orçamento 2025 */}
@@ -143,7 +143,7 @@ export const Capabilities: React.FC<CapabilitiesProps> = ({ unidades, indicadore
             regraCalculo: "Percentual de unidades em cada faixa ordinal.",
             limitacao: "Valores autodeclarados sem conferência contábil-documental nesta versão."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 6", texto: "Recursos Financeiros e Orçamento" }}
+          linkRelatorio={{ capitulo: "Capítulo 5", texto: "Recursos Financeiros e Orçamento" }}
         />
       </div>
     </div>

@@ -3,6 +3,7 @@ import { UnidadePublica, IndicadorCorte } from "../types";
 import { ChartCard, ItemGrafico } from "../components/ChartCard";
 import { SmallGroupAlert } from "../components/SmallGroupAlert";
 import { MIN_PUBLIC_GROUP_SIZE } from "../config";
+import { itemCategoria } from "../services/metricasCanonicas";
 
 interface GovernanceProps {
   unidades: UnidadePublica[];
@@ -32,53 +33,26 @@ export const Governance: React.FC<GovernanceProps> = ({ unidades, indicadores, r
     return [
       calc(u => u.plan_B === 1, "Indicador B — Referência Estratégica Existente (Geral)", "#0163AC", true),
       calc(u => u.plan_A === 1, "Indicador A — Plano Próprio Vigente e Formalizado", "#00367C", true),
-      calc(u => u.planejamento.includes("tribunal"), "Adota o Planejamento do Tribunal", "#3E9F9B"),
-      calc(u => u.planejamento.includes("Em elaboração"), "Plano em Elaboração", "#D9982B"),
-      calc(u => u.planejamento.includes("desatualizado"), "Plano Próprio Desatualizado / Vencido", "#64748B"),
-      calc(u => u.planejamento.includes("Não possui"), "Não Possui Planejamento Estratégico", "#C62828"),
+      calc(u => u.planejamento === "Adota o planejamento estratégico do tribunal", "Adota o Planejamento do Tribunal", "#3E9F9B"),
+      calc(u => u.planejamento === "Em elaboração", "Plano em Elaboração", "#D9982B"),
+      calc(u => u.planejamento === "Plano próprio desatualizado/vencido", "Plano Próprio Desatualizado / Vencido", "#64748B"),
+      calc(u => u.planejamento === "Não possui", "Não Possui Planejamento Estratégico", "#C62828"),
     ];
   }, [unidades, nAtual]);
 
-  // 2. Instrumentos Normativos e Colegiados
-  const itensNormativos: ItemGrafico[] = React.useMemo(() => {
-    const contarTexto = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.instrumentos_governanca.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensNormativos: ItemGrafico[] = React.useMemo(() => [
+    "Plano anual de capacitação (PAC) aprovado",
+    "Ato normativo / regimento interno próprio",
+    "Projeto pedagógico institucional / político-pedagógico",
+    "Conselho ou colegiado pedagógico / acadêmico",
+    "Outro (texto livre)",
+  ].map(c => itemCategoria(unidades, "instrumentos_governanca", c)), [unidades]);
 
-    return [
-      contarTexto("Plano anual de capacitação", "Plano Anual de Capacitação (PAC / PAT)", "#00367C"),
-      contarTexto("Ato normativo", "Ato Normativo / Regimento Interno Formal", "#0163AC"),
-      contarTexto("Conselho ou colegiado", "Conselho Consultivo ou Colegiado Formal", "#009BD4"),
-      contarTexto("Projeto pedagógico", "Projeto Pedagógico Institucional (PPI)", "#3E9F9B"),
-    ];
-  }, [unidades, nAtual]);
-
-  // 3. Arranjo Orçamentário e Dotação
-  const itensDotacao: ItemGrafico[] = React.useMemo(() => {
-    const contarDot = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.dotacao.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
-
-    return [
-      contarDot("geral", "Custeada por rubrica geral do tribunal", "#64748B"),
-      contarDot("própria", "Rubrica orçamentária própria", "#00367C"),
-      contarDot("específica", "Rubrica específica gerida pelo tribunal", "#3E9F9B"),
-    ];
-  }, [unidades, nAtual]);
+  const itensDotacao: ItemGrafico[] = React.useMemo(() => [
+    "Rubrica orçamentária própria",
+    "Custeada por rubrica geral do tribunal",
+    "Rubrica específica de capacitação gerida pelo tribunal (texto livre)",
+  ].map(c => itemCategoria(unidades, "dotacao", c)), [unidades]);
 
   return (
     <div>
@@ -106,7 +80,7 @@ export const Governance: React.FC<GovernanceProps> = ({ unidades, indicadores, r
           itens={itensPlanejamento}
           modoAbsoluto={modoAbsoluto}
           metadados={{
-            definicao: "Classificação da maturidade do planejamento plurianual das unidades.",
+            definicao: "Distribuição autodeclarada das referências e instrumentos de planejamento estratégico.",
             perguntaOrigem: "Q11 do formulário (situação do planejamento estratégico).",
             denominador: `N = ${nAtual} unidades respondentes.`,
             regraCalculo: "Percentual por categoria recodificada segundo a regra C02.",
@@ -146,7 +120,7 @@ export const Governance: React.FC<GovernanceProps> = ({ unidades, indicadores, r
             regraCalculo: "Percentual por arranjo declarado.",
             limitacao: "A existência de rubrica própria não indica necessariamente autonomia financeira plena."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 5", texto: "Arranjo Orçamentário das Unidades" }}
+          linkRelatorio={{ capitulo: "Capítulo 4", texto: "Arranjo Orçamentário das Unidades" }}
         />
       </div>
     </div>
