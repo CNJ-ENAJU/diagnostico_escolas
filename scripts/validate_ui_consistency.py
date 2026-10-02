@@ -100,7 +100,7 @@ print(f"OK: {len(UNIDADES)} unidades; {len(FIELDS)} campos mapeados; "
 from collections import Counter
 UF_COUNTS = Counter(u["uf"] for u in UNIDADES)
 GEOMETRIES = (ROOT / "src/data/brazilUfPaths.ts").read_text(encoding="utf-8")
-GEOMETRY_UFS = re.findall(r'\\{"uf":"([A-Z]{2})","path":"M', GEOMETRIES)
+GEOMETRY_UFS = re.findall(r'"uf":"([A-Z]{2})","path":"M', GEOMETRIES)
 assert len(GEOMETRY_UFS) == 27, f"Esperadas 27 geometrias, obtidas {len(GEOMETRY_UFS)}"
 assert set(GEOMETRY_UFS) == set(UF_COUNTS), "UF ausente ou excedente na cartografia"
 assert sum(UF_COUNTS.values()) == 110, "Total territorial distinto de 110"
