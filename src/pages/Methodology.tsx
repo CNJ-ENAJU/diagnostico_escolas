@@ -19,7 +19,7 @@ export const Methodology: React.FC = () => {
           1. Arquitetura Conceitual e Unidade de Análise
         </h3>
         <p style={{ fontSize: "0.92rem", lineHeight: 1.6, color: "#334155", marginBottom: "1rem" }}>
-          A unidade primária de análise da pesquisa é a <strong>unidade de formação</strong> (e não o tribunal ou o órgão judicial). O universo é composto por <strong>110 unidades respondentes</strong>, sediadas em <strong>92 órgãos do Poder Judiciário</strong>, abrangendo 90 dos 91 tribunais no escopo da pesquisa (todos exceto o STF), além do Conselho da Justiça Federal (CJF) e do Conselho Superior da Justiça do Trabalho (CSJT). O Tribunal de Justiça de Alagoas (TJAL) não enviou resposta ao questionário.
+          A unidade primária de análise da pesquisa é a <strong>unidade de formação</strong> (e não o tribunal ou o órgão judicial). O universo é composto por <strong>110 unidades respondentes</strong>, sediadas em <strong>92 órgãos do Poder Judiciário</strong>, abrangendo 90 dos 91 tribunais no escopo da pesquisa (o TJAL não enviou resposta), além do Conselho da Justiça Federal (CJF) e do Conselho Superior da Justiça do Trabalho (CSJT).
         </p>
         <div style={{ background: "#F1F5F9", padding: "1rem", borderRadius: "6px", fontSize: "0.85rem", color: "#475569" }}>
           <strong>Distinção Terminológica Rigorosa:</strong> <em>Resposta ≠ Unidade de Formação ≠ Tribunal/Órgão</em>. Existem 18 órgãos com duas unidades respondentes distintas (geralmente uma Escola Judicial voltada a magistrados e um setor de capacitação de servidores). Nem toda unidade de formação é uma "Escola Judicial" formalmente instituída (86 são escolas, 17 são setores de capacitação e 7 são centros/núcleos).
@@ -33,7 +33,7 @@ export const Methodology: React.FC = () => {
         </h3>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "#334155" }}>
           <div style={{ borderLeft: "3px solid #00367C", paddingLeft: "1rem" }}>
-            <strong>1. Inclusão da resposta R110 (TRE-BA):</strong> Recebida em 15/09/2026 após o prazo prorrogado. O teste estatístico de sensibilidade demonstrou que sua inclusão gerou diferença máxima de 1 unidade (0,9 p.p.) e não alterou a ordenação de nenhum ranking de opções.
+            <strong>1. Inclusão da resposta R110 (TRE-BA):</strong> Recebida em 15/09/2026 após o prazo prorrogado. O teste estatístico de sensibilidade demonstrou que sua inclusão gerou diferença máxima de 1 unidade (0,9 p.p.) e não alterou a ordenação descritiva das frequências de resposta.
           </div>
           <div style={{ borderLeft: "3px solid #00367C", paddingLeft: "1rem" }}>
             <strong>2. Superior Tribunal de Justiça (STJ):</strong> Classificado no segmento "Tribunais Superiores e Conselhos" (conforme expressamente previsto no enunciado da Q8), preservando-se sua resposta literal original.
@@ -60,7 +60,7 @@ export const Methodology: React.FC = () => {
         </p>
         <ul style={{ paddingLeft: "1.5rem", fontSize: "0.9rem", color: "#475569", lineHeight: 1.6 }}>
           <li>Segmentos com <strong>N ≤ 10 unidades</strong> (Justiça Federal com n=8, Justiça Militar com n=5 e Tribunais Superiores/Conselhos com n=3) têm seus resultados reportados exclusivamente em números absolutos (<code>n de N</code>).</li>
-          <li>Quando a combinação de filtros pelo usuário resultar em um subconjunto com N &lt; 10, os gráficos suprimem a visualização desagregada e exibem alerta institucional para ampliação do filtro.</li>
+          <li>Quando a combinação de filtros resultar em um subconjunto com N &lt; 10, os gráficos devem suprimir a visualização desagregada e exibir alerta. A publicação dos microdados identificáveis por unidade permanece condicionada à revisão institucional da política de divulgação.</li>
         </ul>
       </section>
 
@@ -95,7 +95,7 @@ export const Methodology: React.FC = () => {
           Relatório Técnico Oficial Completo
         </h3>
         <p style={{ fontSize: "0.9rem", color: "#3B82F6", maxWidth: "600px", margin: "0 auto 1.25rem" }}>
-          Acesse a íntegra da publicação científica oficial, com o detalhamento de todos os 14 capítulos, figuras vetoriais e apêndices analíticos.
+          Acesse a íntegra da publicação científica oficial, com o detalhamento de a versão atualizada dos capítulos, figuras e apêndices metodológicos.
         </p>
         <a 
           href="./assets/relatorio.pdf" 
