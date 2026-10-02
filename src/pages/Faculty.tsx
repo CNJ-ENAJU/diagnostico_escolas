@@ -3,6 +3,7 @@ import { UnidadePublica, IndicadorCorte } from "../types";
 import { ChartCard, ItemGrafico } from "../components/ChartCard";
 import { SmallGroupAlert } from "../components/SmallGroupAlert";
 import { MIN_PUBLIC_GROUP_SIZE } from "../config";
+import { itemCategoria, percentual } from "../services/metricasCanonicas";
 
 interface FacultyProps {
   unidades: UnidadePublica[];
@@ -15,67 +16,35 @@ export const Faculty: React.FC<FacultyProps> = ({ unidades, indicadores, ramoSel
   const isSmallGroup = nAtual < MIN_PUBLIC_GROUP_SIZE;
   const modoAbsoluto = nAtual <= 10;
 
-  // 1. Formação de Formadores
-  const itensFormacao: ItemGrafico[] = React.useMemo(() => {
-    const calc = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.formacao_formadores.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensFormacao: ItemGrafico[] = React.useMemo(() => [
+    "Programa permanente com certificação",
+    "Ações pontuais",
+    "Não desenvolve",
+    "Participação em programa/eventos externos (texto livre)",
+    "Outro texto livre, não classificável",
+    "Não se aplica (texto livre)",
+  ].map(c => itemCategoria(unidades, "formacao_formadores", c)), [unidades]);
 
-    return [
-      calc("Ações pontuais", "Ações pontuais de formação pedagógica", "#0163AC"),
-      calc("Programa permanente", "Programa permanente com certificação", "#00367C"),
-      calc("Não desenvolve", "Não desenvolve iniciativas de formação docente", "#C62828"),
-      calc("externos", "Participação em programas externos (texto livre)", "#64748B"),
-    ];
-  }, [unidades, nAtual]);
+  const itensComposicao: ItemGrafico[] = React.useMemo(() => [
+    "Servidores(as) da própria instituição",
+    "Magistrados(as) da própria instituição",
+    "Docentes externos / convidados",
+    "Profissionais de outras instituições públicas",
+    "Docentes de instituições de ensino superior",
+  ].map(c => itemCategoria(unidades, "composicao_docente", c)), [unidades]);
 
-  // 2. Composição do Corpo Docente
-  const itensComposicao: ItemGrafico[] = React.useMemo(() => {
-    const contarComp = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.composicao_docente.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensGestao: ItemGrafico[] = React.useMemo(() => [
+    "Política de retribuição / gratificação por hora-aula",
+    "Banco / cadastro de formadores",
+    "Avaliação de desempenho dos formadores",
+    "Critérios formais de seleção e credenciamento",
+    "Nenhum dos anteriores",
+    "Outro (texto livre)",
+  ].map(c => itemCategoria(unidades, "instrumentos_gestao_docente", c)), [unidades]);
 
-    return [
-      contarComp("Magistrados", "Magistrados(as) do próprio tribunal ou de outros órgãos", "#00367C"),
-      contarComp("Servidores", "Servidores(as) efetivos com atuação docente", "#0163AC"),
-      contarComp("externos", "Docentes e especialistas externos convidados/contratados", "#009BD4"),
-    ];
-  }, [unidades, nAtual]);
-
-  // 3. Instrumentos de Gestão Docente
-  const itensGestao: ItemGrafico[] = React.useMemo(() => {
-    const contarGest = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.instrumentos_gestao_docente.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
-
-    return [
-      contarGest("Retribuição", "Norma regulamentadora de retribuição financeira (GECC)", "#00367C"),
-      contarGest("Banco de talentos", "Banco de talentos / Cadastro de formadores atualizado", "#0163AC"),
-      contarGest("Avaliação de desempenho", "Avaliação formal de desempenho didático-pedagógico", "#009BD4"),
-      contarGest("Edital", "Seleção de formadores por edital público de credenciamento", "#3E9F9B"),
-    ];
-  }, [unidades, nAtual]);
+  const nCadastro = unidades.filter(u => u.cadastro_formadores === "Sim").length;
+  const nPermanente = unidades.filter(u => u.formacao_formadores === "Programa permanente com certificação").length;
+  const nPontual = unidades.filter(u => u.formacao_formadores === "Ações pontuais").length;
 
   return (
     <div>
@@ -94,19 +63,19 @@ export const Faculty: React.FC<FacultyProps> = ({ unidades, indicadores, ramoSel
       <div className="card-grid" style={{ marginBottom: "2rem" }}>
         <div className="metric-card">
           <div className="metric-header">Cadastro Atualizado</div>
-          <div className="metric-val" style={{ color: "#00367C" }}>70,9%</div>
-          <div className="metric-desc">Das unidades contam com cadastro sistemático ou banco de talentos de formadores.</div>
+          <div className="metric-val" style={{ color: "#00367C" }}>{percentual(nCadastro, nAtual)}</div>
+          <div className="metric-desc">Responderam “Sim” à Q33 (cadastro atualizado). O instrumento de banco/cadastro de Q34 é medida distinta.</div>
         </div>
 
         <div className="metric-card">
           <div className="metric-header">Programa Permanente</div>
-          <div className="metric-val" style={{ color: "#0163AC" }}>30,9%</div>
+          <div className="metric-val" style={{ color: "#0163AC" }}>{percentual(nPermanente, nAtual)}</div>
           <div className="metric-desc">Possuem política estruturada e permanente de formação continuada para docentes.</div>
         </div>
 
         <div className="metric-card">
           <div className="metric-header">Ações Pontuais</div>
-          <div className="metric-val" style={{ color: "#D9982B" }}>46,4%</div>
+          <div className="metric-val" style={{ color: "#D9982B" }}>{percentual(nPontual, nAtual)}</div>
           <div className="metric-desc">Desenvolvem capacitação pedagógica de forma esporádica ou sob demanda.</div>
         </div>
       </div>
@@ -125,7 +94,7 @@ export const Faculty: React.FC<FacultyProps> = ({ unidades, indicadores, ramoSel
             regraCalculo: "Percentual por arranjo declarado.",
             limitacao: "Autodeclarado."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 8", texto: "Formação Continuada de Docentes" }}
+          linkRelatorio={{ capitulo: "Capítulo 7", texto: "Formação Continuada de Docentes" }}
         />
 
         {/* Gráfico 2: Composição Docente */}
@@ -141,7 +110,7 @@ export const Faculty: React.FC<FacultyProps> = ({ unidades, indicadores, ramoSel
             regraCalculo: "Múltipla escolha (respondente com a opção assinalada).",
             limitacao: "Múltipla escolha; percentuais não somam 100%."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 8", texto: "Perfil e Origem do Corpo Docente" }}
+          linkRelatorio={{ capitulo: "Capítulo 7", texto: "Perfil e Origem do Corpo Docente" }}
         />
       </div>
 
@@ -159,7 +128,7 @@ export const Faculty: React.FC<FacultyProps> = ({ unidades, indicadores, ramoSel
             regraCalculo: "Múltipla escolha (respondente com a opção assinalada).",
             limitacao: "Múltipla escolha; percentuais não somam 100%."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 8", texto: "Instrumentos de Gestão de Formadores" }}
+          linkRelatorio={{ capitulo: "Capítulo 7", texto: "Instrumentos de Gestão de Formadores" }}
         />
       </div>
     </div>
