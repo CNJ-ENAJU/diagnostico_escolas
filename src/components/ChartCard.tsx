@@ -55,6 +55,17 @@ export const ChartCard: React.FC<ChartCardProps> = ({
 
   const maxVal = Math.max(...itens.map((i) => (modoAbsoluto ? i.n : i.pct)), 1);
 
+  // O alerta isolado não protege a confidencialidade: impedir também o gráfico
+  // e o botão de exportação em filtros combinados com menos de 10 unidades.
+  if (itens.some(item => item.N < 10)) {
+    return (
+      <div className="chart-card" role="status">
+        <h3 className="chart-title">{titulo}</h3>
+        <p>Dados não exibidos para recortes com menos de 10 unidades. Amplie os filtros para consultar o indicador.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="chart-card">
       <div className="chart-header">
