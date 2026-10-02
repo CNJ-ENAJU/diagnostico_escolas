@@ -3,6 +3,7 @@ import { UnidadePublica, IndicadorCorte } from "../types";
 import { ChartCard, ItemGrafico } from "../components/ChartCard";
 import { SmallGroupAlert } from "../components/SmallGroupAlert";
 import { MIN_PUBLIC_GROUP_SIZE } from "../config";
+import { itemCategoria, percentual, temOpcao } from "../services/metricasCanonicas";
 
 interface CooperationProps {
   unidades: UnidadePublica[];
@@ -15,67 +16,27 @@ export const Cooperation: React.FC<CooperationProps> = ({ unidades, indicadores,
   const isSmallGroup = nAtual < MIN_PUBLIC_GROUP_SIZE;
   const modoAbsoluto = nAtual <= 10;
 
-  // 1. Interesse em Articulação em Rede com ENAJU/CNJ
-  const itensInteresse: ItemGrafico[] = React.useMemo(() => {
-    const calc = (nivel: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.interesse_enaju === nivel).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensInteresse: ItemGrafico[] = React.useMemo(() => [
+    "Alto", "Moderado", "Baixo"
+  ].map(c => itemCategoria(unidades, "interesse_enaju", c)), [unidades]);
 
-    return [
-      calc("Alto", "Alto interesse em atuar em rede com a ENAJU/CNJ", "#2E7D32"),
-      calc("Moderado", "Moderado interesse em atuar em rede", "#0163AC"),
-      calc("Baixo", "Baixo interesse", "#94A3B8"),
-    ];
-  }, [unidades, nAtual]);
+  const itensParcerias: ItemGrafico[] = React.useMemo(() => [
+    "Sim, com convênios/acordos vigentes",
+    "Sim, com parcerias informais",
+    "Não mantém parcerias",
+  ].map(c => itemCategoria(unidades, "parcerias", c)), [unidades]);
 
-  // 2. Parcerias Institucionais Vigentes
-  const itensParcerias: ItemGrafico[] = React.useMemo(() => {
-    const calc = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.parcerias.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensModalidades: ItemGrafico[] = React.useMemo(() => [
+    "Compartilhamento de cursos / vagas entre escolas",
+    "Compartilhamento de conteúdos e objetos de aprendizagem",
+    "Produção conjunta de ações formativas",
+    "Intercâmbio de formadores",
+    "Participação em redes nacionais temáticas",
+  ].map(c => itemCategoria(unidades, "modalidades_cooperacao", c)), [unidades]);
 
-    return [
-      calc("convênios", "Mantém parcerias formais vigentes (acordos e convênios)", "#00367C"),
-      calc("informais", "Mantém parcerias em regime informal", "#D9982B"),
-      calc("Não mantém", "Não mantém parcerias institucionais", "#64748B"),
-    ];
-  }, [unidades, nAtual]);
-
-  // 3. Modalidades de Cooperação Praticadas
-  const itensModalidades: ItemGrafico[] = React.useMemo(() => {
-    const contarMod = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.modalidades_cooperacao.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
-
-    return [
-      contarMod("vagas", "Compartilhamento de vagas em cursos", "#00367C"),
-      contarMod("conteúdos", "Compartilhamento de materiais e conteúdos educacionais", "#0163AC"),
-      contarMod("produção conjunta", "Produção e oferta conjunta de cursos", "#009BD4"),
-      contarMod("formadores", "Intercâmbio de docentes e formadores", "#3E9F9B"),
-      contarMod("redes", "Participação em redes temáticas e fóruns colaborativos", "#64748B"),
-    ];
-  }, [unidades, nAtual]);
+  const nInteresse = unidades.filter(u => u.interesse_enaju === "Alto" || u.interesse_enaju === "Moderado").length;
+  const nConvenios = unidades.filter(u => u.parcerias === "Sim, com convênios/acordos vigentes").length;
+  const nVagas = unidades.filter(u => temOpcao(u.modalidades_cooperacao, "Compartilhamento de cursos / vagas entre escolas")).length;
 
   return (
     <div>
@@ -94,19 +55,19 @@ export const Cooperation: React.FC<CooperationProps> = ({ unidades, indicadores,
       <div className="card-grid" style={{ marginBottom: "2rem" }}>
         <div className="metric-card">
           <div className="metric-header">Abertura Positiva ENAJU</div>
-          <div className="metric-val" style={{ color: "#2E7D32" }}>99,1%</div>
-          <div className="metric-desc">Das 110 unidades manifestaram alto (76,4%) ou moderado (22,7%) interesse em integrar a rede.</div>
+          <div className="metric-val" style={{ color: "#2E7D32" }}>{percentual(nInteresse, nAtual)}</div>
+          <div className="metric-desc">Interesse alto ou moderado declarado (n = {nInteresse}, N = {nAtual}), sem confundir intenção e cooperação já existente.</div>
         </div>
 
         <div className="metric-card">
           <div className="metric-header">Convênios Vigentes</div>
-          <div className="metric-val" style={{ color: "#00367C" }}>64,5%</div>
+          <div className="metric-val" style={{ color: "#00367C" }}>{percentual(nConvenios, nAtual)}</div>
           <div className="metric-desc">Mantêm acordos formais de parceria com outras escolas judiciais, universidades ou órgãos públicos.</div>
         </div>
 
         <div className="metric-card">
           <div className="metric-header">Compartilhamento de Vagas</div>
-          <div className="metric-val" style={{ color: "#0163AC" }}>88,2%</div>
+          <div className="metric-val" style={{ color: "#0163AC" }}>{percentual(nVagas, nAtual)}</div>
           <div className="metric-desc">É a modalidade de cooperação mais praticada e demandada pelas unidades da rede.</div>
         </div>
       </div>
@@ -125,7 +86,7 @@ export const Cooperation: React.FC<CooperationProps> = ({ unidades, indicadores,
             regraCalculo: "Percentual por grau de interesse autodeclarado.",
             limitacao: "Autodeclarado."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 11", texto: "Perspectivas para a Atuação em Rede da ENAJU" }}
+          linkRelatorio={{ capitulo: "Capítulo 10", texto: "Perspectivas para a Atuação em Rede da ENAJU" }}
         />
 
         {/* Gráfico 2: Parcerias Formais */}
@@ -141,7 +102,7 @@ export const Cooperation: React.FC<CooperationProps> = ({ unidades, indicadores,
             regraCalculo: "Percentual por arranjo de parceria declarado.",
             limitacao: "Autodeclarado."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 11", texto: "Parcerias Institucionais e Convênios" }}
+          linkRelatorio={{ capitulo: "Capítulo 10", texto: "Parcerias Institucionais e Convênios" }}
         />
       </div>
 
@@ -159,7 +120,7 @@ export const Cooperation: React.FC<CooperationProps> = ({ unidades, indicadores,
             regraCalculo: "Múltipla escolha (respondente com a opção assinalada).",
             limitacao: "Múltipla escolha; percentuais não somam 100%."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 11", texto: "Modalidades de Articulação em Rede" }}
+          linkRelatorio={{ capitulo: "Capítulo 10", texto: "Modalidades de Articulação em Rede" }}
         />
       </div>
     </div>
