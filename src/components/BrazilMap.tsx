@@ -92,7 +92,7 @@ export const BrazilMap: React.FC<BrazilMapProps> = ({
     const x = anchor.x + dx;
     const y = anchor.y + dy;
     const r = 7 + 2 * Math.sqrt(Math.max(total, 0));
-    return { ...anchor, x, y, r, displaced: dx !== 0 || dy !== 0 };
+    return { anchor, x, y, r, displaced: dx !== 0 || dy !== 0 };
   };
 
   return (
