@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight, BarChart3, Database, ShieldCheck, MapPin, School, BookOpen } from "lucide-react";
 import { UnidadePublica } from "../types";
+import { percentual } from "../services/metricasCanonicas";
 
 interface HomeProps {
   onNavigate: (page: string) => void;
@@ -13,6 +14,11 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, unidades }) => {
   const nEscolas = unidades.filter(u => u.natureza === "Escola formalmente instituída").length || 86;
   const nSetores = unidades.filter(u => u.natureza === "Setor de capacitação (gestão de pessoas)").length || 17;
   const nCentros = unidades.filter(u => u.natureza === "Centro/núcleo sem natureza de escola").length || 7;
+
+  const nInteresse = unidades.filter(u => u.interesse_enaju === "Alto" || u.interesse_enaju === "Moderado").length;
+  const nAva = unidades.filter(u => u.ava !== "Sem AVA").length;
+  const nMoodle = unidades.filter(u => u.moodle === 1).length;
+  const nReacao = unidades.filter(u => u.n1_reacao === "Na maioria das ações" || u.n1_reacao === "Em parte das ações").length;
 
   return (
     <div>
@@ -108,8 +114,8 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, unidades }) => {
 
           <div className="metric-card">
             <div className="metric-header">Interesse em Rede</div>
-            <div className="metric-val" style={{ color: "#2E7D32" }}>99,1%</div>
-            <div className="metric-desc">Disposição positiva (76,4% alto, 22,7% moderado) para integração à ENAJU.</div>
+            <div className="metric-val" style={{ color: "#2E7D32" }}>{percentual(nInteresse, nTotal)}</div>
+            <div className="metric-desc">Interesse alto ou moderado declarado (n = {nInteresse}, N = {nTotal}).</div>
           </div>
         </div>
       </section>
@@ -139,7 +145,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, unidades }) => {
           >
             <div className="finding-title"><Database size={18} /> Ecossistema Digital</div>
             <div className="finding-body">
-              Presença de plataformas AVA (95,5%), liderança do Moodle (90,0%) e capacidade de produção e gestão em EaD.
+              Unidades com AVA: {percentual(nAva, nTotal)}. Moodle citado: {percentual(nMoodle, nTotal)} da base nacional. Produção especializada analisada separadamente.
             </div>
           </div>
 
@@ -150,7 +156,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, unidades }) => {
           >
             <div className="finding-title"><BarChart3 size={18} /> Avaliação da Formação</div>
             <div className="finding-body">
-              A Escada de Kirkpatrick: do Nível 1 Reação (97,3%) aos Níveis 3 e 4 de Transferência e Impacto Organizacional.
+              Avaliação de reação presente em {percentual(nReacao, nTotal)} das unidades. Os indicadores de transferência e impacto são apresentados separadamente.
             </div>
           </div>
 
