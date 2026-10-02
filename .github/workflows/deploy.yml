@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
 
       - name: Instalar dependências Python
         run: |
@@ -39,10 +38,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
       - name: Instalar dependências Node
-        run: npm ci || npm install
+        run: npm install --no-audit --no-fund
 
       - name: Gerar camada pública de dados
         run: |
@@ -55,6 +53,9 @@ jobs:
       - name: Executar testes de dados e privacidade
         run: npm run test
 
+
+      - name: Validar consistência entre UI e indicadores homologados
+        run: python scripts/validate_ui_consistency.py
 
       - name: Compilar front-end (Vite)
         run: npm run build
