@@ -64,9 +64,9 @@ for variable, category, number in expected:
 
 def categories(file, variable):
     source = (ROOT / file).read_text(encoding="utf-8")
-    found = re.search(r"const\\s+" + re.escape(variable) + r"\\s*=\\s*\\[(.*?)\\];", source, re.S)
+    found = re.search(r"const\s+" + re.escape(variable) + r"\s*=\s*\[(.*?)\];", source, re.S)
     assert found, f"Lista ausente: {file}::{variable}"
-    return re.findall(r'^\\s*"([^"]+)"\\s*,?\\s*$', found.group(1), re.M)
+    return re.findall(r'^\s*"([^"]+)"\s*,?\s*$', found.group(1), re.M)
 
 for file, variable, indicator in [
     ("src/pages/Agenda.tsx", "temas2025", "tematicas_2025"),
