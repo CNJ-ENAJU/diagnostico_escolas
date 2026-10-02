@@ -3,6 +3,7 @@ import { UnidadePublica, IndicadorCorte } from "../types";
 import { ChartCard, ItemGrafico } from "../components/ChartCard";
 import { SmallGroupAlert } from "../components/SmallGroupAlert";
 import { MIN_PUBLIC_GROUP_SIZE } from "../config";
+import { itemCategoria, percentual, temOpcao } from "../services/metricasCanonicas";
 
 interface DigitalProps {
   unidades: UnidadePublica[];
@@ -15,69 +16,32 @@ export const Digital: React.FC<DigitalProps> = ({ unidades, indicadores, ramoSel
   const isSmallGroup = nAtual < MIN_PUBLIC_GROUP_SIZE;
   const modoAbsoluto = nAtual <= 10;
 
-  // 1. Disponibilidade de AVA
-  const itensAva: ItemGrafico[] = React.useMemo(() => {
-    const calc = (cond: (u: UnidadePublica) => boolean, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(cond).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensAva: ItemGrafico[] = React.useMemo(() => [
+    "AVA próprio",
+    "AVA compartilhado com o tribunal",
+    "AVA de outra instituição (ENFAM/ENAJU/outra)",
+    "Sem AVA",
+  ].map(c => itemCategoria(unidades, "ava", c)), [unidades]);
 
-    return [
-      calc(u => u.ava.includes("próprio"), "AVA próprio da unidade", "#00367C"),
-      calc(u => u.ava.includes("compartilhado"), "AVA compartilhado com o tribunal", "#0163AC"),
-      calc(u => u.ava.includes("outra instituição"), "AVA de outra instituição (ENFAM, ENAJU, outro)", "#009BD4"),
-      calc(u => u.ava === "Sem AVA", "Sem AVA", "#C62828"),
-    ];
-  }, [unidades, nAtual]);
+  const itensCapacidadeEad: ItemGrafico[] = React.useMemo(() => [
+    "Equipe multidisciplinar dedicada, com designer instrucional, audiovisual e TI",
+    "Produção parcial, com apoio pontual de outras áreas",
+    "Não há capacidade própria de produção",
+  ].map(c => itemCategoria(unidades, "capacidade_ead", c)), [unidades]);
 
-  // 2. Capacidade de Produção EaD
-  const itensCapacidadeEad: ItemGrafico[] = React.useMemo(() => {
-    const calc = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.capacidade_ead.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
+  const itensTecnologias: ItemGrafico[] = React.useMemo(() => [
+    "Webinários / transmissões ao vivo",
+    "Salas virtuais de videoconferência",
+    "Acessibilidade digital, como legendas, audiodescrição e Libras",
+    "Produção própria de conteúdo digital, como videoaulas, podcasts e e-books",
+    "Recursos de inteligência artificial aplicados à formação",
+    "Gamificação / objetos de aprendizagem interativos",
+    "Não utiliza recursos digitais estruturados",
+  ].map(c => itemCategoria(unidades, "recursos_tecnologias", c)), [unidades]);
 
-    return [
-      calc("Produção parcial", "Produção parcial (com apoio pontual de outras áreas)", "#0163AC"),
-      calc("Equipe multidisciplinar", "Equipe multidisciplinar dedicada (DI, TI, Audiovisual)", "#00367C"),
-      calc("Não há capacidade", "Não há capacidade própria de produção de EaD", "#D9982B"),
-    ];
-  }, [unidades, nAtual]);
-
-  // 3. Recursos Tecnológicos Empregados
-  const itensTecnologias: ItemGrafico[] = React.useMemo(() => {
-    const contarTec = (termo: string, rotulo: string, cor: string): ItemGrafico => {
-      const n = unidades.filter(u => u.recursos_tecnologias.includes(termo)).length;
-      return {
-        rotulo,
-        n,
-        N: nAtual,
-        pct: nAtual > 0 ? (100 * n) / nAtual : 0,
-        cor,
-      };
-    };
-
-    return [
-      contarTec("Videoconferência", "Plataformas de Videoconferência (Zoom, Teams, Meet)", "#00367C"),
-      contarTec("Ambiente Virtual", "Ambientes Virtuais de Aprendizagem (LMS)", "#0163AC"),
-      contarTec("Transmissão", "Transmissão ao vivo / Webinários", "#009BD4"),
-      contarTec("Repositório", "Repositórios digitais de conteúdo", "#3E9F9B"),
-      contarTec("Simuladores", "Simuladores / Ferramentas interativas de aprendizagem", "#64748B"),
-      contarTec("Inteligência artificial", "Ferramentas baseadas em Inteligência Artificial", "#D9982B"),
-    ];
-  }, [unidades, nAtual]);
+  const comAva = unidades.filter(u => u.ava !== "Sem AVA").length;
+  const comMoodle = unidades.filter(u => u.moodle === 1).length;
+  const comEstudio = unidades.filter(u => temOpcao(u.estrutura_fisica, "Estúdio de gravação / produção audiovisual (EaD)")).length;
 
   return (
     <div>
@@ -96,20 +60,20 @@ export const Digital: React.FC<DigitalProps> = ({ unidades, indicadores, ramoSel
       <div className="card-grid" style={{ marginBottom: "2rem" }}>
         <div className="metric-card">
           <div className="metric-header">Adoção do Moodle</div>
-          <div className="metric-val" style={{ color: "#D9982B" }}>90,0%</div>
-          <div className="metric-desc">Das unidades que utilizam AVA declaram o software livre Moodle como ambiente principal.</div>
+          <div className="metric-val" style={{ color: "#D9982B" }}>{percentual(comMoodle, nAtual)}</div>
+          <div className="metric-desc">Unidades que citam Moodle no questionário, considerando o total do recorte (n = {comMoodle}, N = {nAtual}).</div>
         </div>
 
         <div className="metric-card">
           <div className="metric-header">Presença de AVA</div>
-          <div className="metric-val" style={{ color: "#00367C" }}>95,5%</div>
-          <div className="metric-desc">Das unidades operam com suporte de Ambiente Virtual de Aprendizagem formal.</div>
+          <div className="metric-val" style={{ color: "#00367C" }}>{percentual(comAva, nAtual)}</div>
+          <div className="metric-desc">Unidades com alguma modalidade de AVA (n = {comAva}, N = {nAtual}).</div>
         </div>
 
         <div className="metric-card">
           <div className="metric-header">Estúdios Audiovisuais</div>
-          <div className="metric-val" style={{ color: "#0163AC" }}>56,4%</div>
-          <div className="metric-desc">Das unidades possuem estúdio próprio ou compartilhado para gravação de aulas.</div>
+          <div className="metric-val" style={{ color: "#0163AC" }}>{percentual(comEstudio, nAtual)}</div>
+          <div className="metric-desc">Unidades que assinalaram estúdio de gravação na questão Q15 (n = {comEstudio}, N = {nAtual}).</div>
         </div>
       </div>
 
@@ -127,7 +91,7 @@ export const Digital: React.FC<DigitalProps> = ({ unidades, indicadores, ramoSel
             regraCalculo: "Percentual por arranjo de AVA.",
             limitacao: "Autodeclarado."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 7", texto: "Plataformas e Ambientes Virtuais" }}
+          linkRelatorio={{ capitulo: "Capítulo 6", texto: "Plataformas e Ambientes Virtuais" }}
         />
 
         {/* Gráfico 2: Capacidade EaD */}
@@ -143,7 +107,7 @@ export const Digital: React.FC<DigitalProps> = ({ unidades, indicadores, ramoSel
             regraCalculo: "Percentual por modelo de equipe declarada.",
             limitacao: "A presença de equipe multidisciplinar não quantifica o volume de produção."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 7", texto: "Capacidade de Produção de Recursos Digitais" }}
+          linkRelatorio={{ capitulo: "Capítulo 6", texto: "Capacidade de Produção de Recursos Digitais" }}
         />
       </div>
 
@@ -161,7 +125,7 @@ export const Digital: React.FC<DigitalProps> = ({ unidades, indicadores, ramoSel
             regraCalculo: "Múltipla escolha (respondente com a opção assinalada).",
             limitacao: "Múltipla escolha; percentuais não somam 100%."
           }}
-          linkRelatorio={{ capitulo: "Capítulo 7", texto: "Ecossistema Tecnológico do Poder Judiciário" }}
+          linkRelatorio={{ capitulo: "Capítulo 6", texto: "Ecossistema Tecnológico do Poder Judiciário" }}
         />
       </div>
     </div>
