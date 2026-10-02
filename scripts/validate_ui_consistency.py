@@ -95,3 +95,27 @@ assert "itens.some(item => item.N < 10)" in chart, "Proteção de recortes peque
 print(f"OK: {len(UNIDADES)} unidades; {len(FIELDS)} campos mapeados; "
       f"{sum(r['variavel'] in FIELDS and r['segmento'] == 'Nacional' for r in NACIONAIS)} "
       "categorias nacionais reconciliadas; Agenda/Q23/Q31 exatas; sem percentuais legados nos componentes testados.")
+
+# Regressão cartográfica da segunda tela: 27 geometrias e reconciliação por UF.
+from collections import Counter
+UF_COUNTS = Counter(u["uf"] for u in UNIDADES)
+GEOMETRIES = (ROOT / "src/data/brazilUfPaths.ts").read_text(encoding="utf-8")
+GEOMETRY_UFS = re.findall(r'\\{"uf":"([A-Z]{2})","path":"M', GEOMETRIES)
+assert len(GEOMETRY_UFS) == 27, f"Esperadas 27 geometrias, obtidas {len(GEOMETRY_UFS)}"
+assert set(GEOMETRY_UFS) == set(UF_COUNTS), "UF ausente ou excedente na cartografia"
+assert sum(UF_COUNTS.values()) == 110, "Total territorial distinto de 110"
+with (ROOT / "data_public/indicadores_por_uf.csv").open(encoding="utf-8-sig", newline="") as fh:
+    UF_INDICATORS = list(csv.DictReader(fh))
+for uf, total in UF_COUNTS.items():
+    reg = [r for r in UF_INDICATORS if r["uf"] == uf]
+    assert sum(int(r["n"]) for r in reg) == total, (uf, "soma dos ramos", total)
+    assert all(int(r["N_uf"]) == total for r in reg), (uf, "denominador territorial")
+map_source = (ROOT / "src/components/BrazilMap.tsx").read_text(encoding="utf-8")
+network_source = (ROOT / "src/pages/NationalNetwork.tsx").read_text(encoding="utf-8")
+assert "UF_PATHS.map(" in map_source and "projectBrazil" in map_source
+assert "return { anchor, x, y, r" in map_source, "Linhas-guia sem âncora geográfica"
+assert "RAMO_CURTO[ramo]" in map_source, "Legenda dos ramos não explícita"
+assert "const maxUf" in map_source, "Escala das barras não acompanha o recorte"
+assert "recorteIntegral" in network_source and "nOrgaos" in network_source
+assert "Capítulo 3, seção 3.1" in network_source, "Referência territorial defasada"
+print("OK: 27 UFs reais, 110 unidades, distribuição territorial por ramo e cartografia compatíveis.")
