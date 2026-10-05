@@ -57,8 +57,20 @@ jobs:
       - name: Validar consistência entre UI e indicadores homologados
         run: python scripts/validate_ui_consistency.py
 
+      - name: Validar fonte da Rede Nacional antes do build
+        run: |
+          grep -q "Mapa interativo das unidades por UF" src/components/BrazilMap.tsx
+          grep -q "network-modal" src/components/BrazilMap.tsx
+          grep -q "UF da sede institucional proxy" src/pages/NationalNetwork.tsx
+
       - name: Compilar front-end (Vite)
         run: npm run build
+
+      - name: Validar artefato compilado da Rede Nacional
+        run: |
+          grep -R -q "Mapa interativo das unidades por UF" dist/assets
+          grep -R -q "Detalhamento territorial" dist/assets
+          grep -R -q "Filtrar painel por" dist/assets
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
