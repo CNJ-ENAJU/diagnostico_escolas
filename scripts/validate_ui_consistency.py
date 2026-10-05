@@ -119,3 +119,20 @@ assert "const maxUf" in map_source, "Escala das barras não acompanha o recorte"
 assert "recorteIntegral" in network_source and "nOrgaos" in network_source
 assert "Capítulo 3, seção 3.1" in network_source, "Referência territorial defasada"
 print("OK: 27 UFs reais, 110 unidades, distribuição territorial por ramo e cartografia compatíveis.")
+
+
+# Regressão de interação da Rede Nacional: mapa prioritário e popup detalhado.
+MAP_UI = (ROOT / "src/components/BrazilMap.tsx").read_text(encoding="utf-8")
+MAIN_CSS = (ROOT / "src/styles/main.css").read_text(encoding="utf-8")
+for required in [
+    'className="network-explorer"',
+    'className="network-map-card"',
+    'className="network-modal"',
+    'Filtrar painel por',
+    'Composição por ramo',
+    'Unidades respondentes',
+]:
+    assert required in MAP_UI, f"Interação territorial ausente: {required}"
+assert "grid-template-columns: minmax(0, 2.15fr)" in MAIN_CSS, "Mapa deixou de ocupar a maior área da tela"
+assert ".network-modal-backdrop" in MAIN_CSS and "@media (max-width: 760px)" in MAIN_CSS
+print("OK: layout 70/30 e popup detalhado da Rede Nacional presentes e responsivos.")
