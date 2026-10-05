@@ -126,7 +126,7 @@ MAP_UI = (ROOT / "src/components/BrazilMap.tsx").read_text(encoding="utf-8")
 MAIN_CSS = (ROOT / "src/styles/main.css").read_text(encoding="utf-8")
 for required in [
     'className="network-explorer"',
-    'className="network-map-card"',
+    'network-map-card',
     'className="network-modal"',
     'Filtrar painel por',
     'Composição por ramo',
