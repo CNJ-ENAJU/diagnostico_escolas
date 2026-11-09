@@ -1,0 +1,75 @@
+name: Gerar pacote estático para o CNJ
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependências Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy pyyaml
+
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Dependências front-end
+        run: npm install --no-audit --no-fund
+
+      - name: Testes de dados
+        run: npm test
+
+      - name: Testes de consistência UI
+        run: python scripts/validate_ui_consistency.py
+
+      - name: Build estático
+        run: npm run build
+
+      - name: Verificar pacote
+        run: |
+          test -f dist/index.html
+          grep -R -q "Mapa interativo das unidades por UF" dist/assets
+          grep -R -q "Filtrar painel por" dist/assets
+
+      - name: Instruções de implantação
+        run: |
+          cat > dist/LEIA-ME-DEPLOY-CNJ.txt <<'EOF'
+          PAINEL ENAJU — PACOTE ESTÁTICO PARA DEPLOY NO CNJ
+
+          1. Publique TODO o conteúdo desta pasta no diretório web destinado ao painel.
+          2. O arquivo index.html deve permanecer na raiz.
+          3. Preserve as pastas assets/ e data/ com seus caminhos relativos.
+          4. A aplicação é estática e não requer Node.js no servidor de produção.
+          5. O servidor deve permitir servir arquivos .html, .js, .css, .json, .csv e .pdf.
+          6. Navegação interna usa hash (#), portanto não exige regra de rewrite de SPA.
+          7. Após publicar, testar especialmente: Visão Geral, Rede Nacional, filtros e downloads.
+          EOF
+
+      - name: Compactar pacote
+        run: |
+          cd dist
+          zip -r ../ENAJU_Painel_Diagnostico_CNJ.zip .
+
+      - name: Upload do pacote
+        uses: actions/upload-artifact@v4
+        with:
+          name: ENAJU_Painel_Diagnostico_CNJ
+          path: ENAJU_Painel_Diagnostico_CNJ.zip
+          retention-days: 7
