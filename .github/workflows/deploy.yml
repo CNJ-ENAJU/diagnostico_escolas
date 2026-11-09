@@ -1,4 +1,5 @@
 name: Deploy Painel GitHub Pages
+# O mesmo bundle estático pode ser reutilizado no servidor institucional do CNJ.
 
 on:
   push:
