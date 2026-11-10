@@ -9,7 +9,7 @@ Aplicação estática moderna, auditável e responsiva para exploração públic
 
 **Publicação GitHub Pages (organização CNJ-ENAJU):** https://cnj-enaju.github.io/diagnostico_escolas/
 
-> **Situação em 10/11/2026:** URL canônica da organização, mas a disponibilidade do site ainda depende de regularização das execuções do GitHub Actions/Pages. Não gerar ou distribuir QR Code como ativo até obter uma publicação concluída com sucesso e testar a página. Consulte [histórico de deploy](https://github.com/CNJ-ENAJU/diagnostico_escolas/actions/workflows/deploy.yml). Para desenvolvimento local, use `npm install` e `npm run dev`.
+> **Publicação confirmada em 10/11/2026:** o workflow de implantação [#19](https://github.com/CNJ-ENAJU/diagnostico_escolas/actions/runs/42899713193) concluiu com sucesso e registrou a URL pública acima. O domínio antigo `cairesmachado-svg.github.io` não é mais a referência deste repositório. Para desenvolvimento local, use `npm install` e `npm run dev`.
 
 ---
 
